@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Notes</title>
+    <link rel="stylesheet" href="Selectors/basic-selectors.css" />
+    <link rel="stylesheet" href="Selectors/advanced-selectors.css" />
+  </head>
+  <body>
+    <header>
+      <h1>CSS Notes</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#selectors">Selector</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <article id="selectors">
+        <h2>Selectors</h2>
+        <article>
+          <h3>Basic selector</h3>
+          <section>
+            <ul class="basic-selector">
+              <li>Example type or label</li>
+              <li class="class">Example class</li>
+              <li id="id">Example id</li>
+            </ul>
+          </section>
+        </article>
+
+        <article>
+          <h3>Advanced selector</h3>
+          <section>
+            <article class="advanced-selectors">
+              <section>
+                <h4>Direct descendant ( > )</h4>
+                <ul class="direct-descendant">
+                  <li class="parent">
+                    Parent
+                    <ul class="child">
+                      <li>Child</li>
+                    </ul>
+                  </li>
+                </ul>
+              </section>
+
+              <section>
+                <h4>Adjacent sibling ( + )</h4>
+                <ul class="adjacent-sibling">
+                  <li class="child">Child</li>
+                  <li class="sibling">Sibling</li>
+                  <li class="sibling">Sibling</li>
+                </ul>
+              </section>
+
+              <section>
+                <h4>Far sibling ( ~ )</h4>
+                <ul class="far-sibling">
+                  <li class="child">Child</li>
+                  <li class="sibling">Sibling</li>
+                  <li class="sibling">Sibling</li>
+                </ul>
+              </section>
+
+              <section>
+                <h4>Attribute selector ( [ ] )</h4>
+                <ul class="attribute-selector">
+                  <li attribute-name>[attribute-name]</li>
+                  <li exact="value">[exact="value"]</li>
+                  <li has="value">[has="value"]</li>
+                  <li end-in="ends in">[end-in="ends in"]</li>
+                  <li begins-with="begins with">[begins-with="begins with"]</li>
+                </ul>
+              </section>
+            </article>
+          </section>
+        </article>
+
+        <article></article>
+      </article>
+    </main>
+  </body>
+</html>
