@@ -26,7 +26,7 @@ Cascading Style Sheets (CSS), which allow us to add styles to HTML documents.
   - Begins with ( `^=` )
   - Contains ( `*=` )
 
-### [pseudo-classes](/CSS/Archives/Selectors/pseudo-classes.css)
+### [Pseudo-classes](/CSS/Archives/Selectors/pseudo-classes.css)
 
 - `:hover`
 - `:link`
@@ -39,17 +39,21 @@ Cascading Style Sheets (CSS), which allow us to add styles to HTML documents.
 - `:disabled`
 - `:target`
 
-### [pseudo-class variations]()
+### [Pseudo-class variations](/CSS/Archives/Selectors/psedo-classes-variations.css)
 
 - `:first-of-type`
 - `:last-of-type`
 - `:nth-of-type`
-- `:only-of-type`
 - `:first-child`
 - `:last-child`
 - `:nth-child`
-- `:only-child`
 
-<!-- pseudo Elemento? -->
+### [Pseudo Element]()
+
+- `::first-letter`
+- `::first-line`
+- `::selection`
+- `::before`
+- `::after`
 
 ## [Fonts]()
