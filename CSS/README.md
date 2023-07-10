@@ -25,3 +25,31 @@ Cascading Style Sheets (CSS), which allow us to add styles to HTML documents.
   - Ends in ( `$=` )
   - Begins with ( `^=` )
   - Contains ( `*=` )
+
+### [pseudo-classes](/CSS/Archives/Selectors/pseudo-classes.css)
+
+- `:hover`
+- `:link`
+- `:visited`
+- `:active`
+- `:focus`
+- `:required`
+- `:valid`
+- `:invalid`
+- `:disabled`
+- `:target`
+
+### [pseudo-class variations]()
+
+- `:first-of-type`
+- `:last-of-type`
+- `:nth-of-type`
+- `:only-of-type`
+- `:first-child`
+- `:last-child`
+- `:nth-child`
+- `:only-child`
+
+<!-- pseudo Elemento? -->
+
+## [Fonts]()

@@ -4,8 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS Notes</title>
+    <!-- Selectors -->
     <link rel="stylesheet" href="Selectors/basic-selectors.css" />
     <link rel="stylesheet" href="Selectors/advanced-selectors.css" />
+    <link rel="stylesheet" href="Selectors/pseudo-classes.css" />
+    <link rel="stylesheet" href="Selectors/psedo-classes-variations.css" />
   </head>
   <body>
     <header>
@@ -80,7 +83,72 @@
           </section>
         </article>
 
-        <article></article>
+        <article>
+          <h3>Pseudo classes</h3>
+          <section class="pseudo-classes">
+            <article>
+              <h4 class="hover">Hover</h4>
+            </article>
+
+            <article>
+              <h4 class="active">active (click)</h4>
+            </article>
+
+            <article>
+              <a href="#?" class="link">link</a>
+              <br />
+              <a href="#" class="visited">visited</a>
+            </article>
+
+            <article>
+              <input class="focus" placeholder="focus" />
+              <br />
+              <input class="required" required placeholder="required" />
+              <br />
+              <input
+                class="valid"
+                required
+                value="valid"
+                placeholder="invalid"
+              />
+            </article>
+
+            <article>
+              <button class="disabled" disabled>disabled</button>
+            </article>
+          </section>
+        </article>
+
+        <article>
+          <h3>Pseudo classes variations</h3>
+          <section class="pseudo-classes-variations">
+            <article>
+              <h4>Type</h4>
+              <section>
+                <ol class="of-type">
+                  <li>first-of-type</li>
+                  <li>Element 2</li>
+                  <li>nth-of-type(3)</li>
+                  <li>Element 4</li>
+                  <li>last-of-type</li>
+                </ol>
+              </section>
+            </article>
+
+            <article>
+              <h4>Child</h4>
+              <section>
+                <ol class="of-child">
+                  <li>first-child</li>
+                  <li>element 2</li>
+                  <li>nth-child(3)</li>
+                  <li>element 4</li>
+                  <li>last-child</li>
+                </ol>
+              </section>
+            </article>
+          </section>
+        </article>
       </article>
     </main>
   </body>
