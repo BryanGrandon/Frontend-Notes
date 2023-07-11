@@ -1,0 +1,21 @@
+.colours .keyword {
+  color: red;
+}
+
+.colours .hexadecimal {
+  color: #ff0000;
+}
+
+.colours .rgb {
+  color: rgb(255, 0, 0);
+}
+
+.colours .hsl {
+  color: hsl(0, 100%, 50%);
+}
+
+.colours .alpha {
+  color: rgba(255, 0, 0, 0.2);
+  color: hsla(0, 100%, 50%, 0.2);
+  color: #ff000033;
+}

@@ -19,12 +19,6 @@ Cascading Style Sheets (CSS), which allow us to add styles to HTML documents.
 - Far sibling ( `.child ~ .sibling` )
 - Have both classes ( `.class1.class2` )
 - Atribute ( `[disabled]` )
-  - Exact ( `=` )
-  - Has ( `~=` )
-  - Exact or prefix ( `|=` )
-  - Ends in ( `$=` )
-  - Begins with ( `^=` )
-  - Contains ( `*=` )
 
 ### [Pseudo-classes](/CSS/Archives/Selectors/pseudo-classes.css)
 
@@ -62,7 +56,7 @@ Cascading Style Sheets (CSS), which allow us to add styles to HTML documents.
 | letter-spacing  | `size`                                              |
 | line-height     | `number`                                            |
 
-## [Lengths]()
+## [Lengths](/CSS/Archives/lengths.css)
 
 ### Absolute length units
 
@@ -87,4 +81,10 @@ Cascading Style Sheets (CSS), which allow us to add styles to HTML documents.
 | `vmax` | 1% of the viewport's larger dimension.    |
 | `%`    | Percentage relative to the parent element |
 
-## []()
+## [Colours](/CSS/Archives/colours.css)
+
+- Keyword
+- Hexadecimal
+- RGB ( red, green, blue )
+- HSL ( hue, saturation, lightness )
+- Alpha ( 1-0, 0%-100% )
