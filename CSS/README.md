@@ -29,24 +29,16 @@ Cascading Style Sheets (CSS), which allow us to add styles to HTML documents.
 ### [Pseudo-classes](/CSS/Archives/Selectors/pseudo-classes.css)
 
 - `:hover`
-- `:link`
-- `:visited`
 - `:active`
-- `:focus`
-- `:required`
-- `:valid`
-- `:invalid`
+- `:link` `:visited`
+- `:focus` `:required` `:valid` `:invalid`
 - `:disabled`
 - `:target`
 
 ### [Pseudo-class variations](/CSS/Archives/Selectors/psedo-classes-variations.css)
 
-- `:first-of-type`
-- `:last-of-type`
-- `:nth-of-type`
-- `:first-child`
-- `:last-child`
-- `:nth-child`
+- `:first-of-type` `:last-of-type` `:nth-of-type`
+- `:first-child` `:last-child` `:nth-child`
 
 ### [Pseudo Element](/CSS/Archives/Selectors/pseudo-element.css)
 
@@ -58,12 +50,41 @@ Cascading Style Sheets (CSS), which allow us to add styles to HTML documents.
 
 ## [Fonts](/CSS/Archives/fonts.css)
 
-- `font-family:` | font |
-- `font-size:` | size |
-- `font-weight:` | bold | dolder | lighter | normal | 100 | 900 |
-- `font-style:` | italic | oblique | normal |
-- `text-align:` | left | right | center | justify |
-- `text-decoration:` | overline | line-though | underline | none |
-- `text-transform:` | capitalize | uppercase | lowercase |
-- `letter-spacing:` | size |
-- `line-height:` | number |
+| Font            | variables                                           |
+| --------------- | --------------------------------------------------- |
+| font-family     | `font`                                              |
+| font-size       | `size`                                              |
+| font-weight     | `bold`, `dolder`, `lighter`, `normal`, `100`, `900` |
+| font-style      | `italic`, `oblique`, `normal`                       |
+| text-align      | `left`, `right`, `center`, `justify`                |
+| text-decoration | `overline`, `line-though`, `underline`, `none`      |
+| text-transform  | `capitalize`, `uppercase`, `lowercase`              |
+| letter-spacing  | `size`                                              |
+| line-height     | `number`                                            |
+
+## [Lengths]()
+
+### Absolute length units
+
+| Unit | Name        |
+| ---- | ----------- |
+| `in` | inches      |
+| `cm` | centimetres |
+| `mm` | milimetres  |
+| `pt` | points      |
+| `pc` | picas       |
+| `px` | pixels      |
+
+### Relative length units
+
+| Unit   | Relative to                               |
+| ------ | ----------------------------------------- |
+| `em`   | Font-size of the element                  |
+| `rem`  | Font size of the root element.            |
+| `vw`   | 1% of the viewport's width.               |
+| `vh`   | 1% of the viewport's height.              |
+| `vmin` | 1% of the viewport's smaller dimension.   |
+| `vmax` | 1% of the viewport's larger dimension.    |
+| `%`    | Percentage relative to the parent element |
+
+## []()
