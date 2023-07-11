@@ -107,3 +107,16 @@ Cascading Style Sheets (CSS), which allow us to add styles to HTML documents.
 - `absolute`
 - `fixed`
 - `static`
+
+## [Background](/CSS/Archives/background.css)
+
+| Name                  | Variable                                      |
+| --------------------- | --------------------------------------------- |
+| background-color      | hexadecimal, keyword, `rgb()`, `hsl()`        |
+| background-image      | `url("")`                                     |
+| background-repeat     | `repeat-x`, `repeat-y`, `repeat`, `no-repeat` |
+| background-position   | `position-x`, `position-y`                    |
+| background-attachment | `fixed`, `scroll`                             |
+| background-clip       | `border-box`, `content-box`, `padding-box`    |
+| background-size       | `auto` , `contain`, `cover`                   |
+| opacity               | 0 - 1 , 0% - 100%                             |

@@ -1,0 +1,47 @@
+.background li {
+  font-family: cursive;
+  height: 150px;
+  color: black;
+  margin: 10px 0;
+}
+
+.background .color {
+  background-color: mediumpurple;
+}
+
+.background .image {
+  background-image: url("https://images.pexels.com/photos/2530326/pexels-photo-2530326.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+/* Set a different size to the background image */
+.background .size {
+  background-size: contain;
+}
+
+/* Repetition of the background image */
+.background .repeat {
+  background-repeat: no-repeat;
+}
+
+/* Position of the background image */
+.background .position {
+  background-position-x: 30px;
+  background-position-y: 10px;
+  background-repeat: no-repeat;
+}
+
+/* Background image behaviour */
+.background .attachment {
+  background-attachment: scroll;
+}
+
+/* Background image relenium */
+.background .clip {
+  background-clip: content-box;
+  background-repeat: no-repeat;
+}
+
+/* Sets the transparency of the element */
+.background .opacity {
+  opacity: 0.5;
+}
