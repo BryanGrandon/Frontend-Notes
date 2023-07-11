@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="Selectors/pseudo-classes.css" />
     <link rel="stylesheet" href="Selectors/psedo-classes-variations.css" />
     <link rel="stylesheet" href="Selectors/pseudo-element.css" />
+    <!-- Fonts -->
+    <link rel="stylesheet" href="fonts.css" />
   </head>
   <body>
     <header>
@@ -18,14 +20,23 @@
 
     <nav>
       <ul>
-        <li><a href="#selectors">Selector</a></li>
+        <li>
+          <a href="#selectors">Selector</a>
+          <ul>
+            <li><a href="#basic-selector">Basic selector</a></li>
+            <li><a href="#advanced-selectors">Advanced selector</a></li>
+            <li><a href="#pseudo-classes">Pseudo-classes</a></li>
+            <li><a href="#pseudo-element">Pseudo-element</a></li>
+          </ul>
+        </li>
+        <li><a href="#fonts">Fonts</a></li>
       </ul>
     </nav>
 
     <main>
       <article id="selectors">
         <h2>Selectors</h2>
-        <article>
+        <article id="basic-selector">
           <h3>Basic selector</h3>
           <section>
             <ul class="basic-selector">
@@ -36,7 +47,7 @@
           </section>
         </article>
 
-        <article>
+        <article id="advanced-selectors">
           <h3>Advanced selector</h3>
           <section>
             <article class="advanced-selectors">
@@ -84,7 +95,7 @@
           </section>
         </article>
 
-        <article>
+        <article id="pseudo-classes">
           <h3>Pseudo classes</h3>
           <section class="pseudo-classes">
             <article>
@@ -151,7 +162,7 @@
           </section>
         </article>
 
-        <article>
+        <article id="pseudo-element">
           <h3>Pseudo elemento</h3>
           <section class="pseudo-element">
             <article>
@@ -204,6 +215,79 @@
               </p>
             </article>
           </section>
+        </article>
+      </article>
+
+      <article id="fonts">
+        <h2>Fonts</h2>
+        <article class="font">
+          <ul>
+            <li class="font-family">font-family</li>
+            <br />
+            <li class="font-size">font-size</li>
+            <br />
+            <li class="font-weight">
+              font-weight
+              <ul>
+                <li class="normal">bold</li>
+                <li class="bold">bold</li>
+                <li class="bolder">bolder</li>
+                <li class="lighter">lighter</li>
+              </ul>
+            </li>
+            <br />
+            <li class="font-style">
+              font-style
+              <ul>
+                <li>normal</li>
+                <li class="italic">italic</li>
+                <li class="oblique">oblique</li>
+              </ul>
+            </li>
+            <br />
+            <li class="text-align">
+              text-align
+              <ul>
+                <li>left</li>
+                <li class="right">right</li>
+                <li class="center">center</li>
+                <li class="justify">justify</li>
+              </ul>
+            </li>
+            <br />
+            <li class="text-decoration">
+              text-decoration
+              <ul>
+                <li class="overline">overline</li>
+                <li class="line-through">line-through</li>
+                <li class="underline">underline</li>
+                <li>none</li>
+              </ul>
+            </li>
+            <br />
+            <li class="text-transform">
+              text-transform
+              <ul>
+                <li class="capitalize">capitalize</li>
+                <li class="uppercase">uppercase</li>
+                <li class="lowercase">lowercase</li>
+              </ul>
+            </li>
+            <br />
+            <li class="letter-spacing">Letter-spacing</li>
+            <br />
+            <li class="line-height">
+              line-height
+              <ul>
+                <li>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Maiores maxime rerum autem sunt non est ex nemo consequatur
+                  officia delectus et cupiditate, inventore natus ipsum officiis
+                  error ea saepe dignissimos.
+                </li>
+              </ul>
+            </li>
+          </ul>
         </article>
       </article>
     </main>

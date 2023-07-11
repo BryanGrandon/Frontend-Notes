@@ -48,7 +48,7 @@ Cascading Style Sheets (CSS), which allow us to add styles to HTML documents.
 - `:last-child`
 - `:nth-child`
 
-### [Pseudo Element]()
+### [Pseudo Element](/CSS/Archives/Selectors/pseudo-element.css)
 
 - `::first-letter`
 - `::first-line`
@@ -56,4 +56,14 @@ Cascading Style Sheets (CSS), which allow us to add styles to HTML documents.
 - `::before`
 - `::after`
 
-## [Fonts]()
+## [Fonts](/CSS/Archives/fonts.css)
+
+- `font-family:` | font |
+- `font-size:` | size |
+- `font-weight:` | bold | dolder | lighter | normal | 100 | 900 |
+- `font-style:` | italic | oblique | normal |
+- `text-align:` | left | right | center | justify |
+- `text-decoration:` | overline | line-though | underline | none |
+- `text-transform:` | capitalize | uppercase | lowercase |
+- `letter-spacing:` | size |
+- `line-height:` | number |
