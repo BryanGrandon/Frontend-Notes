@@ -99,3 +99,11 @@ Cascading Style Sheets (CSS), which allow us to add styles to HTML documents.
 | Height     | `max-height`, `min-height`        |
 | border     | `width`, `style`, `color`         |
 | box-sizing | `border-box`, `content-box`       |
+
+## [Position](/CSS/Archives/position.css)
+
+- `static`
+- `relative`
+- `absolute`
+- `fixed`
+- `static`
