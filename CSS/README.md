@@ -88,3 +88,14 @@ Cascading Style Sheets (CSS), which allow us to add styles to HTML documents.
 - RGB ( red, green, blue )
 - HSL ( hue, saturation, lightness )
 - Alpha ( 1-0, 0%-100% )
+
+## [Box Model](/CSS/Archives/box-model.css)
+
+| Name       | variables                         |
+| ---------- | --------------------------------- |
+| Padding    | `top`, `right` , `botton`, `left` |
+| Margin     | `top`, `right` , `botton`, `left` |
+| Width      | `max-width`, `min-width`          |
+| Height     | `max-height`, `min-height`        |
+| border     | `width`, `style`, `color`         |
+| box-sizing | `border-box`, `content-box`       |

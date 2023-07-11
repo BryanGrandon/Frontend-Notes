@@ -1,0 +1,81 @@
+.box-model li {
+  border: 1px solid #000;
+  margin: 5px;
+}
+
+/* padding: top right bottom left */
+.box-model .padding {
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+
+  padding: 20px;
+  background: mediumturquoise;
+}
+
+/* margin: top right bottom left */
+.box-model .margin {
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+
+  margin: 20px;
+  background: mediumorchid;
+}
+
+.box-model .width {
+  width: 200px;
+  background: mediumseagreen;
+}
+
+.box-model .height {
+  display: inline-block;
+  height: 100px;
+  background: mediumseagreen;
+}
+
+/* Border */
+.border li {
+  margin: 10px;
+  text-align: center;
+  font-family: cursive;
+}
+
+.box-model .border .solid {
+  border: 3px solid mediumaquamarine;
+}
+.box-model .border .double {
+  border: 3px double mediumorchid;
+}
+.box-model .border .dotted {
+  border: 3px dotted mediumpurple;
+}
+.box-model .border .dashed {
+  border: 3px dashed mediumseagreen;
+}
+.box-model .border .groove {
+  border: 3px groove mediumslateblue;
+}
+.box-model .border .ridge {
+  border: 3px ridge mediumspringgreen;
+}
+.box-model .border .inset {
+  border: 3px inset mediumturquoise;
+}
+.box-model .border .outset {
+  border: 3px outset mediumvioletred;
+}
+
+/* Box-sizing */
+.box-model .border-sizing .border-box {
+  box-sizing: border-box;
+  border: 5px dashed #777;
+  height: 35px;
+}
+.box-model .border-sizing .content-box {
+  box-sizing: content-box;
+  border: 5px dashed #777;
+  height: 35px;
+}
