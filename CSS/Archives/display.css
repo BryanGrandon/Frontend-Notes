@@ -1,0 +1,18 @@
+.display .block {
+  background-color: mediumaquamarine;
+}
+
+.display .inline {
+  display: inline;
+  background-color: mediumpurple;
+}
+
+.display .inline-block {
+  display: inline-block;
+  background-color: mediumspringgreen;
+  border: 1px solid #000;
+}
+
+.display .none {
+  display: none;
+}

@@ -120,3 +120,23 @@ Cascading Style Sheets (CSS), which allow us to add styles to HTML documents.
 | background-clip       | `border-box`, `content-box`, `padding-box`    |
 | background-size       | `auto` , `contain`, `cover`                   |
 | opacity               | 0 - 1 , 0% - 100%                             |
+
+## [Display]()
+
+- `block`
+- `inline`
+- `inline-block`
+- `none`
+
+### Flex
+
+- `flex`
+- `inline-flex`
+
+| Name            | Variable                                                                            |
+| --------------- | ----------------------------------------------------------------------------------- |
+| flex-direction  | `row`, `row-reverse`, `column`, `column-reverse`                                    |
+| flex-wrap       | `nowrap`, `wrap`, `wrap-reverse`                                                    |
+| justify-content | `flex-start`, `center`, `flex-end`, `space-between`, `space-around`, `space-evenly` |
+| align-items     | `flex-start`, `center`, `flex-end`, `strech`                                        |
+| gap             | `size`                                                                              |

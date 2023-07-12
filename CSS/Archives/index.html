@@ -22,6 +22,9 @@
     <link rel="stylesheet" href="position.css" />
     <!-- Background -->
     <link rel="stylesheet" href="background.css" />
+    <!-- Display -->
+    <link rel="stylesheet" href="display.css" />
+    <link rel="stylesheet" href="display-flex.css" />
   </head>
   <body>
     <header>
@@ -44,6 +47,8 @@
         <li><a href="#colours">Colours</a></li>
         <li><a href="#box-model">Box-model</a></li>
         <li><a href="#background">Background</a></li>
+        <li><a href="#display">Display</a></li>
+        <li><a href="#display-flex">Display-flex</a></li>
       </ul>
     </nav>
 
@@ -406,6 +411,211 @@
             <li class="opacity image">opacity</li>
           </ul>
         </article>
+      </article>
+
+      <article id="display">
+        <h2>Display</h2>
+        <article class="display">
+          <ul>
+            <li>
+              block
+              <ul>
+                <li class="block"></li>
+              </ul>
+            </li>
+
+            <li>
+              inline
+              <ul>
+                <li class="inline">inline</li>
+              </ul>
+            </li>
+
+            <li>
+              inline-block
+              <ul>
+                <li class="inline-block">inline-block</li>
+              </ul>
+            </li>
+
+            <li>
+              none
+              <ul>
+                <li class="none">none</li>
+              </ul>
+            </li>
+          </ul>
+        </article>
+      </article>
+
+      <article id="display-flex">
+        <h2>Flex</h2>
+        <section class="display-flex">
+          <section class="flex-direction">
+            <h3>Flex-direction</h3>
+            <article>
+              <h4>row</h4>
+              <section class="row">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+                <div>5</div>
+              </section>
+            </article>
+
+            <article>
+              <h4>row-reverse</h4>
+              <section class="row-reverse">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+                <div>5</div>
+              </section>
+            </article>
+
+            <article>
+              <h4>column</h4>
+              <section class="column">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+                <div>5</div>
+              </section>
+            </article>
+
+            <article>
+              <h4>column-reverse</h4>
+              <section class="column-reverse">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+                <div>5</div>
+              </section>
+            </article>
+          </section>
+
+          <section class="flex-wrap">
+            <h3>flex-wrap</h3>
+            <article>
+              <h4>nowrap</h4>
+              <section class="nowrap">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+                <div>5</div>
+                <div>6</div>
+                <div>7</div>
+                <div>8</div>
+                <div>9</div>
+                <div>10</div>
+              </section>
+            </article>
+
+            <article>
+              <h4>wrap</h4>
+              <section class="wrap">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+                <div>5</div>
+                <div>6</div>
+                <div>7</div>
+                <div>8</div>
+                <div>9</div>
+                <div>10</div>
+              </section>
+            </article>
+
+            <article>
+              <h4>wrap-reverse</h4>
+              <section class="wrap-reverse">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+                <div>5</div>
+                <div>6</div>
+                <div>7</div>
+                <div>8</div>
+                <div>9</div>
+                <div>10</div>
+              </section>
+            </article>
+          </section>
+
+          <section class="justify-content">
+            <h3>justify-content</h3>
+            <article>
+              <section class="flex-start">
+                <div>flex-start</div>
+              </section>
+              <br />
+              <section class="center">
+                <div>center</div>
+              </section>
+              <br />
+              <section class="flex-end">
+                <div>flex-end</div>
+              </section>
+              <br />
+              <section class="space-between">
+                <div>space-between</div>
+                <div></div>
+                <div></div>
+              </section>
+              <br />
+              <section class="space-around">
+                <div>space-around</div>
+                <div></div>
+                <div></div>
+              </section>
+              <br />
+              <section class="space-evenly">
+                <div>space-evenly</div>
+                <div></div>
+                <div></div>
+              </section>
+            </article>
+          </section>
+
+          <section>
+            <h3>align-items</h3>
+            <article class="align-items">
+              <section class="flex-start">
+                <div>flex-start</div>
+              </section>
+
+              <section class="center">
+                <div>center</div>
+              </section>
+
+              <section class="flex-end">
+                <div>flex-end</div>
+              </section>
+
+              <section class="strech">
+                <div>strech</div>
+              </section>
+            </article>
+          </section>
+
+          <section>
+            <h3>gap</h3>
+            <article class="gap">
+              <div>1</div>
+              <div>2</div>
+              <div>3</div>
+              <div>4</div>
+              <div>5</div>
+            </article>
+          </section>
+        </section>
       </article>
     </main>
   </body>
