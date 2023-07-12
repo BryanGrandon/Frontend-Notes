@@ -60,9 +60,41 @@ let variable = "value";
 ### Objects
 
 - [Object](/JavaScript/Archives/Lenguage/data-types/object/object.js)
-  - [Object.assign](/JavaScript/Archives/Lenguage/data-types/object/object-assign.js)
-  - [Object.defineProperty](/JavaScript/Archives/Lenguage/data-types/object/object-defineproperty.js)
+- [Object.assign](/JavaScript/Archives/Lenguage/data-types/object/object-assign.js)
+- [Object.defineProperty](/JavaScript/Archives/Lenguage/data-types/object/object-defineproperty.js)
 - Built in Objects
   - [console object](/JavaScript/Archives/Lenguage/data-types/object/built-in-objects/console.object.js)
   - [Date object](/JavaScript/Archives/Lenguage/data-types/object/built-in-objects/date-object.js)
   - [Math object](/JavaScript/Archives/Lenguage/data-types/object/built-in-objects/math-object.js)
+
+### Typeof Operator
+
+- `typeof`
+
+## Type Casting
+
+### Implicit type casting
+
+JavaScript es un lenguaje poco tipado y la mayoría de las veces los operadores convierten automáticamente un valor al tipo correcto.
+
+```js
+let age = 21; // number
+console.log(typeof age);
+
+let name = "Bryan"; // string
+console.log(typeof name);
+```
+
+### Explicit type casting
+
+Explicit type casting is normally done to make data compatible with other variables.
+
+- `.toString()`
+- `parseInt()`
+- `parseFloat()`
+
+### Type Comversions
+
+- `String()`
+- `Number()`
+- `Boolean()`
