@@ -16,7 +16,7 @@ HTML (HyperText Markup Lenguage) it is a markup language that is used to create 
 </html>
 ```
 
-## [Metadata](/HTML/metadata.html)
+## [Metadata](/HTML/Archives/metadata.html)
 
 - Character encoding System
 - Responsive design for wed page
@@ -25,25 +25,37 @@ HTML (HyperText Markup Lenguage) it is a markup language that is used to create 
 - Tab Website icon (img, links)
 - Style of a CSS document
 
-## Label Group
+## [Label Group](/HTML/Archives/label-group.html)
 
-- Paragraph: ( `<p>` ) ( `<pre>` );
-- Cites: ( `<blockquote>` );
-- Lists: ( `ol` ) ( `ul` ) [ `li` ], ( `dl` ) [ `dt` ] [ `dd` ]
-- Ilustraton Optional: ( `figure`) [ `figcaption` ]
+- `<p>`
+- `<pre>`
+- `<blockquote>`
+- `<ol>`
+  - `<li>`
+- `<ul>`
+  - `<li>`
+- `<dl>`
+  - `<dt>`, `<dd>`
+- `<figure>`
+  - `<figcaption>`
 
-## Label Text
+## [Label Text](/HTML/Archives/label-text.html)
 
-- Strong Text ( `<strong>` )
-- Emphasized Text ( `<em>` )
-- Highlighted ( `<mark>`)
-- Italica ( `<i>`)
-- Bold ( `b` )
-- Strikethrough ( `<s>` )
-- link ( `a` ) target (`_blank`)
-- span ( `<span>` )
+| Tags       | Description     |
+| ---------- | --------------- |
+| `<strong>` | Strong Text     |
+| `<em>`     | Emphasized Text |
+| `<mark>`   | Highlighted     |
+| `<i>`      | Italica         |
+| `<b>`      | Bold            |
+| `<s>`      | Strikethrough   |
+| `<span>`   | Span            |
+| `<cite>`   | Cites           |
+| `<br>`     | Line Break      |
+| `<hr>`     | Horizontal rule |
+| `<a>`      | Link            |
 
-## Content Types
+## [Content Types](/HTML/Archives/content-type.html)
 
 ### Image
 
@@ -102,19 +114,19 @@ HTML (HyperText Markup Lenguage) it is a markup language that is used to create 
 </form>
 ```
 
-## [Interactive](/HTML/interactive-tag.html)
+## [Interactive](/HTML/Archives/interactive-tag.html)
 
 - Dropdown ( `<details>` ) [ `<summary>` ]
 - Dialog Window ( `<dialog>` )
 
-## [Scripts](/HTML/metadata.html)
+## [Scripts](/HTML/Archives/metadata.html)
 
-1. Defer attribute:
+1. `defer` attribute:
    - defer script execution to end of page load
-2. Async attribute:
+2. `async` attribute:
    - Run the script as soon as it is available
 
-## [Semantic](/HTML/semaintic.html)
+## [Semantic](/HTML/Archives/semaintic.html)
 
 - Titles
 - `<main>`
