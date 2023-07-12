@@ -44,3 +44,25 @@ let variable = "value";
   - Variables declared inside a function can only be used inside that same function
 - Block scope
   - Variables declared within a block cannot be accessd outside of that block
+
+## [Data Type](/JavaScript/Archives/Lenguage/data-types/)
+
+### Primitive Types
+
+- [Number](/JavaScript/Archives/Lenguage/data-types/primitive/number.js)
+- [String](/JavaScript/Archives/Lenguage/data-types/primitive/string.js)
+- [Bollean](/JavaScript/Archives/Lenguage/data-types/primitive/boolean.js)
+- [Null](/JavaScript/Archives/Lenguage/data-types/primitive/null.js)
+- [Undefined](/JavaScript/Archives/Lenguage/data-types/primitive/undefined.js)
+- [BigInt](/JavaScript/Archives/Lenguage/data-types/primitive/bigint.js)
+- [Symbol](/JavaScript/Archives/Lenguage/data-types/primitive/symbol.js)
+
+### Objects
+
+- [Object](/JavaScript/Archives/Lenguage/data-types/object/object.js)
+  - [Object.assign](/JavaScript/Archives/Lenguage/data-types/object/object-assign.js)
+  - [Object.defineProperty](/JavaScript/Archives/Lenguage/data-types/object/object-defineproperty.js)
+- Built in Objects
+  - [console object](/JavaScript/Archives/Lenguage/data-types/object/built-in-objects/console.object.js)
+  - [Date object](/JavaScript/Archives/Lenguage/data-types/object/built-in-objects/date-object.js)
+  - [Math object](/JavaScript/Archives/Lenguage/data-types/object/built-in-objects/math-object.js)
