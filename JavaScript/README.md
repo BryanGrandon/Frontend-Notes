@@ -154,3 +154,15 @@ let option2 = Object.is(0, -0); // false
 - [Break, Continue](/JavaScript/Archives/Lenguage/loops-and-iterations/iterations/break-continue.js)
 - [For in](/JavaScript/Archives/Lenguage/loops-and-iterations/iterations/for-in.js)
 - [For of](/JavaScript/Archives/Lenguage/loops-and-iterations/iterations/for-of.js)
+
+## Control Flow
+
+### Conditional statements
+
+- [IF - ELSE](/JavaScript/Archives/Lenguage/control-flow/conditional-statements/if-else.js)
+- [Switch](/JavaScript/Archives/Lenguage/control-flow/conditional-statements/switch.js)
+
+### Exception Handling
+
+- [Try, Catch, Finally](/JavaScript/Archives/Lenguage/control-flow/exception-handling/try-catch-finally.js)
+- [Throw](/JavaScript/Archives/Lenguage/control-flow/exception-handling/throw-statement.js)
