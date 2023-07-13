@@ -117,3 +117,26 @@ Explicit type casting is normally done to make data compatible with other variab
 
 - [JSON](/JavaScript/Archives/Lenguage/data-structures/structured-data/data.json)
 - [Methods](/JavaScript/Archives/Lenguage/data-structures/structured-data/json-methods.js)
+
+## Equality Comparisons
+
+### Is Loosely Equal ( `==` )
+
+```js
+let option1 = 21 == "21"; // true
+let option2 = 0 == -0; // true
+```
+
+### Is Strictly Equal ( `===` )
+
+```js
+let option1 = 21 === "21"; // fasle
+let option2 = 0 === -0; // true
+```
+
+### Same Value ( `Object.is()` )
+
+```js
+let option1 = Object.is(21, "21"); // fasle
+let option2 = Object.is(0, -0); // false
+```
