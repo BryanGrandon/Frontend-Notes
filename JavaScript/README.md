@@ -140,3 +140,17 @@ let option2 = 0 === -0; // true
 let option1 = Object.is(21, "21"); // fasle
 let option2 = Object.is(0, -0); // false
 ```
+
+## Loops and Iteraions
+
+### Loops
+
+- [While](/JavaScript/Archives/Lenguage/loops-and-iterations/loops/while.js)
+- [Do While](/JavaScript/Archives/Lenguage/loops-and-iterations/loops/do-while.js)
+- [For](/JavaScript/Archives/Lenguage/loops-and-iterations/loops/for.js)
+
+### Iterations
+
+- [Break, Continue](/JavaScript/Archives/Lenguage/loops-and-iterations/iterations/break-continue.js)
+- [For in](/JavaScript/Archives/Lenguage/loops-and-iterations/iterations/for-in.js)
+- [For of](/JavaScript/Archives/Lenguage/loops-and-iterations/iterations/for-of.js)
