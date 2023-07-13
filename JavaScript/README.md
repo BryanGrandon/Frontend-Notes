@@ -98,3 +98,22 @@ Explicit type casting is normally done to make data compatible with other variab
 - `String()`
 - `Number()`
 - `Boolean()`
+
+## [Data Structures](/JavaScript/Archives/Lenguage/data-structures/)
+
+### Index Collections
+
+- [Array](/JavaScript/Archives/Lenguage/data-structures/indexed-collections/array.js)
+- [Typed Array](/JavaScript/Archives/Lenguage/data-structures/indexed-collections/typed-array.js)
+
+### Keyed Collections
+
+- [Map](/JavaScript/Archives/Lenguage/data-structures/keyed-collections/map.js)
+- [WeakMap](/JavaScript/Archives/Lenguage/data-structures/keyed-collections/weakmap.js)
+- [Set](/JavaScript/Archives/Lenguage/data-structures/keyed-collections/set.js)
+- [WeakSet](/JavaScript/Archives/Lenguage/data-structures/keyed-collections/weakset.js)
+
+### Structure Data
+
+- [JSON](/JavaScript/Archives/Lenguage/data-structures/structured-data/data.json)
+- [Methods](/JavaScript/Archives/Lenguage/data-structures/structured-data/json-methods.js)
