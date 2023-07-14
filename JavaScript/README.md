@@ -174,3 +174,15 @@ let option2 = Object.is(0, -0); // false
 - [Logical Operator](/JavaScript/Archives/Lenguage/operators/logical-operator.js)
 - [Ternary Operator](/JavaScript/Archives/Lenguage/operators/ternary-operator.js)
 - [Bitwise Operator](/JavaScript/Archives/Lenguage/operators/bitwise-operator.js)
+
+## Functions
+
+- [Function](/JavaScript/Archives/Lenguage/functions/functions.js)
+- [Function Parameter](/JavaScript/Archives/Lenguage/functions/function-parameter.js)
+- [Arrow Function](/JavaScript/Archives/Lenguage/functions/arrow-functions.js)
+- [IIFE](/JavaScript/Archives/Lenguage/functions/iife.js)
+- [Arguments Object](/JavaScript/Archives/Lenguage/functions/arguments-object.js)
+- Scope and Function Stack
+  - [Closures](/JavaScript/Archives/Lenguage/functions/scope-and-function-stack/closures.js)
+  - [Lexical Scoping](/JavaScript/Archives/Lenguage/functions/scope-and-function-stack/lexical-scoping.js)
+  - [Recursion](/JavaScript/Archives/Lenguage/functions/scope-and-function-stack/recursion.js)
