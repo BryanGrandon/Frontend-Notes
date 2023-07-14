@@ -244,3 +244,9 @@ To invoke strict mode on a whole script, type exactly `"use strict";` before any
 ## Generator
 
 - [Generators](/JavaScript/Archives/Lenguage/generators/generators.js)
+
+## Modules
+
+- [Export](/JavaScript/Archives/Lenguage/modules/export.js)
+- [Import](/JavaScript/Archives/Lenguage/modules/import.js)
+- [In HTML](/JavaScript/Archives/Lenguage/modules/index.html)
