@@ -228,3 +228,15 @@ To invoke strict mode on a whole script, type exactly `"use strict";` before any
 - [Callback](/JavaScript/Archives/Lenguage/asynchronous/callback.js)
 - [Promise](/JavaScript/Archives/Lenguage/asynchronous/promise.js)
 - [Async Await](/JavaScript/Archives/Lenguage/asynchronous/async-await.js)
+
+## Classes
+
+- [Class](/JavaScript/Archives/Lenguage/classes/class.js)
+- [Getter and Setter](/JavaScript/Archives/Lenguage/classes/getter-setter.js)
+- [Inherence](/JavaScript/Archives/Lenguage/classes/)
+
+### Additional
+
+- Protected properties are usually prefixed with the underscore `_`.
+- Privates should start with `#`. They are only accessible from inside the class.
+- [Static](/JavaScript/Archives/Lenguage/classes/additional/static.js)
