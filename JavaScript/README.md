@@ -240,3 +240,7 @@ To invoke strict mode on a whole script, type exactly `"use strict";` before any
 - Protected properties are usually prefixed with the underscore `_`.
 - Privates should start with `#`. They are only accessible from inside the class.
 - [Static](/JavaScript/Archives/Lenguage/classes/additional/static.js)
+
+## Generator
+
+- [Generators](/JavaScript/Archives/Lenguage/generators/generators.js)
