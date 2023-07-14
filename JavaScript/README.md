@@ -166,3 +166,11 @@ let option2 = Object.is(0, -0); // false
 
 - [Try, Catch, Finally](/JavaScript/Archives/Lenguage/control-flow/exception-handling/try-catch-finally.js)
 - [Throw](/JavaScript/Archives/Lenguage/control-flow/exception-handling/throw-statement.js)
+
+## Operators
+
+- [Arithmetic Operator](/JavaScript/Archives/Lenguage/operators/arithmetic-operator.js)
+- [Comparison Operator](/JavaScript/Archives/Lenguage/operators/comparison-operator.js)
+- [Logical Operator](/JavaScript/Archives/Lenguage/operators/logical-operator.js)
+- [Ternary Operator](/JavaScript/Archives/Lenguage/operators/ternary-operator.js)
+- [Bitwise Operator](/JavaScript/Archives/Lenguage/operators/bitwise-operator.js)
