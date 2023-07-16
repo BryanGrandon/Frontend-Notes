@@ -1,0 +1,15 @@
+.event-delegation section {
+  padding: 2rem;
+  font-size: 20px;
+  text-align: center;
+}
+
+.section-1 {
+  background: #0979b0;
+}
+.section-2 {
+  background: #0cb7f2;
+}
+.section-3 {
+  background-color: #b6ffff;
+}

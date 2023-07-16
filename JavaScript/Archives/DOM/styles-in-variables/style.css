@@ -1,0 +1,12 @@
+:root {
+  --text-color: #fff;
+  --bg-color: red;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+main article {
+  border: 1px solid #000;
+}
