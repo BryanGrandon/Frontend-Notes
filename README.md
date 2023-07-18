@@ -104,3 +104,21 @@ Existen diferentes servicios de alojamiento de repositorios, siendo los más fam
 ## Web Security Knowledge
 
 Web security refers to the protective measures taken by the developers to protect the web applications from threats that could affect the business.
+
+### HTTPS
+
+- HTTPS is a secure way to send data between a web server and a browser. Hypertext transfer protocol secure (HTTPS) is the secure version of HTTP, which is the primary protocol used to send data between a web browser and a website. HTTPS is encrypted in order to increase security of data transfer. This is particularly important when users transmit sensitive data, such as by logging into a bank account, email service, or health insurance provider
+
+- [HTTP Cat](https://http.cat/)
+
+### Content Security Policy
+
+- Content Security Policy is a computer security standard introduced to prevent cross-site scripting, clickjacking and other code injection attacks resulting from execution of malicious content in the trusted web page context.
+
+### CORS
+
+- Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources.
+
+### OWASP Security Risks
+
+- OWASP or Open Web Application Security Project is an online community that produces freely-available articles, methodologies, documentation, tools, and technologies in the field of web application security.
