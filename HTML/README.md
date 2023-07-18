@@ -1,7 +1,5 @@
 # HTML Notes
 
-HTML (HyperText Markup Lenguage) it is a markup language that is used to create and structure the content of web pages.
-
 ## Document
 
 ```html
@@ -86,34 +84,6 @@ HTML (HyperText Markup Lenguage) it is a markup language that is used to create 
 - Table data ( `<td>` )
 - Table footer ( `<tfoot>` )
 
-## Label Form
-
-```html
-<form action="">
-  <fieldset>
-    <legend>Fieldset name</legend>
-    <label for="">Name input</label>
-    <input type="" name="" id="" />
-
-    <!-- Options -->
-    <select name="" id="">
-      <option value="option1">Opcion - 1</option>
-      <option value="option2">Opcion - 2</option>
-    </select>
-
-    <input type="text" list="items" />
-    <datalist id="items">
-      <option value="1">Opcion 1</option>
-      <option value="2">Opcion 2</option>
-    </datalist>
-
-    <!-- Button -->
-    <button>Submit</button>
-    <input type="submit" value="Submit" id="" />
-  </fieldset>
-</form>
-```
-
 ## [Interactive](/HTML/Archives/interactive-tag.html)
 
 - Dropdown ( `<details>` ) [ `<summary>` ]
@@ -125,15 +95,3 @@ HTML (HyperText Markup Lenguage) it is a markup language that is used to create 
    - defer script execution to end of page load
 2. `async` attribute:
    - Run the script as soon as it is available
-
-## [Semantic](/HTML/Archives/semaintic.html)
-
-- Titles
-- `<main>`
-- `<div>`
-- `<header>`
-- `<section>`
-- `<article>`
-- `<footer>`
-- `<aside>`
-- `<address>`
