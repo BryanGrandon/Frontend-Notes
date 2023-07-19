@@ -12,21 +12,13 @@ HTTP stands for Hypertext Transfer Protocol and it's the foundation of communica
 
 ### DNS
 
-DNS, or Domain Name System, is a hierarchical and distributed naming system for computers , services, and other resources on the Internet.
-
-It translates domain names, which are user-friendly names like google.com or facebook.com, into IP addresses, which are unique numerical identifiers that computers use to communicate with each other over the Internet.
-
-DNS is an essential part of the web's infrastructure and is responsible for ensuring that web traffic is properly routed to the correct destination.
+Domain Name System, is a hierarchical and distributed naming system for computers , services, and other resources on the Internet.
 
 ### Domain Name
 
-A domain name is a unique name that identifies a website on the internet. It is what people type into their web browsers to access a particular website.
-
-Typically, a domain name is composed of two parts, the actual name and the top-level domain (TLD).
+A domain name is a unique name that identifies a website on the internet.
 
 The domain name system (DNS) translates domain names into IP addresses, which are used by computers to communicate over the internet.
-
-It is a key part of the internet infrastructure , and is essential for accessing websites and other online resources.
 
 ### Hosting
 
@@ -91,7 +83,7 @@ The Document Object Model (DOM) is a programming interface built for HTML and XM
 
 ## Version Control Systems
 
-Version control systems allow you to track changes to your codebase/files over time. They allow you to go back to some previous version of the codebase without any issues. Also, they help in collaborating with people working on the same code – if you’ve ever collaborated with other people on a project, you might already know the frustration of copying and merging the changes from someone else into your codebase; version control systems allow you to get rid of this issue.
+Version control systems allow you to track changes to your codebase/files over time. They allow you to go back to some previous version of the codebase without any issues. Also, they help in collaborating with people working on the same code.
 
 ### Git
 
@@ -107,45 +99,36 @@ Web security refers to the protective measures taken by the developers to protec
 
 ### HTTPS
 
-- HTTPS is a secure way to send data between a web server and a browser. Hypertext transfer protocol secure (HTTPS) is the secure version of HTTP, which is the primary protocol used to send data between a web browser and a website. HTTPS is encrypted in order to increase security of data transfer. This is particularly important when users transmit sensitive data, such as by logging into a bank account, email service, or health insurance provider
+Hypertext transfer protocol secure (HTTPS) is the secure version of HTTP, which is the primary protocol used to send data between a web browser and a website.
 
 - [HTTP Cat](https://http.cat/)
 
 ### Content Security Policy
 
-- Content Security Policy is a computer security standard introduced to prevent cross-site scripting, clickjacking and other code injection attacks resulting from execution of malicious content in the trusted web page context.
+Content Security Policy is a computer security standard introduced to prevent cross-site scripting, clickjacking and other code injection attacks resulting from execution of malicious content in the trusted web page context.
 
 ### CORS
 
-- Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources.
+Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources.
 
 ### OWASP Security Risks
 
-- OWASP or Open Web Application Security Project is an online community that produces freely-available articles, methodologies, documentation, tools, and technologies in the field of web application security.
+OWASP or Open Web Application Security Project is an online community that produces freely-available articles, methodologies, documentation, tools, and technologies in the field of web application security.
 
-## Package Managers
-
-### npm
+## Package Managers ( npm )
 
 npm is a package manager for the JavaScript programming language maintained by npm, Inc. npm is the default package manager for the JavaScript runtime environment Node.js.
 
-### yam
+### Alternative Option
 
-Yarn es un sistema de empaquetado de software desarrollado en 2016 por Facebook para el entorno de ejecución JavaScript Node.js que proporciona velocidad, consistencia, estabilidad y seguridad como alternativa a npm (gestor de paquetes).
+- [yarn](https://classic.yarnpkg.com/en/docs/getting-started)
+- [pnpm](https://pnpm.io/)
 
-### pnpm
-
-PNPM is an alternative package manager for Node. js which stands for “Performant NPM”. The main purpose of PNPM is to hold all the packages at a global (centralized) store and use them if needed by other projects too by creating hard links to it.
-
-## CSS Architecture
-
-### BEM
+## CSS Architecture ( BEM )
 
 The Block, Element, Modifier methodology (commonly referred to as BEM) is a popular naming convention for classes in HTML and CSS.
 
-## CSS preprocessors
-
-### Sass
+## CSS preprocessors ( Sass )
 
 Sass is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets. It lets you write maintainable CSS and provides features like variable, nesting, mixins, extension, functions, loops, conditionals and so on.
 
@@ -153,17 +136,17 @@ Sass is a preprocessor scripting language that is interpreted or compiled into C
 
 ### Linters and Formatters
 
-- Prettier
-- ESLint
+- [Prettier](https://prettier.io/)
+- [ESLint](https://eslint.org/)
 
-### Task Runners
+### Task Runners ( npm script )
 
-- npm script
+npm scripts are the entries in the scripts field of the package.json file. The scripts field holds an object where you can specify various commands and scripts that you want to expose.
 
 ### Module Bundlers
 
-- Vite
-- Esbuid
-- Wedpack
-- Rollup
-- Parce
+- [Vite](https://vitejs.dev/)
+- [Esbuid](https://esbuild.github.io/)
+- [Wedpack](https://webpack.js.org/)
+- [Rollup](https://rollupjs.org/)
+- [Parce](https://parceljs.org/)
