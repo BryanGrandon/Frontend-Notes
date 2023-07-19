@@ -122,3 +122,48 @@ Web security refers to the protective measures taken by the developers to protec
 ### OWASP Security Risks
 
 - OWASP or Open Web Application Security Project is an online community that produces freely-available articles, methodologies, documentation, tools, and technologies in the field of web application security.
+
+## Package Managers
+
+### npm
+
+npm is a package manager for the JavaScript programming language maintained by npm, Inc. npm is the default package manager for the JavaScript runtime environment Node.js.
+
+### yam
+
+Yarn es un sistema de empaquetado de software desarrollado en 2016 por Facebook para el entorno de ejecución JavaScript Node.js que proporciona velocidad, consistencia, estabilidad y seguridad como alternativa a npm (gestor de paquetes).
+
+### pnpm
+
+PNPM is an alternative package manager for Node. js which stands for “Performant NPM”. The main purpose of PNPM is to hold all the packages at a global (centralized) store and use them if needed by other projects too by creating hard links to it.
+
+## CSS Architecture
+
+### BEM
+
+The Block, Element, Modifier methodology (commonly referred to as BEM) is a popular naming convention for classes in HTML and CSS.
+
+## CSS preprocessors
+
+### Sass
+
+Sass is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets. It lets you write maintainable CSS and provides features like variable, nesting, mixins, extension, functions, loops, conditionals and so on.
+
+## Build Tools
+
+### Linters and Formatters
+
+- Prettier
+- ESLint
+
+### Task Runners
+
+- npm script
+
+### Module Bundlers
+
+- Vite
+- Esbuid
+- Wedpack
+- Rollup
+- Parce
