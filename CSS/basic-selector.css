@@ -1,0 +1,23 @@
+/* All element */
+
+* {
+  color: blueviolet;
+}
+
+/* Elemet */
+
+div {
+  color: blueviolet;
+}
+
+/* Class */
+
+.class {
+  color: blueviolet;
+}
+
+/* Id */
+
+#id {
+  color: blueviolet;
+}

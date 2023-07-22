@@ -1,29 +1,34 @@
 /* ::first-letter */
-.pseudo-element .first-letter::first-letter {
+
+.first-letter::first-letter {
   color: red;
   border: 2px dashed #000;
 }
 
 /* ::first-line */
-.pseudo-element .first-line::first-line {
+
+.first-line::first-line {
   color: blueviolet;
 }
 
 /* ::selection */
-.pseudo-element .selection::selection {
+
+.selection::selection {
   color: blueviolet;
   background: #eee;
 }
 
 /* ::before */
-.pseudo-element .before::before {
+
+.before::before {
   content: "Before";
   color: red;
   border: 2px dashed #000;
 }
 
 /* ::after */
-.pseudo-element .after::after {
+
+.after::after {
   content: "After";
   color: red;
   border: 2px dashed #000;
