@@ -11,7 +11,7 @@ HTML stands for HyperText Markup Language. It is used on the frontend and gives 
 - Accessibility
 - Basic of SEO
 
-## CSS
+## [CSS](/Markdown/css.md)
 
 CSS or Cascading Style Sheets is the language used to style the frontend of any website. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
 
@@ -23,7 +23,7 @@ CSS or Cascading Style Sheets is the language used to style the frontend of any 
 - Position
 - Background
 - Display
-  - flex
+- Flex
 - Variables
 
 ### Sass
@@ -32,9 +32,13 @@ CSS or Cascading Style Sheets is the language used to style the frontend of any 
 
 ### CSS Architecture
 
-## JavaScript
+## [JavaScript](/Markdown/javascript.md)
 
-### DOM
+An interpreted programming language used on the client side (front-end) to provide dynamic and interactive enhancements to web pages.
+
+### [Document Object Model ( DOM )](/Markdown/js-dom.md)
+
+In Javascript, when we refer to the DOM we refer to this tree structure, through which we can access it and modify the HTML elements from Javascript, adding new tags, modifying or deleting others, changing their HTML attributes, adding classes, changing the text content, etc.
 
 ### APIs
 

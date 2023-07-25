@@ -1,0 +1,21 @@
+.container-cards figure {
+  width: 200px;
+  height: 100px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.style-1 {
+  background-color: mediumpurple;
+}
+
+.style-2 {
+  background-color: mediumaquamarine;
+}
+
+.style-3 {
+  background-color: mediumvioletred;
+}
