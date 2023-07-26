@@ -25,26 +25,6 @@ The domain name system (DNS) translates domain names into IP addresses, which ar
 Web hosting is a service that allows individuals and businesses to make their websites accessible on the internet.
 When a website is created, its files need to be stored on a server so that they can be accessed by visitors to the site.
 
-## [CSS](/CSS/README.md)
-
-CSS or Cascading Style Sheets is the language used to style the frontend of any website. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
-
-- Making layouts
-- Responsive Web Design
-
-## [JavaScript](/JavaScript/README.md)
-
-JavaScript allows you to add interactivity to your pages. Common examples that you may have seen on the websites are sliders, click interactions, popups and so on.
-
-### [DOM](/JavaScript/Archives/DOM/README.md)
-
-The Document Object Model (DOM) is a programming interface built for HTML and XML documents. It represents the page that allows programs and scripts to dynamically update the document structure, content, and style. With DOM, we can easily access and manipulate tags, IDs, classes, attributes, etc.
-
-### [API](/JavaScript/Archives/Working-with-APIs/)
-
-- AJAX
-- API REST
-
 ## Version Control Systems
 
 Version control systems allow you to track changes to your codebase/files over time. They allow you to go back to some previous version of the codebase without any issues. Also, they help in collaborating with people working on the same code.

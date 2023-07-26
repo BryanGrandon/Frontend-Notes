@@ -40,7 +40,10 @@ An interpreted programming language used on the client side (front-end) to provi
 
 In Javascript, when we refer to the DOM we refer to this tree structure, through which we can access it and modify the HTML elements from Javascript, adding new tags, modifying or deleting others, changing their HTML attributes, adding classes, changing the text content, etc.
 
-### APIs
+### [Working with APIs](/JavaScript/Working-with-APIs/)
+
+- Asynchronous JavaScript And XML (AJAX)
+- API-REST
 
 ## TypeScript
 
