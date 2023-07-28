@@ -47,6 +47,8 @@ In Javascript, when we refer to the DOM we refer to this tree structure, through
 
 ## TypeScript
 
+TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
+
 ## Framework and librery
 
 ### React ( library )
