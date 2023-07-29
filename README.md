@@ -14,20 +14,20 @@ CSS or Cascading Style Sheets is the language used to style the frontend of any 
 
 ### CSS Architecture
 
-## [JavaScript](/Markdown/javascript.md)
+## [JavaScript](/Markdown/md-javascript/javascript.md)
 
 An interpreted programming language used on the client side (front-end) to provide dynamic and interactive enhancements to web pages.
 
-### [Document Object Model ( DOM )](/Markdown/js-dom.md)
+### [Document Object Model ( DOM )](/Markdown/md-javascript/js-dom.md)
 
 In Javascript, when we refer to the DOM we refer to this tree structure, through which we can access it and modify the HTML elements from Javascript, adding new tags, modifying or deleting others, changing their HTML attributes, adding classes, changing the text content, etc.
 
-### [Working with APIs](/JavaScript/Working-with-APIs/)
+### [Working with APIs](/Markdown/md-javascript/js-apis.md)
 
 - Asynchronous JavaScript And XML (AJAX)
 - API-REST
 
-## TypeScript
+## [TypeScript](/Markdown/typescript.md)
 
 TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
 
@@ -42,3 +42,9 @@ TypeScript is a strongly typed programming language that builds on JavaScript, g
 ### Svelte ( Framework )
 
 ## Git
+
+Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+
+### Repo Hosting Services
+
+There are different repository hosting services, the most famous being GitHub, GitLab and BitBuck.
