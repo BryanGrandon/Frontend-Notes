@@ -8,62 +8,134 @@ TypeScript is a superset of JavaScript, which means that any valid JavaScript co
 
 ### Running TypeScript
 
-## TypeScript Types
+```
+tsc --init
+```
 
-### [Primitive Types](/TypeScript/data-types/primitive-types.ts)
+tsconfig.json
 
-- Boolean
-- Number
-- String
-- Void
-- Undefined
-- Null
+- target: "ES6", or as needed
+- rootDir: "./src"
+- outDir: "./dist"
 
-### Object Types
+## [Basic Types](/TypeScript/data-types/basic-types.ts)
 
-- [Interface](/TypeScript/data-types/object-types/interface.ts)
-- [Class](/TypeScript/data-types/object-types/class.ts)
-- [Enum](/TypeScript/data-types/object-types/enum.ts)
-- [Arrays](/TypeScript/data-types/object-types/arrays.ts)
-- [Tuples](/TypeScript/data-types/object-types/tuples.ts)
+- string
+- number
+- boolean
+- void
 
-### Other Types
+### Array
 
-- Any
-- Unknown
-- Never
+- number[]
+- string[]
 
-### [Assertions](/TypeScript/data-types/assertion.ts)
+### Any
 
-- As Const
-- As Type
-- As Any
+```ts
+let myTypeAny: any = 24;
+const arrAny: any[] = [21, "two", true];
+```
+
+### Tuples
+
+```ts
+const tuplePlayers: [string, number] = ["Hello", 35];
+```
 
 ## Type Inference
 
-Type inference in TypeScript refers to the process of automatically determining the type of a variable based on the value assigned to it.
-
 ```ts
-let number = 21;
-let string = "Hello";
-let isTrue = true;
+let stringInference = "Hello world";
+let numberInference = 23;
+let booleanInference = true;
 ```
 
-## [Combining Types](/TypeScript/combining-types.ts)
+## Type Compositin
 
-In TypeScript, you can combine types using type union and type intersection.
+### Unions
 
-- Type Union
-- Type Intersection
-- Type Aliases
-- Keyof Operator
+```ts
+let unions: string | number | null;
+```
 
-## Type Guards
+## Enums
 
-Type guards are a way to narrow down the type of a variable.
+```ts
+enum Roles {
+  User = 1,
+  Admin,
+  SuperAdmin,
+}
+```
 
-- [Typeof Operator](/TypeScript/type-guards/typeof.ts)
-- [Instanceof Operator](/TypeScript/type-guards/instanceof.ts)
-- [Equality](/TypeScript/type-guards/equality.ts)
-- [Truthiness](/TypeScript/type-guards/truthiness.ts)
-- [Type Predicates](/TypeScript/type-guards/predicates.ts)
+## [Type assertion](/TypeScript/data-types/assertion.ts)
+
+- as Type
+- < type >
+- as Const
+
+## [Function](/TypeScript/data-types/function.ts)
+
+```ts
+function getNumber(): number {
+  return Math.floor(Math.random() * 100);
+}
+```
+
+## [Interface](/TypeScript/data-types/interface.ts)
+
+- Is a definition of a code contract
+- Only exists at compile time
+- Are only used for type checking.
+- extends Interface
+
+## [Classes](/TypeScript/data-types/classes.ts)
+
+- They exist at compile time and during runtime.
+- We can initialize properties and implement methods
+- Create instances of such a class
+
+### Access control keywords
+
+- public ( defauld )
+- private
+- protected -> Inheritance
+- readonly
+
+## Namespace
+
+```ts
+namespace Utility {
+  export namespace Taxes {
+    export function calculateIva(price: number): number {
+      return price * 0.21 + price;
+    }
+
+    export function calculatePenaltyIva(price: number): number {
+      return price * 0.3 + price;
+    }
+  }
+}
+```
+
+```ts
+/// <reference path="utility.ts" />
+
+let utils = Utility.Taxes;
+
+console.log(utils.calculateIva(100));
+console.log(utils.calculatePenaltyIva(200));
+```
+
+## [Modules](/TypeScript/modules/)
+
+- tsconfig.json `"moduleResolution": "node"`
+- Export
+- Import
+
+## [Generics](/TypeScript/generics/generic.ts)
+
+Generic types in TypeScript allow you to write objects, functions and classes that work with multiple data types, instead of being limited to a single data type.
+
+- < T >
