@@ -58,22 +58,33 @@ Variables are containers for storing data
 
 ## Data Structures
 
-### Index Collections
+### [Array](/JavaScript/Lenguage/data-structures/array.js)
 
-- [Array](/JavaScript/Lenguage/data-structures/indexed-collections/array.js)
-- [Typed array](/JavaScript/Lenguage/data-structures/indexed-collections/typed-array.js)
+The arrays it stores multiple values and elements in one variable.
 
-### Keyed Collections
+[Array Methods](/JavaScript/Lenguage/data-structures/array-methods.js)
 
-- [Map](/JavaScript/Lenguage/data-structures/keyed-collections/map.js)
-- [weakMap](/JavaScript/Lenguage/data-structures/keyed-collections/weakmap.js)
-- [Set](/JavaScript/Lenguage/data-structures/keyed-collections/set.js)
-- [weakSet](/JavaScript/Lenguage/data-structures/keyed-collections/weakset.js)
+- Delete: `.shift()`, `.pop()`
+- Add: `.unshift()`, `.push()`
+- `.map(() => {})`
+- `.filter(() => {})`
+- `.forEach(() => {})`
+- `.some()`
+- `.every()`
+- `.sort()`
+- `.reverse()`
 
-### Structure Data
+### [Map](/JavaScript/Lenguage/data-structures/map.js)
 
-- [JSON](/JavaScript/Lenguage/data-structures/structured-data/data.json)
-- [Methods](/JavaScript/Lenguage/data-structures/structured-data/json-methods.js)
+- weakMap
+
+### [Set](/JavaScript/Lenguage/data-structures/set.js)
+
+- weakSet
+
+### [JavaScript Object Notion ( JSON )](/JavaScript/Lenguage/data-structures/data.json)
+
+- [Methods](/JavaScript/Lenguage/data-structures/json-method.js)
 
 ## Equality Comparisons
 
