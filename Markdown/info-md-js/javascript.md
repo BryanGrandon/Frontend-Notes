@@ -5,94 +5,52 @@
 Variables are containers for storing data
 
 - To declare variables, we use one of the `var`, `let`, or `const` keywords.
-- To assign a value, we use the `=` followed by the value.
-
-```js
-// Declared
-let declaredVariable;
-
-// Assig
-declaredVariable = "value";
-
-// Both
-let variable = "value";
-```
+- To assign a value, we use the `=` followed by the _value_.
 
 ### Hoisting
 
 - Lexical environment: _Stores variables and functions in memory_
 - Temporal Dead Zone: _Cannot access "variables" before initialization_
 
-### Variable Naming Rules
-
-- 64 available characterss: _lowercase_, _uppercase_, _number ( do not use at start)_
-- Read only variable ( **SNAKE_CASE** ): _We know its value before executing the program_
-- Common variables ( **camelCase**): _Boolean: is, has_, _other data type: Nouns with abjective_
-- Methods and Functions ( **camelCase** ): _Infinitive verbs_, _What action does the function perfom?_
-- Class and Construction function ( **PascalCase** ): _Usually nouns and adjectives._
-- Private variables ( **\_name**)
-- Omit parameters ( **( \_ , i )** )
-- DOM elements ( **$user** )
-
 ### Variables Scopes
 
-- Global scope: _It can be accessd from anywhere within the same JavaScript code_
+- Global scope: _It can be accessed from anywhere within the same JavaScript code_
 - Function scope: _Variables declared inside a function can only be used inside that same function_
-- Block scope: _Variables declared within a block cannot be accessd outside of that block_
+- Block scope: _Variables declared within a block cannot be accessed outside of that block_
 
-## [Data Type](/JavaScript/Lenguage/data-types/)
+## Data Type
 
-### Primitive Types
+### [Primitive Type](/JavaScript/Lenguage/data-types/primitive-type.js)
 
-- [Number](/JavaScript/Lenguage/data-types/primitive/number.js)
-- [String](/JavaScript/Lenguage/data-types/primitive/string.js)
-- [Boolean](/JavaScript/Lenguage/data-types/primitive/boolean.js)
-- [Null](/JavaScript/Lenguage/data-types/primitive/null.js)
-- [Undefined](/JavaScript/Lenguage/data-types/primitive/undefined.js)
-- [BigInt](/JavaScript/Lenguage/data-types/primitive/bigint.js)
-- [Symbol](/JavaScript/Lenguage/data-types/primitive/symbol.js)
+- _Number_
+- _String_
+- _Boolean_
+- _Null_
+- _Undefined_
+- _Symbol_
 
-### Objects
+### [Object](/JavaScript/Lenguage/data-types/object-type.js)
 
-- [Object](/JavaScript/Lenguage/data-types/object/object.js)
-- [Object.assign](/JavaScript/Lenguage/data-types/object/object-assign.js)
-- [Object.defineProperty](/JavaScript/Lenguage/data-types/object/object-defineproperty.js)
-- Built in Objects
-  - [Console object](/JavaScript/Lenguage/data-types/object/built-in-objects/console.object.js)
-  - [Date object](/JavaScript/Lenguage/data-types/object/built-in-objects/date-object.js)
-  - [Math object](/JavaScript/Lenguage/data-types/object/built-in-objects/math-object.js)
+- _Object.assign_
+- _Object.defineProperty_
 
-### Typeof Operator
+### [Built in Objects](/JavaScript/Lenguage/data-types/built-in-objects.js)
 
-- `typeof`
+- _Console object_
+- _Date object_
+- _Math object_
 
-```js
-console.log(typeof 21);
-```
+### [Methods](/JavaScript/Lenguage/data-types/methods.js)
+
+- _Number_: `.toFixed()`
+- _String_: `[]`, `.at()`, `.indexOf()`, `.includes()`, `.startsWith()`, `.endsWith()`, `.toLowerCase()`, `.toUpperCase()`, `.trim()`
 
 ## Type Casting
 
-### Implicit type casting
+- _Implicit type casting_
+- _Explicit type casting_
 
-JavaScript es un lenguaje poco tipado y la mayoría de las veces los operadores convierten automáticamente un valor al tipo correcto.
-
-```js
-let age = 21; // number
-console.log(typeof age);
-
-let name = "Bryan"; // string
-console.log(typeof name);
-```
-
-### Explicit type casting
-
-Explicit type casting is normally done to make data compatible with other variables.
-
-- `.toString()`
-- `parseInt()`
-- `parseFloat()`
-
-### Type Comversions
+### Type Conversions
 
 - `String()`
 - `Number()`
