@@ -42,8 +42,8 @@ Variables are containers for storing data
 
 ### [Methods](/JavaScript/Lenguage/data-types/methods.js)
 
-- _Number_: `.toFixed()`
-- _String_: `[]`, `.at()`, `.indexOf()`, `.includes()`, `.startsWith()`, `.endsWith()`, `.toLowerCase()`, `.toUpperCase()`, `.trim()`
+- _Number_
+- _String_
 
 ## Type Casting
 
@@ -62,27 +62,21 @@ Variables are containers for storing data
 
 The arrays it stores multiple values and elements in one variable.
 
-[Array Methods](/JavaScript/Lenguage/data-structures/array-methods.js)
+- [Array Methods](/JavaScript/Lenguage/data-structures/array-methods.js)
 
-- Delete: `.shift()`, `.pop()`
-- Add: `.unshift()`, `.push()`
-- `.map(() => {})`
-- `.filter(() => {})`
-- `.forEach(() => {})`
-- `.some()`
-- `.every()`
-- `.sort()`
-- `.reverse()`
+### Keyed Collection
 
-### [Map](/JavaScript/Lenguage/data-structures/map.js)
+[Map](/JavaScript/Lenguage/data-structures/map.js)
 
-- weakMap
+Maps are used to store a collection of elements defined by a key and value.
 
-### [Set](/JavaScript/Lenguage/data-structures/set.js)
+[Set](/JavaScript/Lenguage/data-structures/set.js)
 
-- weakSet
+Sets allow us to store collections of information, specifically values that will not be repeated.
 
 ### [JavaScript Object Notion ( JSON )](/JavaScript/Lenguage/data-structures/data.json)
+
+JSON is a lightweight data interchange format. JSON is easy for users to read and write. JSON is easy to parse and generate by machines.
 
 - [Methods](/JavaScript/Lenguage/data-structures/json-method.js)
 
