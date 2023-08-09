@@ -139,15 +139,16 @@ Strict mode applies to an entire script or to individual functions. To invoke st
 
 It enforces stricter parsing and error handling on the code at runtime. It also helps you write cleaner code and catch errors and bugs that might otherwise go unnoticed.
 
-## Using ( `this` ) keyword
+## [Using ( `this` ) keyword](/JavaScript/Lenguage/this-keyword/this-in.js)
 
-- [In a Function](/JavaScript/Lenguage/this-keyword/this-in-function.js)
-- [In a Arrow Function](/JavaScript/Lenguage/this-keyword/this-in-arrow-function.js)
-- [In a Methods](/JavaScript/Lenguage/this-keyword/this-in-method.js)
-- Explicit Binding
-  - [Call](/JavaScript/Lenguage/this-keyword/explicit-binding/call.js)
-  - [Apply](/JavaScript/Lenguage/this-keyword/explicit-binding/apply.js)
-  - [Bind](/JavaScript/Lenguage/this-keyword/explicit-binding/bind.js)
+- In a Function
+  - Anonymous Function
+  - Arrow Function
+- In a Methods
+- [Explicit Binding](/JavaScript/Lenguage/this-keyword/explicit-binding.js)
+  - Call
+  - Apply
+  - Bind
 
 ## Asynchronous JavaScript
 
