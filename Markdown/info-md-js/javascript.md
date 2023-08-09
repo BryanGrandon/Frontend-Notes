@@ -169,7 +169,7 @@ It enforces stricter parsing and error handling on the code at runtime. It also 
 
 - Protected properties are usually prefixed with the underscore `_`.
 - Privates should start with `#`. They are only accessible from inside the class.
-- [Class](/JavaScript/Lenguage/classes/additional/static.js)
+- [Static](/JavaScript/Lenguage/classes/additional/static.js)
 
 ## Generator
 

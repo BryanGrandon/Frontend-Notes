@@ -1,9 +1,9 @@
 "use strict";
 
 class Human {
-  constructor(country, languaje) {
+  constructor(country, language) {
     this.country = country;
-    this.languaje = languaje;
+    this.language = language;
   }
 }
 const human1 = new Human("Chile", "Español");
@@ -12,8 +12,8 @@ console.log(human1);
 // Inheritance
 
 class Staff extends Human {
-  constructor(country, languaje, name, age) {
-    super(country, languaje); // Human constructor element
+  constructor(country, language, name, age) {
+    super(country, language); // Human constructor element
     this.name = name;
     this.age = age;
   }
