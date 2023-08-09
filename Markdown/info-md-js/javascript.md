@@ -122,15 +122,16 @@ JSON is a lightweight data interchange format. JSON is easy for users to read an
 
 ## Functions
 
-- [Function](/JavaScript/Lenguage/functions/functions.js)
-- [Function Parameter](/JavaScript/Lenguage/functions/function-parameter.js)
-- [Arrow Function](/JavaScript/Lenguage/functions/arrow-functions.js)
-- [IIFE](/JavaScript/Lenguage/functions/iife.js)
-- [Arguments Object](/JavaScript/Lenguage/functions/arguments-object.js)
-- Scope and Function Stack
-  - [Closures](/JavaScript/Lenguage/functions/scope-and-function-stack/closures.js)
-  - [Lexical Scoping](/JavaScript/Lenguage/functions/scope-and-function-stack/lexical-scoping.js)
-  - [Recursion](/JavaScript/Lenguage/functions/scope-and-function-stack/recursion.js)
+Functions must be short and do exactly one thing. A name should clearly describe what the function does.
+
+- [Function](/JavaScript/Lenguage/functions/function.js)
+  - Arrow Function
+  - IIFE
+  - Arguments Object
+- [Scope and Function Stack](/JavaScript/Lenguage/functions/scope-and-funcion-stack.js)
+  - Closures
+  - Lexical Scoping
+  - Recursion
 
 ## Strict Mode
 
