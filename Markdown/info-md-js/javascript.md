@@ -88,17 +88,17 @@ JSON is a lightweight data interchange format. JSON is easy for users to read an
 
 ## Loops and Iterations
 
-### Loops
+### [Loops](/JavaScript/Lenguage/loops-and-iterations/loops.js)
 
-- [While](/JavaScript/Lenguage/loops-and-iterations/loops/while.js)
-- [Do while](/JavaScript/Lenguage/loops-and-iterations/loops/do-while.js)
-- [For](/JavaScript/Lenguage/loops-and-iterations/loops/for.js)
+- Do While
+- While
+- For
 
-### Iterations
+### [Iterations](/JavaScript/Lenguage/loops-and-iterations/iterations.js)
 
-- [Break, Continue](/JavaScript/Lenguage/loops-and-iterations/iterations/break-continue.js)
-- [For in](/JavaScript/Lenguage/loops-and-iterations/iterations/for-in.js)
-- [For of](/JavaScript/Lenguage/loops-and-iterations/iterations/for-of.js)
+- Break, Continue
+- For in
+- For of
 
 ## Control Flow
 
