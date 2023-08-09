@@ -191,9 +191,9 @@ It enforces stricter parsing and error handling on the code at runtime. It also 
 | `Network`     | Displays all requests made by the browser to remote servers.    |
 | `Performance` | Overall site and CPU performance.                               |
 | `Memory`      | Performance and memory allocation.                              |
-| `Application` | application, storage, bacground service, frames.                |
+| `Application` | application, storage, background service, frames.               |
 
-### Debuggin
+### Debugging
 
 - Source
   - The resource zone showing the list of files
