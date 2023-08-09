@@ -135,26 +135,9 @@ Functions must be short and do exactly one thing. A name should clearly describe
 
 ## Strict Mode
 
-### Invoke strict mode
+Strict mode applies to an entire script or to individual functions. To invoke strict mode on a whole script, type exactly `"use strict";` before any other expression.
 
-Strict mode applies to an entire script or to individual functions.
-
-To invoke strict mode on a whole script, type exactly `"use strict";` before any other expression.
-
-### Strict mode has several changes to the normal JavaScript semantics:
-
-1. Remove some silent JavaScript bugs by changing them to throw errors.
-
-2. Fixes bugs that make it difficult for JavaScript engines to perform optimisations: sometimes, code in strict mode can run faster than identical but non-strict code.
-
-3. Prohibits certain syntax that is likely to be defined in future versions of ECMAScript.
-
-### Sets an error in:
-
-- Accidental creation of global variables
-- Duplicate parameters
-- Read-only attributes
-- Non-extendable objects
+It enforces stricter parsing and error handling on the code at runtime. It also helps you write cleaner code and catch errors and bugs that might otherwise go unnoticed.
 
 ## Using ( `this` ) keyword
 
