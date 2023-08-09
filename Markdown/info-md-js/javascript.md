@@ -82,28 +82,11 @@ JSON is a lightweight data interchange format. JSON is easy for users to read an
 
 ## Equality Comparisons
 
-### Is Loosely Equal ( `==` )
+- Is Loosely Equal ( `==` )
+- Is Strictly Equal ( `===` )
+- Same Value ( `Object.is()` )
 
-```js
-let option1 = 21 == "21"; // true
-let option2 = 0 == -0; // true
-```
-
-### Is Strictly Equal ( `===` )
-
-```js
-let option1 = 21 === "21"; // fasle
-let option2 = 0 === -0; // true
-```
-
-### Same Value ( `Object.is()` )
-
-```js
-let option1 = Object.is(21, "21"); // fasle
-let option2 = Object.is(0, -0); // false
-```
-
-## Loops and Iteraions
+## Loops and Iterations
 
 ### Loops
 
