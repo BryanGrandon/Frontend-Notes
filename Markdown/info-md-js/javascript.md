@@ -102,15 +102,15 @@ JSON is a lightweight data interchange format. JSON is easy for users to read an
 
 ## Control Flow
 
-### Conditional statements
+### [Conditional statements](/JavaScript/Lenguage/control-flow/conditional-statements.js)
 
-- [IF - ELSE](/JavaScript/Lenguage/control-flow/conditional-statements/if-else.js)
-- [Switch](/JavaScript/Lenguage/control-flow/conditional-statements/switch.js)
+- IF - ELSE
+- Switch
 
-### Exception Handling
+### [Exception Handling](/JavaScript/Lenguage/control-flow/exception-handling.js)
 
-- [Try, Catch, Finally](/JavaScript/Lenguage/control-flow/exception-handling/try-catch-finally.js)
-- [Throw](/JavaScript/Lenguage/control-flow/exception-handling/throw-statement.js)
+- Try - Catch - Finally
+- Throw
 
 ## Operators
 
