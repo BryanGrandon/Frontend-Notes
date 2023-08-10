@@ -1,5 +1,15 @@
 # Characteristics
 
+SASS is a CSS preprocessor compatible with all versions of CSS.
+
+```bash
+# Install with Node JS
+npm install -g sass
+
+# Compilation
+sass --Watch src/sass:public/css
+```
+
 ## Variables
 
 ```scss

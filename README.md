@@ -4,21 +4,11 @@
 
 HTML stands for HyperText Markup Language. It is used on the frontend and gives the structure to the webpage which you can style using CSS and make interactive using JavaScript.
 
-## [CSS](/Markdown/md-css/css.md)
+## [CSS](/Markdown/info-md-css/css.md)
 
 CSS or Cascading Style Sheets is the language used to style the frontend of any website. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
 
-### [Sass](/Markdown/md-css/sass.md)
-
-SASS is a CSS preprocessor compatible with all versions of CSS.
-
-```bash
-# Install with Node JS
-npm install -g sass
-
-# Compilation
-sass --Watch src/sass:public/css
-```
+- [Sass](/Markdown/info-md-css/sass.md)
 
 <!-- Framework CSS, CSS Architecture -->
 
