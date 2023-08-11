@@ -1,22 +1,30 @@
 # TypeScript Notes
 
-## Introduction
+The main feature of TypeScript is its type system. It can identify the data type of a variable or parameter using a type hint which describes the shape of an object, which provides better documentation and allows TypeScript to validate that the code works correctly.
 
-### TypeScript and JavaScript
+## Installation of typescript
 
-TypeScript is a superset of JavaScript, which means that any valid JavaScript code is also valid TypeScript code.
+1. Download and install Node.js.
+2. Test your installation in the terminal by typing `npm version`.
+3. Install typescript by typing `npm install -g typescript` in the terminal.
+4. Type `tsc` to confirm that TypeScript is installed.
 
-### Running TypeScript
+## Running TypeScript
 
-```
-tsc --init
-```
+- Type `tsc --init`
+- Modify tsconfig.json `target` `rootDir` `outDir`
 
-tsconfig.json
+## Declaration of variable types
 
-- target: "ES6", or as needed
-- rootDir: "./src"
-- outDir: "./dist"
+### Primitive types
+
+- Number
+- String
+- Boolean
+- Null
+- Undefined
+- enum
+- Void
 
 ## [Basic Types](/TypeScript/data-types/basic-types.ts)
 

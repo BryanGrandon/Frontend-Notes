@@ -27,7 +27,20 @@ In Javascript, when we refer to the DOM we refer to this tree structure, through
 
 ## [TypeScript](/Markdown/typescript.md)
 
-TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
+TypeScript is an open source language developed by Microsoft. It is a superset of JavaScript. TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
+
+TypeScript has additional code creation features not found in JavaScript:
+
+- Interfaces
+- Namespaces
+- Generics
+- Abstract classes
+- Data modifiers
+- Optional values
+- Function overloading
+- Decorator elements
+- Utility types
+- Readonly keyword
 
 ## Framework and library
 
