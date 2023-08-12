@@ -31,6 +31,11 @@ The main feature of TypeScript is its type system. It can identify the data type
 - Or ( `|` )
 - And ( `&` )
 
+### [Type of Collections]()
+
+- Arrays
+- Tuples
+
 ## [Basic Types](/TypeScript/data-types/basic-types.ts)
 
 - string
