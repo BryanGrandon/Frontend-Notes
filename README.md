@@ -25,7 +25,7 @@ In Javascript, when we refer to the DOM we refer to this tree structure, through
 - Asynchronous JavaScript And XML (AJAX)
 - API-REST
 
-## [TypeScript](/Markdown/typescript.md)
+## [TypeScript](/Markdown/info-md-js/typescript.md)
 
 TypeScript is an open source language developed by Microsoft. It is a superset of JavaScript. TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
 

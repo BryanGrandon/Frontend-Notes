@@ -16,7 +16,7 @@ The main feature of TypeScript is its type system. It can identify the data type
 
 ## Declaration of variable types
 
-### Primitive types
+### [Primitive types](/TypeScript/declaration-of-variable-types/primitive-types.ts)
 
 - Number
 - String
@@ -25,6 +25,11 @@ The main feature of TypeScript is its type system. It can identify the data type
 - Undefined
 - enum
 - Void
+
+### [Type of Union](/TypeScript/declaration-of-variable-types/type-of-union.ts)
+
+- Or ( `|` )
+- And ( `&` )
 
 ## [Basic Types](/TypeScript/data-types/basic-types.ts)
 
@@ -59,7 +64,7 @@ let numberInference = 23;
 let booleanInference = true;
 ```
 
-## Type Compositin
+## Type Compositing
 
 ### Unions
 
