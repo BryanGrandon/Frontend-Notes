@@ -31,43 +31,18 @@ The main feature of TypeScript is its type system. It can identify the data type
 - Or ( `|` )
 - And ( `&` )
 
-### [Type of Collections]()
+### [Type of Collections](/TypeScript/declaration-of-variable-types/collections.ts)
 
 - Arrays
 - Tuples
 
-## [Basic Types](/TypeScript/data-types/basic-types.ts)
+## Interfaces and Types
 
-- string
-- number
-- boolean
-- void
+In TypeScript we can use Type and Interface to describe the structure of objects.
 
-### Array
-
-- number[]
-- string[]
-
-### Any
-
-```ts
-let myTypeAny: any = 24;
-const arrAny: any[] = [21, "two", true];
-```
-
-### Tuples
-
-```ts
-const tuplePlayers: [string, number] = ["Hello", 35];
-```
-
-## Type Inference
-
-```ts
-let stringInference = "Hello world";
-let numberInference = 23;
-let booleanInference = true;
-```
+- [Difference](/TypeScript/interface/interface-and-type.ts)
+- [Type of property](/TypeScript/interface/type-of-property.ts)
+- [Extends](/TypeScript/interface/extends.ts)
 
 ## Type Compositing
 
