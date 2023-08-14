@@ -44,6 +44,21 @@ In TypeScript we can use Type and Interface to describe the structure of objects
 - [Type of property](/TypeScript/interface/type-of-property.ts)
 - [Extends](/TypeScript/interface/extends.ts)
 
+## Functions
+
+They're how you build up layers of abstraction, mimicking classes, information hiding, and modules.
+
+- Set the type of data to be entered to the function.
+- Set the type of data to be output by the function.
+
+### Parameters
+
+- Compulsory Parameters
+- Optional parameters
+- Predetermined parameters
+- Parameters of REST
+- Parameters of deconstructed object
+
 ## Type Compositing
 
 ### Unions
@@ -91,7 +106,7 @@ function getNumber(): number {
 
 ### Access control keywords
 
-- public ( defauld )
+- public ( default )
 - private
 - protected -> Inheritance
 - readonly
