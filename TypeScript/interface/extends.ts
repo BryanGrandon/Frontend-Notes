@@ -1,3 +1,10 @@
-// ---- ---- Interface ---- ---- //
+interface IceCream {
+  flavor: string;
+  scoops: number;
+}
 
-// ---- ---- Type ---- ---- //
+interface Sundae extends IceCream {
+  sauce: "chocolate" | "caramel" | "strawberry";
+  nuts?: boolean;
+  whippedCream?: boolean;
+}
