@@ -41,15 +41,15 @@ Hypertext transfer protocol secure (HTTPS) is the secure version of HTTP, which 
 
 ### Content Security Policy
 
-Content Security Policy is a computer security standard introduced to prevent cross-site scripting, clickjacking and other code injection attacks resulting from execution of malicious content in the trusted web page context.
+Content Security Policy is a computer security standard introduced to prevent cross-site scripting, click jacking and other code injection attacks resulting from execution of malicious content in the trusted web page context.
 
 ### CORS
 
 Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources.
 
-### OWASP Security Risks
+### Open Web Application Security
 
-OWASP or Open Web Application Security Project is an online community that produces freely-available articles, methodologies, documentation, tools, and technologies in the field of web application security.
+Open Web Application Security Project is an online community that produces freely-available articles, methodologies, documentation, tools, and technologies in the field of web application security.
 
 ## Package Managers ( npm )
 
@@ -64,7 +64,7 @@ npm is a package manager for the JavaScript programming language maintained by n
 
 The Block, Element, Modifier methodology (commonly referred to as BEM) is a popular naming convention for classes in HTML and CSS.
 
-## CSS preprocessors ( Sass )
+## CSS preprocessor ( Sass )
 
 Sass is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets. It lets you write maintainable CSS and provides features like variable, nesting, mixins, extension, functions, loops, conditionals and so on.
 
@@ -82,9 +82,9 @@ npm scripts are the entries in the scripts field of the package.json file. The s
 ### Module Bundlers
 
 - [Vite](https://vitejs.dev/)
-- [Esbuid](https://esbuild.github.io/)
-- [Wedpack](https://webpack.js.org/)
+- [Esbuild](https://esbuild.github.io/)
+- [Webpack](https://webpack.js.org/)
 - [Rollup](https://rollupjs.org/)
-- [Parce](https://parceljs.org/)
+- [Parcel](https://parceljs.org/)
 
 ## Framework

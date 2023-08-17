@@ -13,11 +13,11 @@ In Javascript, the way to access the DOM is through an object called document.
 | body       | `document.body`               |
 | html       | `document.documentElement`    |
 | title      | `document.title`              |
-| link       | `documnet.link`               |
+| link       | `document.link`               |
 | image      | `document.image`              |
-| form       | `documnet.form`               |
+| form       | `document.form`               |
 | css        | `document.styleSheets`        |
-| javascript | `documnet.scripts`            |
+| javascript | `document.scripts`            |
 
 ## Select DOM elements
 
@@ -46,7 +46,7 @@ HTML tags have certain attributes that define the behavior of the tag.
 
 - `hasAttributes()`
 - `hasAttribute(attr)`
-- `getAtributeNames()`
+- `getAttributeNames()`
 - `getAttribute(attr)`
 
 ### Modify or delete HTML attributes
@@ -66,7 +66,7 @@ Manipulating CSS classes of an HTML tag
   - add
   - remove
   - toggle
-  - remplace
+  - replace
 
 ### [Styles in variables](/JavaScript/Document-Object-Model/style-variable/)
 
@@ -114,10 +114,10 @@ There are a number of methods to efficiently create different HTML elements or n
   - .insertAdjacentText(position, text)
 - Position
 
-  - beforebegin (previous brother)
-  - afterend (next brother)
-  - afterbegin (first son)
-  - beforeend (last son)
+  - `beforebegin` (previous brother)
+  - `afterend` (next brother)
+  - `afterbegin` (first son)
+  - `beforeend` (last son)
 
 ## [Event Handler](/JavaScript/Document-Object-Model/event-handler/)
 
@@ -189,7 +189,7 @@ const locationURL = {
 
 const historyObj = {
   all: history,
-  lenght: history.length,
+  length: history.length,
 };
 
 const navigatorObj = {

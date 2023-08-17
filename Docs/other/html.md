@@ -125,8 +125,8 @@ A form is known as a mechanism for sending information by the user, through simp
 
 ### [Interactive](/HTML/interactive.html)
 
-- dropdow
-- dilog window
+- dropdown
+- dialog window
 
 ### [Semantic](/HTML/semaintic.html)
 

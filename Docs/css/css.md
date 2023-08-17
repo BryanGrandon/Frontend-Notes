@@ -16,7 +16,7 @@
 - Adjacent sibling ( `+` )
 - Far sibling ( `~` )
 - Have both classes ( `.n.n` )
-- Atribute ( `[]` )
+- Attribute ( `[]` )
 
 ### [Pseudo-classes](/CSS/pseudo-classes.css)
 
@@ -45,7 +45,7 @@
 
 - font-family: `font`
 - font-size: `size`
-- font-weight: `bold` `dolder` `lighter` `normal` `100` `900`
+- font-weight: `bold` `bolder` `lighter` `normal` `100` `900`
 - font-style: `italic` `oblique` `normal`
 - text-align: `left` `right` `center` `justify`
 - text-decoration: `overline` `line-though` `underline` `none`
@@ -60,8 +60,8 @@
 | Unit | Name        |
 | ---- | ----------- |
 | `in` | inches      |
-| `cm` | centimetres |
-| `mm` | milimetres  |
+| `cm` | centimeters |
+| `mm` | millimeters |
 | `pt` | points      |
 | `pc` | picas       |
 | `px` | pixels      |
@@ -78,7 +78,7 @@
 | `vmax` | 1% of the viewport's larger dimension.    |
 | `%`    | Percentage relative to the parent element |
 
-## [Colours](/CSS/colours.css)
+## [Colors](/CSS/colors.css)
 
 - Keyword
 - Hexadecimal
@@ -140,7 +140,7 @@ Sticky positioning can be considered a hybrid of relative and fixed positioning.
 - flex-direction: `row` `row-reverse` `column` `column-reverse`
 - flex-wrap: `nowrap` `wrap` `wrap-reverse`
 - justify-content: `flex-start` `center` `flex-end` `space-between` `space-around` `space-evenly`
-- align-items: `flex-start` `center` `flex-end` `strech`
+- align-items: `flex-start` `center` `flex-end` `stretch`
 - gap: `size`
 
 ## Variables
