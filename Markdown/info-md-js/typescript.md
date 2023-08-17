@@ -44,7 +44,7 @@ In TypeScript we can use Type and Interface to describe the structure of objects
 - [Type of property](/TypeScript/interface/type-of-property.ts)
 - [Extends](/TypeScript/interface/extends.ts)
 
-## Functions
+## [Functions](/TypeScript/functions.ts)
 
 They're how you build up layers of abstraction, mimicking classes, information hiding, and modules.
 
