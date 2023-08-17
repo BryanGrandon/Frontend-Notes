@@ -76,20 +76,21 @@ Classes allow common object-oriented patterns to be expressed in a standard way,
 | `protected`     | It is similar to the private modifier, with the difference that it can access protected elements within derived classes. |
 | `readonly`      | read-only modifier                                                                                                       |
 
-## [Type assertion](/TypeScript/data-types/assertion.ts)
+## [Generic](/TypeScript/generic.ts)
 
-- as Type
-- < type >
-- as Const
+Generic types in TypeScript allow you to write objects, functions and classes that work with multiple data types, instead of being limited to a single data type.
+
+The type variable "T" can be used whenever a type annotation is needed.
+
+## Type assertion
+
+| Types    | Description                                                          |
+| -------- | -------------------------------------------------------------------- |
+| As Const | The value must be treated as a read-only value.                      |
+| As Type  | Allows us to specify the data type, regardless of its inferred type. |
 
 ## [Modules](/TypeScript/modules/)
 
 - tsconfig.json `"moduleResolution": "node"`
 - Export
 - Import
-
-## [Generics](/TypeScript/generics/generic.ts)
-
-Generic types in TypeScript allow you to write objects, functions and classes that work with multiple data types, instead of being limited to a single data type.
-
-- < T >
