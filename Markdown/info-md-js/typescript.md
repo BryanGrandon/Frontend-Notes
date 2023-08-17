@@ -89,8 +89,28 @@ The type variable "T" can be used whenever a type annotation is needed.
 | As Const | The value must be treated as a read-only value.                      |
 | As Type  | Allows us to specify the data type, regardless of its inferred type. |
 
-## [Modules](/TypeScript/modules/)
+## Access to external libraries
 
-- tsconfig.json `"moduleResolution": "node"`
-- Export
-- Import
+Modules provide a way to organize and classify code, allowing you to group related code
+together.
+
+- tsconfig.json: `"moduleResolution": "node"`
+
+### [Export and import of module components](/TypeScript/modules/)
+
+```ts
+// export element
+export function greet(user: string): string {
+  return `Hello ${user}`;
+}
+export const PI = 3.14;
+// OR -> export { greet, PI };
+```
+
+```ts
+// import { <component name> } from '<module name>'
+// import { <component name> as <new name> } from '<module name>'
+// import * as <variable name> from '<module name>'
+
+import { greet, PI } from "./export";
+```
