@@ -31,16 +31,14 @@ TypeScript is an open source language developed by Microsoft. It is a superset o
 
 TypeScript has additional code creation features not found in JavaScript:
 
+- Declaration of variable types
 - Interfaces
-- Namespaces
-- Generics
-- Abstract classes
-- Data modifiers
-- Optional values
-- Function overloading
-- Decorator elements
-- Utility types
-- Readonly keyword
+- Types
+- Functions
+- Class
+- Generic
+- Type assertion
+- Access to external libraries
 
 ## Framework and library
 
