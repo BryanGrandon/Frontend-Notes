@@ -1,31 +1,31 @@
 # FrontEnd
 
-## [HTML](/Markdown/html.md)
+## [HTML](/Docs/other/html.md)
 
 HTML stands for HyperText Markup Language. It is used on the frontend and gives the structure to the webpage which you can style using CSS and make interactive using JavaScript.
 
-## [CSS](/Markdown/info-md-css/css.md)
+## [CSS](/Docs/css/css.md)
 
 CSS or Cascading Style Sheets is the language used to style the frontend of any website. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
 
-- [Sass](/Markdown/info-md-css/sass.md)
+- [Sass](/Docs/css/sass.md)
 
 <!-- Framework CSS, CSS Architecture -->
 
-## [JavaScript](/Markdown/info-md-js/javascript.md)
+## [JavaScript](/Docs/js/javascript.md)
 
 An interpreted programming language used on the client side (front-end) to provide dynamic and interactive enhancements to web pages.
 
-### [Document Object Model ( DOM )](/Markdown/info-md-js/js-dom.md)
+### [Document Object Model ( DOM )](/Docs/js/js-dom.md)
 
 In Javascript, when we refer to the DOM we refer to this tree structure, through which we can access it and modify the HTML elements from Javascript, adding new tags, modifying or deleting others, changing their HTML attributes, adding classes, changing the text content, etc.
 
-### [Working with APIs](/Markdown/info-md-js/js-apis.md)
+### [Working with APIs](/Docs/js/js-apis.md)
 
 - Asynchronous JavaScript And XML (AJAX)
 - API-REST
 
-## [TypeScript](/Markdown/info-md-js/typescript.md)
+## [TypeScript](/Docs/other/typescript.md)
 
 TypeScript is an open source language developed by Microsoft. It is a superset of JavaScript. TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
 
@@ -42,13 +42,10 @@ TypeScript has additional code creation features not found in JavaScript:
 
 ## Framework and library
 
-### React ( library )
-
-### Angular ( Framework )
-
-### Vue ( Framework )
-
-### Svelte ( Framework )
+- React ( library )
+- Angular ( Framework )
+- Vue ( Framework )
+- Svelte ( Framework )
 
 ## Git
 
