@@ -1,23 +1,23 @@
-// ---- ---- Functions with Name ---- ---- //
+// -------- Functions with Name -------- //
 
 function addNumber_1(x: number, y: number): number {
   return x + y;
 }
 addNumber_1(1, 2);
 
-// ---- ---- Anonymous Functions ---- ---- //
+// -------- Anonymous Functions -------- //
 
 const addNumber_2 = function (x: number, y: number): number {
   return x + y;
 };
 addNumber_2(1, 2);
 
-// ---- ---- Arrow Functions ---- ---- //
+// -------- Arrow Functions -------- //
 
 const addNumber_3 = (x: number, y: number): number => x + y;
 addNumber_3(1, 2);
 
-/** ---- ---- Parameters ---- ---- //
+/** -------- Parameters -------- //
  *
  *  - Compulsory parameters: ( x: number, y:number )
  *
@@ -31,7 +31,7 @@ addNumber_3(1, 2);
  *
  */
 
-// ---- ---- Definition of type of function ---- ---- //
+// -------- Definition of type of function -------- //
 
 type calculator = (x: number, y: number) => number;
 

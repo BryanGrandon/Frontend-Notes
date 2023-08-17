@@ -1,4 +1,4 @@
-// ---- ---- Interface ---- ---- //
+// -------- Interface -------- //
 
 interface BookInterface {
   // Required
@@ -18,7 +18,7 @@ let isInterface: BookInterface = {
   id: 22,
 };
 
-// ---- ---- Type ---- ---- //
+// -------- Type -------- //
 
 type BookType = {
   // Required

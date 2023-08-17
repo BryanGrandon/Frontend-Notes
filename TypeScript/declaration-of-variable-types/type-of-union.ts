@@ -1,4 +1,4 @@
-// ---- ---- OR ---- ---- //
+// -------- OR -------- //
 
 let multiType: number | boolean;
 multiType = 20; //* Valid
@@ -7,7 +7,7 @@ multiType = true; //* Valid
 type testResult = "pass" | "fail" | "incomplete";
 let myResult: testResult;
 
-// ---- ---- AND ---- ---- //
+// -------- AND -------- //
 
 interface Employee {
   employeeID: number;

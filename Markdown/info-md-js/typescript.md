@@ -59,46 +59,9 @@ They're how you build up layers of abstraction, mimicking classes, information h
 - Parameters of REST
 - Parameters of deconstructed object
 
-## Type Compositing
+## [Class](/TypeScript/class.ts)
 
-### Unions
-
-```ts
-let unions: string | number | null;
-```
-
-## Enums
-
-```ts
-enum Roles {
-  User = 1,
-  Admin,
-  SuperAdmin,
-}
-```
-
-## [Type assertion](/TypeScript/data-types/assertion.ts)
-
-- as Type
-- < type >
-- as Const
-
-## [Function](/TypeScript/data-types/function.ts)
-
-```ts
-function getNumber(): number {
-  return Math.floor(Math.random() * 100);
-}
-```
-
-## [Interface](/TypeScript/data-types/interface.ts)
-
-- Is a definition of a code contract
-- Only exists at compile time
-- Are only used for type checking.
-- extends Interface
-
-## [Classes](/TypeScript/data-types/classes.ts)
+Classes allow common object-oriented patterns to be expressed in a standard way, making features such as inheritance more readable and interoperable.
 
 - They exist at compile time and during runtime.
 - We can initialize properties and implement methods
@@ -106,35 +69,18 @@ function getNumber(): number {
 
 ### Access control keywords
 
-- public ( default )
-- private
-- protected -> Inheritance
-- readonly
+| Access Modifier | Description                                                                                                              |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| `public`        | if you do not specify an access modifier, the default is public.                                                         |
+| `private`       | If you modify the member with the private keyword, it cannot be accessed from outside the containing class.              |
+| `protected`     | It is similar to the private modifier, with the difference that it can access protected elements within derived classes. |
+| `readonly`      | read-only modifier                                                                                                       |
 
-## Namespace
+## [Type assertion](/TypeScript/data-types/assertion.ts)
 
-```ts
-namespace Utility {
-  export namespace Taxes {
-    export function calculateIva(price: number): number {
-      return price * 0.21 + price;
-    }
-
-    export function calculatePenaltyIva(price: number): number {
-      return price * 0.3 + price;
-    }
-  }
-}
-```
-
-```ts
-/// <reference path="utility.ts" />
-
-let utils = Utility.Taxes;
-
-console.log(utils.calculateIva(100));
-console.log(utils.calculatePenaltyIva(200));
-```
+- as Type
+- < type >
+- as Const
 
 ## [Modules](/TypeScript/modules/)
 

@@ -1,4 +1,4 @@
-// ---- ---- Interface ---- ---- //
+// -------- Interface -------- //
 
 interface Book {
   title: string;
@@ -11,7 +11,7 @@ interface Book {
   author: string;
 }
 
-// ---- ---- Type ---- ---- //
+// -------- Type -------- //
 
 type Course = {
   title: string;
