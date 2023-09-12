@@ -14,11 +14,25 @@ HTML stands for HyperText Markup Language. It is used on the frontend and gives 
 - [Interactive](/HTML/interactive.html)
 - [Semantic](/HTML/semaintic.html)
 
-## [CSS](/Docs/css/css.md)
+## CSS
 
 CSS or Cascading Style Sheets is the language used to style the frontend of any website. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
 
-- [Sass](/Docs/css/sass.md)
+- [Basic Selector](/CSS/basic-selector.css)
+- [Advanced Selector](/CSS/advanced-selector.css)
+- [Pseudo Classes](/CSS/pseudo-classes.css)
+- [Pseudo Element](/CSS/pseudo-element.css)
+- [Fonts](/CSS/fonts.css)
+- [Lengths](/CSS/length.css)
+- [Colors](/CSS/colors.css)
+- [Box Model](/CSS/box-model.css)
+- [Position](/CSS/position.css)
+- [Background](/CSS/background.css)
+- [Display](/CSS/display.css)
+- [Flex](/CSS/display-flex.css)
+- [Variables](/CSS/variables.css)
+
+### [Sass](/Docs/css/sass.md)
 
 <!-- Framework CSS, CSS Architecture -->
 

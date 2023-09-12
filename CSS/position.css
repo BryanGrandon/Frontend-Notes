@@ -1,0 +1,29 @@
+/* The element is positioned according to the normal document flow. */
+
+.position .static {
+    position: static;   
+}
+
+/* The element is positioned according to the normal flow of the document, and then offset relative to itself, based on the values of top, right, bottom, and left. The offset does not affect the position of any other element. */
+
+.position .relative {
+    position: relative;   
+}
+
+/* An element with position: absolute is removed from the normal document flow. It is automatically positioned at the starting point of its parent element. */
+
+.position .absolute {
+    position: absolute;   
+   }
+
+/* Fixed positioning causes an element to be positioned relative to the viewport. You tell it where to position the element, and it stays there while the user scrolls. */
+
+.position .fixed {
+    position: fixed;   
+   }
+
+/* Sticky positioning can be considered a hybrid of relative and fixed positioning. */
+
+.position .sticky {
+ position: sticky;   
+}

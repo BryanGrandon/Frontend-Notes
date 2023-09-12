@@ -1,0 +1,23 @@
+/* Inline */
+
+.display .inline {
+    display: inline;
+}
+
+/* Block */
+
+ .display .block {
+    display: block;
+ }
+
+ /* Inline-Block */
+
+ .display .inline-block {
+    display: inline-block;
+ }
+
+ /* None */
+ 
+ .display .none {
+    display: none;
+ }

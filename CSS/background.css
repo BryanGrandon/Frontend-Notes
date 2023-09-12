@@ -25,13 +25,13 @@
   background-position-y: 10px;
 }
 
-/* Background image behaviour */
+/* Background image behavior */
 
 .background .attachment {
   background-attachment: scroll;
 }
 
-/* Background image relenium */
+/* Background image relented */
 
 .background .clip {
   background-clip: content-box;

@@ -1,0 +1,31 @@
+/* Absolute length units */
+
+.length .inches {
+    size: 10in;
+}
+.length .centimeters {
+    size: 10cm;
+}
+.length .millimeters{
+    size: 100mm;
+}
+.length .points{
+    size: 100pt;
+}
+.length .picas{
+    size: 100pc;
+}
+.length .pixels{
+    size: 100px;
+}
+
+/* Relative length units */
+/* 
+    - `em` -> Font-size of the element. 
+    - `rem` -> Font size of the root element. 
+    - `vw` -> 1% of the viewport's width.
+    - `vh` -> 1% of the viewport's height. 
+    - `vmin` -> 1% of the viewport's smaller dimension.
+    - `vmax` -> 1% of the viewport's larger dimension. 
+    - `%` -> Percentage relative to the parent element.
+*/
