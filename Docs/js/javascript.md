@@ -181,6 +181,13 @@ It enforces stricter parsing and error handling on the code at runtime. It also 
 - [Import](/JavaScript/Lenguage/modules/import.js)
 - [In HTML](/JavaScript/Lenguage/modules/index.html)
 
+## Other
+
+- [destructuration](/JavaScript/Lenguage/other/destructuration.js)
+- [prototype](/JavaScript/Lenguage/other/object-prototype.js)
+- [Proxies](/JavaScript/Lenguage/other/proxies.js)
+- [Regular Expressions](/JavaScript/Lenguage/other/regular-expressions.js)
+
 ## Dev Tools
 
 | DevTools      | Description                                                     |
