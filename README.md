@@ -32,10 +32,6 @@ CSS or Cascading Style Sheets is the language used to style the frontend of any 
 - [Flex](/CSS/display-flex.css)
 - [Variables](/CSS/variables.css)
 
-### [Sass](/Docs/css/sass.md)
-
-<!-- Framework CSS, CSS Architecture -->
-
 ## [JavaScript](/Docs/js/javascript.md)
 
 An interpreted programming language used on the client side (front-end) to provide dynamic and interactive enhancements to web pages.
@@ -49,20 +45,21 @@ In Javascript, when we refer to the DOM we refer to this tree structure, through
 - Asynchronous JavaScript And XML (AJAX)
 - API-REST
 
+<!-- Framework, Architecture, Etc... -->
+
+## Sass
+
+SASS is a CSS preprocessor compatible with all versions of CSS.
+
+- [Variables](/SCSS/variables.scss)
+- [Nesting](/SCSS/nesting.scss)
+- [Mixins](/SCSS/mixins.scss)
+- [Operators](/SCSS/operators.scss)
+- [Modules](/SCSS/modules/)
+
 ## [TypeScript](/Docs/other/typescript.md)
 
 TypeScript is an open source language developed by Microsoft. It is a superset of JavaScript. TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
-
-TypeScript has additional code creation features not found in JavaScript:
-
-- Declaration of variable types
-- Interfaces
-- Types
-- Functions
-- Class
-- Generic
-- Type assertion
-- Access to external libraries
 
 ## [React](/Docs/other/react.md)
 

@@ -1,0 +1,6 @@
+@mixin customized-box($fund: withe) {
+  width: 300px;
+  height: 100px;
+  background-color: $fund;
+  border: 1px solid #666;
+}

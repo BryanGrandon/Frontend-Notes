@@ -1,0 +1,5 @@
+@use "_other";
+
+div {
+  @include customized-box($fund: #ccc);
+}

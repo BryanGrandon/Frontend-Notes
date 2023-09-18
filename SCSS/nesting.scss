@@ -1,0 +1,22 @@
+// ---- HTML ---- //
+
+// <section class="box">
+//   <h2>Title</h2>
+//   <p>Relate text</p>
+// </section>
+
+// ---- SCSS ---- //
+
+.box {
+  padding: 10px;
+  background-color: #ccc;
+
+  h2 {
+    color: red;
+    font-family: Arial;
+  }
+  p {
+    font-family: sans-serif;
+    text-decoration: underline;
+  }
+}

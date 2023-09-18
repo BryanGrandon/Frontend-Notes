@@ -2,6 +2,17 @@
 
 The main feature of TypeScript is its type system. It can identify the data type of a variable or parameter using a type hint which describes the shape of an object, which provides better documentation and allows TypeScript to validate that the code works correctly.
 
+TypeScript has additional code creation features not found in JavaScript:
+
+- Declaration of variable types
+- Interfaces
+- Types
+- Functions
+- Class
+- Generic
+- Type assertion
+- Access to external libraries
+
 ## Installation of typescript
 
 1. Download and install Node.js.
