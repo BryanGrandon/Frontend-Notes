@@ -1,7 +1,5 @@
 # TypeScript Notes
 
-The main feature of TypeScript is its type system. It can identify the data type of a variable or parameter using a type hint which describes the shape of an object, which provides better documentation and allows TypeScript to validate that the code works correctly.
-
 TypeScript has additional code creation features not found in JavaScript:
 
 - Declaration of variable types
@@ -12,18 +10,6 @@ TypeScript has additional code creation features not found in JavaScript:
 - Generic
 - Type assertion
 - Access to external libraries
-
-## Installation of typescript
-
-1. Download and install Node.js.
-2. Test your installation in the terminal by typing `npm version`.
-3. Install typescript by typing `npm install -g typescript` in the terminal.
-4. Type `tsc` to confirm that TypeScript is installed.
-
-## Running TypeScript
-
-- Type `tsc --init`
-- Modify tsconfig.json `target` `rootDir` `outDir`
 
 ## Declaration of variable types
 

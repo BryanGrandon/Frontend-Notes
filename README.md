@@ -57,9 +57,13 @@ SASS is a CSS preprocessor compatible with all versions of CSS.
 - [Operators](/SCSS/operators.scss)
 - [Modules](/SCSS/modules/)
 
-## [TypeScript](/Docs/other/typescript.md)
+## [TypeScript](/Docs/ts/typescript.md)
 
-TypeScript is an open source language developed by Microsoft. It is a superset of JavaScript. TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
+TypeScript is an open source language developed by Microsoft.
+
+It is a superset of JavaScript.
+
+TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
 
 ## [React](/Docs/other/react.md)
 
