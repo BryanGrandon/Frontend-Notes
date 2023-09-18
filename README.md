@@ -64,12 +64,9 @@ TypeScript has additional code creation features not found in JavaScript:
 - Type assertion
 - Access to external libraries
 
-## Framework and library
+## [React](/Docs/other/react.md)
 
-- React ( library )
-- Angular ( Framework )
-- Vue ( Framework )
-- Svelte ( Framework )
+React is an open source JavaScript **library** for creating user interfaces.
 
 ## Git
 
