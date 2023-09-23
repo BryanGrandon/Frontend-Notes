@@ -65,9 +65,11 @@ It is a superset of JavaScript.
 
 TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
 
-## [React](/Docs/other/react.md)
+## React
 
 React is an open source JavaScript **library** for creating user interfaces.
+
+- [React without dependency](/React/react-without-depencency.js)
 
 ## Git
 
