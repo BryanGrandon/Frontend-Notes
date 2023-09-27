@@ -71,6 +71,7 @@ React is an open source JavaScript **library** for creating user interfaces.
 
 - [Native](/Documents/react-docs/native.md)
 - [Web application packager](/Documents/react-docs/web-application-packager.md)
+- [Components](/Documents/react-docs/components.md)
 
 ## Git
 
