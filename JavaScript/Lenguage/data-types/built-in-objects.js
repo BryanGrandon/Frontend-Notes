@@ -1,4 +1,4 @@
-// ---- ---- Console Object ---- ---- //
+// -------- Console Object -------- //
 
 const consoleObject = [
   ".log",
@@ -16,7 +16,7 @@ const consoleObject = [
   ".timeEnd",
 ];
 
-// ---- ---- Date Object ---- ---- //
+// -------- Date Object -------- //
 
 let now = new Date();
 let date = new Date(2000, 11, 19);
@@ -39,7 +39,7 @@ now.toLocaleString(); // '9/3/2023, 11:42:32'
 now.toLocaleDateString(); // '9/3/2023'
 now.toLocaleTimeString(); // '11:44:35'
 
-// ---- ---- Math Object ---- ---- //
+// -------- Math Object -------- //
 
 const methods = {
   floor: Math.floor(3.6),
@@ -63,3 +63,30 @@ const properties = {
   THE_BASE_2_LOGARITHM_EULER: Math.LOG2E,
   THE_BASE_10_LOGARITHM_EULER: Math.LOG10E,
 };
+
+// -------- String Methods -------- //
+
+let string = "Hello World";
+
+const accessing = {
+  start: string[0],
+  end: string.at(-1),
+};
+console.log(accessing);
+
+const search = {
+  exists: string.indexOf("Hello"), // not Exists = -1
+  includes: string.includes("lo W"),
+  startsWith: string.startsWith("Hel"),
+  endsWith: string.endsWith("ld"),
+};
+console.log(search);
+
+const change = (text) => {
+  const lowerCase = text.toLowerCase();
+  const upperCase = text.toUpperCase();
+
+  let changeText = `toLowerCase:[${lowerCase}], toUpperCase:[${upperCase}]`;
+  console.log(changeText);
+};
+change("TeXt");

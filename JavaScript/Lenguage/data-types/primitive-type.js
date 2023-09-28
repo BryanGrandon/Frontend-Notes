@@ -1,4 +1,16 @@
-// ---- ---- Number ---- ---- //
+// -------- String -------- //
+
+const string = "Way of writing string";
+const concatenation = "Hello" + "World";
+const backtick = `String Content ${string}`;
+
+let dynamicHtmlGeneration = `<p>Element HTML in JS</p> `;
+const specialCharacters = {
+  newLine: ["\n", "\r\n"],
+  tabulation: "\t",
+};
+
+// -------- Number -------- //
 
 const number = 25;
 
@@ -13,36 +25,29 @@ const wayOfWritingNumbers = {
 const nan = "Operations with what is not a number";
 const isInfinity = [Infinity, 1e500];
 
-// ---- ---- String ---- ---- //
+// -------- BigInt -------- //
 
-const string = "Way of writing string";
-const concatenation = "Hello" + "World";
-const backtick = `String Content ${string}`;
+const bigint = 14n;
+const previousMaxSafe = BigInt(Number.MAX_SAFE_INTEGER);
 
-let dynamicHtmlGeneration = `<p>Element HTML in JS</p> `;
-const specialCharacters = {
-  newLine: ["\n", "\r\n"],
-  tabulation: "\t",
-};
-
-// ---- ---- Boolean ---- ---- //
+// -------- Boolean -------- //
 
 const boolean = [true, false];
 // Boolean values are also the result of comparisons
 let value = 5 > 1;
 
-// ---- ---- Null ---- ---- //
+// -------- Null -------- //
 
 // Reference to a non-existent object
 let nothing = null;
 let empty = null;
 
-// ---- ---- Undefined ---- ---- //
+// -------- Undefined -------- //
 
 let unassignedValue;
 let undefinedValue = undefined;
 
-// ---- ---- Symbol ---- ---- //
+// -------- Symbol -------- //
 
 const symbol = [Symbol("id"), Symbol("id")];
 let isFalse = symbol[0] === symbol[1];
