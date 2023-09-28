@@ -1,20 +1,19 @@
 # Data Structures
 
+A Data structure is a format to organize, manage and store data in a way that allows efficient access and modification. JavaScript has primitive (built-in) and non-primitive (not built-in) data structures.
+
 ## [Array](/JavaScript/Lenguage/data-structures/array.js)
 
 The arrays it stores multiple values and elements in one variable.
 
-- [Array Methods](/JavaScript/Lenguage/data-structures/array-methods.js)
+## [Keyed Collection](/JavaScript/Lenguage/data-structures/keyed-collection.js)
 
-## Keyed Collection
+Keyed collections are data collections that are ordered by key not index. They are associative in nature. Map and set objects are keyed collections and are iterable in the order of insertion.
 
-[Map](/JavaScript/Lenguage/data-structures/map.js)
-
-Maps are used to store a collection of elements defined by a key and value.
-
-[Set](/JavaScript/Lenguage/data-structures/set.js)
-
-Sets allow us to store collections of information, specifically values that will not be repeated.
+|     |                                                                                                   |
+| --- | ------------------------------------------------------------------------------------------------- |
+| Map | Maps are used to store a collection of elements defined by a key and value.                       |
+| Set | Sets allow us to store collections of information, specifically values that will not be repeated. |
 
 ## [JavaScript Object Notion ( JSON )](/JavaScript/Lenguage/data-structures/data.json)
 
