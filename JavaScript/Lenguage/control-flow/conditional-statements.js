@@ -1,4 +1,4 @@
-// ---- ---- IF, ELSE IF, ELSE ---- ---- //
+// -------- IF, ELSE IF, ELSE -------- //
 
 let value = 5;
 
@@ -22,7 +22,7 @@ else {
   console.log("Last option");
 }
 
-// ---- ---- Switch ----- ---- //
+// -------- Switch --------- //
 
 let option = Math.round(Math.random() * 3);
 console.log(option);

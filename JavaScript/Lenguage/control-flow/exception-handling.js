@@ -1,4 +1,4 @@
-// ---- ---- try, catch, finally ---- ---- //
+// -------- try, catch, finally -------- //
 
 try {
   // code to evaluate
@@ -14,7 +14,7 @@ try {
   console.log(`finished code test`);
 }
 
-// ---- ---- throw ---- ---- //
+// -------- throw -------- //
 
 function number(number) {
   if (isNaN(number)) throw new Error("Parameter is not a number!");
