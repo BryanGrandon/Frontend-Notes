@@ -1,4 +1,4 @@
-// ---- ---- Closures ---- ---- //
+// -------- Closures -------- //
 
 function init() {
   let name = "Bryan";
@@ -9,7 +9,7 @@ function displayName(name) {
 }
 init();
 
-// ---- ---- Lexical Scoping ---- ---- //
+// -------- Lexical Scoping -------- //
 
 function lexical() {
   let name = "Andres";
@@ -21,7 +21,7 @@ function lexical() {
 }
 lexical();
 
-// ---- ---- Recursion ---- ---- //
+// -------- Recursion -------- //
 
 let company = {
   sales: [

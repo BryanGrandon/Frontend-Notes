@@ -1,4 +1,4 @@
-// ---- ---- Function ---- ---- //
+// -------- Function -------- //
 
 function selectName(parameters) {
   console.log(parameters);
@@ -17,7 +17,7 @@ let result = addition(6, 9);
 const copy = addition;
 let resultCopy = copy(2, 4);
 
-// ---- ---- Function expressions ---- ---- //
+// -------- Function expressions -------- //
 
 const anonymousFunction = function (coffee = true) {
   if (coffee) console.log("wants a coffee");
@@ -25,7 +25,7 @@ const anonymousFunction = function (coffee = true) {
 };
 anonymousFunction();
 
-// ---- ---- ArrowFunction ---- ---- //
+// -------- ArrowFunction -------- //
 
 const arrowFunction = (coffee = true) => {
   if (coffee) console.log("wants a coffee");
@@ -33,7 +33,7 @@ const arrowFunction = (coffee = true) => {
 };
 arrowFunction();
 
-// ---- ---- Immediately Invoked Function Expression ( IIFE ) ---- ---- //
+// -------- Immediately Invoked Function Expression ( IIFE ) -------- //
 
 (function () {
   console.log(`Hello`);
@@ -46,7 +46,7 @@ let user = "andres";
   console.log(`Hello ${x}`);
 })(user);
 
-// ---- ---- Arguments ---- ---- //
+// -------- Arguments -------- //
 
 function argument(a, b, c) {
   console.log(arguments[1]);
