@@ -6,17 +6,17 @@ function sayHi(phrase = undefined) {
 let user = { name: "Bryan" };
 let admin = { name: "Admin" };
 
-// ---- ---- Call ---- ---- //
+// -------- Call -------- //
 
 sayHi.call(user);
 sayHi.call(user, "Call");
 
-// ---- ---- apply ---- ---- //
+// -------- apply -------- //
 
 sayHi.apply(admin);
 sayHi.apply(admin, ["Apply"]);
 
-// ---- ---- bind ---- ---- //
+// -------- bind -------- //
 
 let object = {
   firstName: "Bryan",
