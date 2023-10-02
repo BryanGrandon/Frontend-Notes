@@ -5,7 +5,7 @@
 
 ## Vite
 
-Vite is defined as a frontend tool that will help you create your projects in an agnostic way (without tying you to any specific framework) and that its development and final construction is as simple and comfortable as possible.
+Vite is a build tool that aims to provide a faster and leaner development experience for modern web projects.
 
 ```bash
 npm create vite@latest
@@ -18,8 +18,6 @@ npm run dev
 ```
 
 ## structuring a React project
-
-What I initialize vite
 
 | Files          | Function                                                                  |
 | -------------- | ------------------------------------------------------------------------- |

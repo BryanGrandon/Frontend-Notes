@@ -86,8 +86,7 @@ TypeScript is a strongly typed programming language that builds on JavaScript, g
 
 React is an open source JavaScript **library** for creating user interfaces.
 
-- [Native](/Documents/react-docs/native.md)
-- [Web application packager](/Documents/react-docs/web-application-packager.md)
+- [CLI Tools](/Documents/react-docs/cli-tools.md)
 - [Components](/Documents/react-docs/components.md)
 
 ## Git
