@@ -5,29 +5,29 @@ const $img = d.querySelector(".img");
 
 // ---- Get HTML attributes ----
 
-// Indicates whether the element has HTML attributes.
+// hasAttributes()
 
 const $hasAttributes = $google.hasAttributes();
 console.log(`Has attributes = ${$hasAttributes}`);
 
-// Indicates whether the element has the HTML attr attribute.
+// hasAttribute(attr)
 
 const $hasAttribute = $google.hasAttribute("href");
 console.log(`Has attribute("href") = ${$hasAttribute}`);
 
-// Returns an array with the attributes of the element.
+//getAttributeNames()
 
 const $getAttributeNames = $google.getAttributeNames();
 console.log(`getAttributeNames = ${$getAttributeNames}`);
 
-// Returns the value of the attr attribute of the element or null if it does not exist.
+// getAttribute(attr)
 
 const $getAttribute = $google.getAttribute("href");
 console.log(`getAttribute("href") = ${$getAttribute}`);
 
 // ---- Modify or delete HTML attributes ----
 
-// Adds or changes the attr attribute to the value value of the HTML element.
+// setAttribute(attr, value)
 
 $img.setAttribute(
   "src",
@@ -35,10 +35,10 @@ $img.setAttribute(
 );
 $google.setAttribute("href", "https://pixabay.com/");
 
-// Adds attr attribute if it does not exist, if it does exist, removes it.
+// toggleAttribute(attr, forge)
 
 $img.toggleAttribute("alt", "Woods");
 
-// Removes the attr attribute from the HTML element.
+// removeAttribute(attr)
 
 $img.removeAttribute("alt");
