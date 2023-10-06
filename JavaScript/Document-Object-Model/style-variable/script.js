@@ -1,16 +1,15 @@
 const d = document;
-
 const $card1 = d.querySelector(".card1");
 const $card2 = d.querySelector(".card2");
 
-// Set properties CSS
+// setProperty(property css, value)
 
 $card1.style.setProperty("border", "1px solid #000");
-$card1.style.setProperty("background-color", "mediumpurple");
+$card1.style.setProperty("background-color", "mediumPurple");
 $card1.style.setProperty("text-align", "center");
 $card1.style.setProperty("color", "#fff");
 
-// Element Value
+// getComputedStyle(element) and getPropertyValue(property css)
 
 let elementValue = getComputedStyle($card1).getPropertyValue("color");
 console.log(`Element Value of $card1 color: ${elementValue} `);
