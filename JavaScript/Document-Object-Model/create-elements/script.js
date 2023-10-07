@@ -2,7 +2,7 @@
 const d = document;
 const $containerCards = document.querySelector(".container-cards");
 
-// ---- Form 1
+// ---- Shape 1 ---- //
 
 // Create and designate each required element.
 const $figure1 = d.createElement("figure");
@@ -24,7 +24,7 @@ $figcaption1.appendChild($figcaptionText1);
 $figure1.appendChild($figcaption1);
 $containerCards.appendChild($figure1);
 
-// ---- Form 2
+// ---- Shape 2 ---- //
 
 const $figure2 = d.createElement("figure");
 
@@ -37,11 +37,11 @@ $figure2.innerHTML = `
 $figure2.classList.add("card");
 $containerCards.appendChild($figure2);
 
-// -------- For multiple elements
+// -------- For multiple elements -------- //
 
 const $container = d.querySelector(".container");
 
-// ---- Form 1
+// ---- Shape 1 ---- //
 
 const seasons = ["Spring", "Summer", "Autumn", "Winter"];
 
@@ -59,7 +59,7 @@ seasons.forEach((e) => {
   $ul1.appendChild($li);
 });
 
-// ---- Form 2
+// ---- Shape 2 ---- //
 
 const continents = [
   "North America",
@@ -83,7 +83,7 @@ continents.forEach((e) => {
   $ul2.innerHTML += `<li>${e}</li>`;
 });
 
-// ---- Form 3
+// ---- Shape 3 ---- //
 
 const months = [
   "January",
