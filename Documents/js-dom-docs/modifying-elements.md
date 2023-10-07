@@ -1,12 +1,18 @@
-# [Modifying Elements](/JavaScript/Document-Object-Model/modifying-elements/)
+# Modifying Elements
 
-- .insertAdjacent:
-  - .insertAdjacentElement(position, element)
-  - .insertAdjacentHTML(position, html)
-  - .insertAdjacentText(position, text)
-- Position
+- [JS](/JavaScript/Document-Object-Model/modifying-elements/script.js)
+- [HTML](/JavaScript/Document-Object-Model/modifying-elements/index.html)
+- [CSS](/JavaScript/Document-Object-Model/modifying-elements/style.css)
 
-  - `beforebegin` (previous brother)
-  - `afterend` (next brother)
-  - `afterbegin` (first son)
-  - `beforeend` (last son)
+### `.insertAdjacent`
+
+- .insertAdjacentElement( position, element )
+- .insertAdjacentHTML( position, html )
+- .insertAdjacentText( position, text )
+
+| Position      | Where it is added |
+| ------------- | ----------------- |
+| `beforebegin` | Previous brother. |
+| `afterend`    | Next brother.     |
+| `afterbegin`  | First son.        |
+| `beforeend`   | Last son.         |

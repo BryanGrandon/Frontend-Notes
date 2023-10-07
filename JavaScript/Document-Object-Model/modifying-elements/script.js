@@ -3,12 +3,12 @@
 const $containerCards = document.querySelector(".container-cards");
 const $newCard = document.createElement("figure");
 
-let $contenCard = `
+let $contentCard = `
     <img src="https://cdn.pixabay.com/photo/2013/04/11/19/46/building-102840_960_720.jpg" alt="Arquitectura">
     <figcaption></figcaption>
 `;
 
-$newCard.insertAdjacentHTML("afterbegin", $contenCard);
+$newCard.insertAdjacentHTML("afterbegin", $contentCard);
 $containerCards.insertAdjacentElement("beforeend", $newCard);
 $newCard
   .querySelector("figcaption")
@@ -28,7 +28,7 @@ setTimeout(() => {
   $containerCards.append($newCard);
 }, 4000);
 
-// previus brother
+// previous brother
 setTimeout(() => {
   $containerCards.before($newCard);
 }, 6000);
