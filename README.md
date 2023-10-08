@@ -1,4 +1,10 @@
-# FrontEnd
+# Frontend Learning Path
+
+## [Internet]()
+
+The Internet is a global network of computers connected to each other which communicate through a standardized set of protocols.
+
+A web browser is a software application that enables a user to access and display web pages or other online content through its graphical user interface.
 
 ## [HTML](/Documents/roadmap-docs/html-roadmap.md)
 
@@ -8,15 +14,15 @@ HTML stands for HyperText Markup Language. It is used on the frontend and gives 
 
 CSS or Cascading Style Sheets is the language used to style the frontend of any website. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
 
-## [JavaScript](/Documents/roadmap-docs/js-roadmap.md)
+## [JavaScript](/Documents/roadmap-docs/javascript-roadmap.md)
 
 An interpreted programming language used on the client side (front-end) to provide dynamic and interactive enhancements to web pages.
 
-### [Document Object Model](/Documents/roadmap-docs/js-dom-roadmap.md)
+### Document Object Model
 
 In Javascript, when we refer to the DOM we refer to this tree structure, through which we can access it and modify the HTML elements from Javascript, adding new tags, modifying or deleting others, changing their HTML attributes, adding classes, changing the text content, etc.
 
-### [Working with APIs](/Documents/roadmap-docs/js-apis-roadmap.md)
+### Working with APIs
 
 - Asynchronous JavaScript And XML (AJAX)
 - API-REST
