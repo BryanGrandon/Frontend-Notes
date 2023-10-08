@@ -39,12 +39,9 @@ It is a superset of JavaScript.
 
 TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
 
-## React
+## [React](/Documents/roadmap-docs/react-roadmap.md)
 
 React is an open source JavaScript **library** for creating user interfaces.
-
-- [CLI Tools](/Documents/react-docs/cli-tools.md)
-- [Components](/Documents/react-docs/components.md)
 
 ## Git
 
