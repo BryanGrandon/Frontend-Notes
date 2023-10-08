@@ -1,18 +1,8 @@
 # FrontEnd
 
-## HTML
+## [HTML](/Documents/roadmap-docs/html-roadmap.md)
 
 HTML stands for HyperText Markup Language. It is used on the frontend and gives the structure to the webpage which you can style using CSS and make interactive using JavaScript.
-
-- [Structure Basic](/HTML/document.html)
-- [Metadata](/HTML/metadata.html)
-- [Group](/HTML/group.html)
-- [Text](/HTML/text.html)
-- [Multimedia](/HTML/multimedia.html)
-- [Table](/HTML/table.html)
-- [Form](/HTML/form.html)
-- [Interactive](/HTML/interactive.html)
-- [Semantic](/HTML/semaintic.html)
 
 ## CSS
 
