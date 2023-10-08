@@ -27,7 +27,33 @@ In Javascript, when we refer to the DOM we refer to this tree structure, through
 - Asynchronous JavaScript And XML (AJAX)
 - API-REST
 
-## Sass
+## [Version Control Systems]
+
+Version control systems allow you to track changes to your codebase/files over time. They allow you to go back to some previous version of the codebase without any issues. Also, they help in collaborating with people working on the same code.
+
+### Git
+
+Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+
+### Repo Hosting Services
+
+There are different repository hosting services, the most famous being GitHub, GitLab and BitBuck.
+
+## [Package Managers]
+
+## [Framework]
+
+### [React](/Documents/roadmap-docs/react-roadmap.md)
+
+React is an open source JavaScript **library** for creating user interfaces.
+
+## [Writing CSS]
+
+## [CSS Architecture]
+
+## [CSS Preprocessor]
+
+### Sass
 
 SASS is a CSS preprocessor compatible with all versions of CSS.
 
@@ -37,7 +63,19 @@ SASS is a CSS preprocessor compatible with all versions of CSS.
 - [Operators](/SCSS/operators.scss)
 - [Modules](/SCSS/modules/)
 
-## [TypeScript](/Docs/ts/typescript.md)
+## [Build Tools]
+
+## [Testing your Apps]
+
+## [Authentication Strategies]
+
+## [Web Security Basics]
+
+## [Web Components]
+
+## [Type Checkers]
+
+### [TypeScript](/Docs/ts/typescript.md)
 
 TypeScript is an open source language developed by Microsoft.
 
@@ -45,14 +83,16 @@ It is a superset of JavaScript.
 
 TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
 
-## [React](/Documents/roadmap-docs/react-roadmap.md)
+## [Server Side Rendering ( SSR )]
 
-React is an open source JavaScript **library** for creating user interfaces.
+## [GraphQL]
 
-## Git
+## [Static Site Generators]
 
-Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+## [Progressive Web Apps]
 
-### Repo Hosting Services
+## [Mobile Applications]
 
-There are different repository hosting services, the most famous being GitHub, GitLab and BitBuck.
+## [Desktop Applications]
+
+## [Bonus Content]
