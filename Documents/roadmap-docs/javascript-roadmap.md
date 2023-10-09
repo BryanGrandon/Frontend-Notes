@@ -19,6 +19,8 @@
 
 ## DOM
 
+In Javascript, when we refer to the DOM we refer to this tree structure, through which we can access it and modify the HTML elements from Javascript, adding new tags, modifying or deleting others, changing their HTML attributes, adding classes, changing the text content, etc.
+
 - [The Subject Document](/Documents/javascript/dom/the-subject-document.md)
 - [Select DOM Elements](/Documents/javascript/dom/select-dom-elements.md)
 - [Manage DOM Attributes](/Documents/javascript/dom/manage-dom-attributes.md)
@@ -31,6 +33,9 @@
 - [Browser Object Model](/Documents/javascript/dom/browser-object-model.md)
 
 ## APIS
+
+- Asynchronous JavaScript And XML (AJAX)
+- API-REST
 
 ### Asynchronous JavaScript And XML (AJAX)
 

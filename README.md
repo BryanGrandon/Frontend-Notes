@@ -16,14 +16,8 @@ CSS or Cascading Style Sheets is the language used to style the frontend of any 
 
 An interpreted programming language used on the client side (front-end) to provide dynamic and interactive enhancements to web pages.
 
-### Document Object Model
-
-In Javascript, when we refer to the DOM we refer to this tree structure, through which we can access it and modify the HTML elements from Javascript, adding new tags, modifying or deleting others, changing their HTML attributes, adding classes, changing the text content, etc.
-
-### Working with APIs
-
-- Asynchronous JavaScript And XML (AJAX)
-- API-REST
+- Document Object Model
+- Working with APIs
 
 ## [Version Control Systems]
 
