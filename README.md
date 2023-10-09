@@ -44,7 +44,7 @@ Package managers allow you to manage the dependencies ( external code written by
 
 Web frameworks are designed to write web applications. Frameworks are collections of libraries that aid in the development of a software product or website.
 
-- React
+- React ( _library_ )
 - Vue.js
 - Angular
 - Svelte
