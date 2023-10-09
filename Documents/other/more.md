@@ -26,10 +26,6 @@ Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allo
 
 Open Web Application Security Project is an online community that produces freely-available articles, methodologies, documentation, tools, and technologies in the field of web application security.
 
-## Package Managers ( npm )
-
-npm is a package manager for the JavaScript programming language maintained by npm, Inc. npm is the default package manager for the JavaScript runtime environment Node.js.
-
 ### Alternative Option
 
 - [yarn](https://classic.yarnpkg.com/en/docs/getting-started)

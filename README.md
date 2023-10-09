@@ -26,7 +26,13 @@ Version control systems allow you to track changes to your codebase/files over t
 - Git
 - Repo Hosting Services
 
-## [Package Managers]
+## [Package Managers](/Documents/roadmap-docs/package-managers-roadmap.md)
+
+Package managers allow you to manage the dependencies ( external code written by you or someone else ) that your project needs to work correctly.
+
+- npm
+- yarn
+- pnpm
 
 ## [Framework]
 
