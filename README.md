@@ -1,10 +1,8 @@
 # Frontend Learning Path
 
-## [Internet]()
+## [Internet](/Documents/roadmap-docs/internet-roadmap.md)
 
 The Internet is a global network of computers connected to each other which communicate through a standardized set of protocols.
-
-A web browser is a software application that enables a user to access and display web pages or other online content through its graphical user interface.
 
 ## [HTML](/Documents/roadmap-docs/html-roadmap.md)
 

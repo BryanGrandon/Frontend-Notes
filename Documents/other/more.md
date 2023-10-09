@@ -1,30 +1,5 @@
 # FrontEnd Notes
 
-## Internet
-
-The Internet is a global network of computers connected to each other which communicate through a standardized set of protocols.
-
-A web browser is a software application that enables a user to access and display web pages or other online content through its graphical user interface.
-
-### What is HTTP?
-
-HTTP stands for Hypertext Transfer Protocol and it's the foundation of communication over the World Wide Web . It's an application layer protocol that defines how clients and servers communicate with each other.
-
-### DNS
-
-Domain Name System, is a hierarchical and distributed naming system for computers , services, and other resources on the Internet.
-
-### Domain Name
-
-A domain name is a unique name that identifies a website on the internet.
-
-The domain name system (DNS) translates domain names into IP addresses, which are used by computers to communicate over the internet.
-
-### Hosting
-
-Web hosting is a service that allows individuals and businesses to make their websites accessible on the internet.
-When a website is created, its files need to be stored on a server so that they can be accessed by visitors to the site.
-
 ## Version Control Systems
 
 Version control systems allow you to track changes to your codebase/files over time. They allow you to go back to some previous version of the codebase without any issues. Also, they help in collaborating with people working on the same code.
