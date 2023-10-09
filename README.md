@@ -34,11 +34,15 @@ Package managers allow you to manage the dependencies ( external code written by
 - yarn
 - pnpm
 
-## [Framework]
+## [Framework](/Documents/roadmap-docs/framework-roadmap.md)
 
-### [React](/Documents/roadmap-docs/react-roadmap.md)
+Web frameworks are designed to write web applications. Frameworks are collections of libraries that aid in the development of a software product or website.
 
-React is an open source JavaScript **library** for creating user interfaces.
+- React
+- Vue.js
+- Angular
+- Svelte
+- SolidJS
 
 ## [Writing CSS]
 

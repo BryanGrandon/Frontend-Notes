@@ -26,11 +26,6 @@ Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allo
 
 Open Web Application Security Project is an online community that produces freely-available articles, methodologies, documentation, tools, and technologies in the field of web application security.
 
-### Alternative Option
-
-- [yarn](https://classic.yarnpkg.com/en/docs/getting-started)
-- [pnpm](https://pnpm.io/)
-
 ## CSS Architecture ( BEM )
 
 The Block, Element, Modifier methodology (commonly referred to as BEM) is a popular naming convention for classes in HTML and CSS.
