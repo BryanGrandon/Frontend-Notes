@@ -4,6 +4,12 @@
 
 The Internet is a global network of computers connected to each other which communicate through a standardized set of protocols.
 
+- HTTP
+- Domain Name
+- Hosting
+- DNS
+- Browser
+
 ## [HTML](/Documents/roadmap-docs/html-roadmap.md)
 
 HTML stands for HyperText Markup Language. It is used on the frontend and gives the structure to the webpage which you can style using CSS and make interactive using JavaScript.
