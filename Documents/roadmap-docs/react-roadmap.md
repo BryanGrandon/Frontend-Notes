@@ -4,10 +4,22 @@
 
 CLI tools for React development
 
-- create-react-app
-- vite
+- Vite
+- Create-react-app
 
-## Components
+## [Components Basics](/Documents/react-docs/components-basics.md)
+
+- JSX
+- Props
+- State
+- Composition vs Inheritance
+
+## [Components](/Documents/react-docs/components.md)
+
+Components are the building blocks of React applications. They let us split the UI into independent, reusable pieces, and think about each piece in isolation.
+
+- Functional Components
+- Class Components
 
 ## Rendering
 
