@@ -18,7 +18,7 @@ HTML stands for HyperText Markup Language. It is used on the frontend and gives 
 
 CSS or Cascading Style Sheets is the language used to style the frontend of any website. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
 
-## [JavaScript](/Documents/roadmap-docs/javascript-roadmap.md)
+## [JavaScript](/Documents/roadmap-docs/javascript.md)
 
 An interpreted programming language used on the client side (front-end) to provide dynamic and interactive enhancements to web pages.
 

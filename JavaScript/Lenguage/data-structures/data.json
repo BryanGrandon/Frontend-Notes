@@ -1,6 +1,0 @@
-{
-  "meaning": "JavaScript Object Notation",
-  "dataTypes": "Anything but it has to be in quotes",
-  "array": [21, "string", true],
-  "object ": { "name": "Bryan", "age": 21 }
-}
