@@ -1,6 +1,11 @@
 # Web Application Packager
 
-## [vite](https://vitejs.dev/)
+CLI tools for React development
+
+- [Vite](https://vitejs.dev/)
+- [Create-React-App](https://create-react-app.dev/)
+
+## Vite
 
 Vite is a build tool that aims to provide a faster and leaner development experience for modern web projects.
 
@@ -13,5 +18,3 @@ cd name-project
 npm install
 npm run dev
 ```
-
-## [Create React App](https://create-react-app.dev/)

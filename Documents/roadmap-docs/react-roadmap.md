@@ -1,11 +1,6 @@
 # React Roadmap
 
-## [CLI Tools](/Documents/react-docs/cli-tools.md)
-
-CLI tools for React development
-
-- Vite
-- Create-react-app
+- [CLI Tools](/Documents/react-docs/cli-tools.md)
 
 ## [Components Basics](/Documents/react-docs/components-basics.md)
 
