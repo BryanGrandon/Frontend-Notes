@@ -1,44 +1,44 @@
 # JavaScript Roadmap
 
-### [All About Variables](/javascript/lenguage/all-about-variable.js)
+### [All About Variables](/javascript/language/all-about-variable.js)
 
 - Var, Let, Const
 - Hoisting
 - Variable Scope
 
-### [Data Type](/javascript/lenguage/data-types.js)
+### [Data Type](/javascript/language/data-types.js)
 
 - Primitive Type
 - Object
 - Built in Objects
 
-### [Type Casting](/javascript/lenguage/type-casting.js)
+### [Type Casting](/javascript/language/type-casting.js)
 
 - Explicit Type Casting
 - Implicit Type Casting
 - Type Conversions
 
-### [Data Structure](/javascript/lenguage/data-structure.js)
+### [Data Structure](/javascript/language/data-structure.js)
 
 - Array
 - Keyed Collection
 - JSON
 
-### [Equality Comparisons](/javascript/lenguage/equality-comparisons.js)
+### [Equality Comparisons](/javascript/language/equality-comparisons.js)
 
 - `==`, `===`, `Object.is()`
 
-### [Loops](/javascript/lenguage/loops.js)
+### [Loops](/javascript/language/loops.js)
 
 - for, do while, while
 - iterations
 
-### [Control Flow](/javascript/lenguage/control-flow.js)
+### [Control Flow](/javascript/language/control-flow.js)
 
 - Conditional Statements
 - Exception Handling
 
-### [Operators](/javascript/lenguage/operators.js)
+### [Operators](/javascript/language/operators.js)
 
 - Arithmetic Operator
 - Comparison Operator
@@ -46,7 +46,7 @@
 - Ternary Operator
 - Bitwise Operator
 
-### [Functions](/javascript/lenguage/functions.js)
+### [Functions](/javascript/language/functions.js)
 
 - Function Expressions
 - Arrow Function
@@ -56,35 +56,35 @@
 - Lexical Scoping
 - Recursion
 
-### [Strict Mode](/javascript/lenguage/strict-mode.js)
+### [Strict Mode](/javascript/language/strict-mode.js)
 
 - `use strict`
 
-### [Using (`this`) keyword](/javascript/lenguage/using-this-keyword.js)
+### [Using (`this`) keyword](/javascript/language/using-this-keyword.js)
 
 - In a Function, Anonymous Function, Arrow Function
 - In a Methods
 - Explicit Binding
 
-### [Asynchronous JavaScript](/javascript/lenguage/asynchronous.js)
+### [Asynchronous JavaScript](/javascript/language/asynchronous.js)
 
 - setTimeout, setInterval
 - Event Loop
 - Callback, Promise
 - Async Await
 
-### [Classes](/Documents/javascript/lenguages/classes.md)
+### [Classes](/Documents/javascript/languages/classes.md)
 
 - Getter and Setter
 - Inheritance
 - Additional
 
-## [Generator](/javascript/lenguage/generator.js)
+## [Generator](/javascript/language/generator.js)
 
 - `function*`
 - `yield`
 
-## [Modules](/Documents/javascript/lenguages/modules.md)
+## [Modules](/Documents/javascript/languages/modules.md)
 
 - Export
 - Import
