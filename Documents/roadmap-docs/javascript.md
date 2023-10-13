@@ -1,83 +1,20 @@
 # JavaScript Roadmap
 
-### [All About Variables](/javascript/language/all-about-variable.js)
-
-- Var, Let, Const
-- Hoisting
-- Variable Scope
-
-### [Data Type](/javascript/language/data-types.js)
-
-- Primitive Type
-- Object
-- Built in Objects
-
-### [Type Casting](/javascript/language/type-casting.js)
-
-- Explicit Type Casting
-- Implicit Type Casting
-- Type Conversions
-
-### [Data Structure](/javascript/language/data-structure.js)
-
-- Array
-- Keyed Collection
-- JSON
-
-### [Equality Comparisons](/javascript/language/equality-comparisons.js)
-
-- `==`, `===`, `Object.is()`
-
-### [Loops](/javascript/language/loops.js)
-
-- for, do while, while
-- iterations
-
-### [Control Flow](/javascript/language/control-flow.js)
-
-- Conditional Statements
-- Exception Handling
-
-### [Operators](/javascript/language/operators.js)
-
-- Arithmetic Operator
-- Comparison Operator
-- Logical Operator
-- Ternary Operator
-- Bitwise Operator
-
-### [Functions](/javascript/language/functions.js)
-
-- Function Expressions
-- Arrow Function
-- IIFE
-- Arguments
-- Closures
-- Lexical Scoping
-- Recursion
-
-### [Strict Mode](/javascript/language/strict-mode.js)
-
-- `use strict`
-
-### [Using (`this`) keyword](/javascript/language/using-this-keyword.js)
-
-- In a Function, Anonymous Function, Arrow Function
-- In a Methods
-- Explicit Binding
-
-### [Asynchronous JavaScript](/javascript/language/asynchronous.js)
-
-- setTimeout, setInterval
-- Event Loop
-- Callback, Promise
-- Async Await
-
-### [Classes](/Documents/javascript/languages/classes.md)
-
-### [Generator](/javascript/language/generator.js)
-
-### [Modules](/Documents/javascript/languages/modules.md)
+- [All About Variables](/javascript/language/all-about-variable.js)
+- [Data Type](/javascript/language/data-types.js)
+- [Type Casting](/javascript/language/type-casting.js)
+- [Data Structure](/javascript/language/data-structure.js)
+- [Equality Comparisons](/javascript/language/equality-comparisons.js)
+- [Loops](/javascript/language/loops.js)
+- [Control Flow](/javascript/language/control-flow.js)
+- [Operators](/javascript/language/operators.js)
+- [Functions](/javascript/language/functions.js)
+- [Strict Mode](/javascript/language/strict-mode.js)
+- [Using (`this`) keyword](/javascript/language/using-this-keyword.js)
+- [Asynchronous JavaScript](/javascript/language/asynchronous.js)
+- [Classes](/Documents/javascript/languages/classes.md)
+- [Generator](/javascript/language/generator.js)
+- [Modules](/Documents/javascript/languages/modules.md)
 
 ## DOM
 
