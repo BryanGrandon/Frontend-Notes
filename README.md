@@ -1,6 +1,6 @@
 # Frontend Learning Path
 
-## [Internet](/Documents/roadmap-docs/internet.md)
+## [Internet](/documents/global/internet.md)
 
 The Internet is a global network of computers connected to each other which communicate through a standardized set of protocols.
 
@@ -10,29 +10,29 @@ The Internet is a global network of computers connected to each other which comm
 - DNS
 - Browser
 
-## [HTML](/Documents/roadmap-docs/html.md)
+## [HTML](/documents/roadmap-docs/html.md)
 
 HTML stands for HyperText Markup Language. It is used on the frontend and gives the structure to the webpage which you can style using CSS and make interactive using JavaScript.
 
-## [CSS](/Documents/roadmap-docs/css.md)
+## [CSS](/documents/roadmap-docs/css.md)
 
 CSS or Cascading Style Sheets is the language used to style the frontend of any website. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
 
-## [JavaScript](/Documents/roadmap-docs/javascript.md)
+## [JavaScript](/documents/roadmap-docs/javascript.md)
 
 An interpreted programming language used on the client side (front-end) to provide dynamic and interactive enhancements to web pages.
 
 - Document Object Model
 - Working with APIs
 
-## [Version Control Systems](/Documents/roadmap-docs/version-control-systems.md)
+## [Version Control Systems](/documents/global/version-control-systems.md)
 
 Version control systems allow you to track changes to your codebase/files over time. They allow you to go back to some previous version of the codebase without any issues. Also, they help in collaborating with people working on the same code.
 
 - Git
 - Repo Hosting Services
 
-## [Package Managers](/Documents/roadmap-docs/package-managers.md)
+## [Package Managers](/documents/global/package-managers.md)
 
 Package managers allow you to manage the dependencies ( external code written by you or someone else ) that your project needs to work correctly.
 
@@ -40,7 +40,7 @@ Package managers allow you to manage the dependencies ( external code written by
 - yarn
 - pnpm
 
-## [Framework](/Documents/roadmap-docs/framework.md)
+## [Framework](/documents/roadmap-docs/framework.md)
 
 Web frameworks are designed to write web applications. Frameworks are collections of libraries that aid in the development of a software product or website.
 

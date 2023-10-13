@@ -2,8 +2,8 @@
 
 React is an open source JavaScript **library** for creating user interfaces.
 
-- [CLI Tools](/Documents/react-docs/cli-tools.md)
-- [Components](/Documents/react-docs/components.md)
+- [Web Application Packager]()
+- [Components](/react/components.jsx)
 - Rendering
 - Hooks
 - Routers
