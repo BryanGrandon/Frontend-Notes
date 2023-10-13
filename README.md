@@ -1,6 +1,6 @@
 # Frontend Learning Path
 
-## [Internet](/Documents/roadmap-docs/internet-roadmap.md)
+## [Internet](/Documents/roadmap-docs/internet.md)
 
 The Internet is a global network of computers connected to each other which communicate through a standardized set of protocols.
 
@@ -10,11 +10,11 @@ The Internet is a global network of computers connected to each other which comm
 - DNS
 - Browser
 
-## [HTML](/Documents/roadmap-docs/html-roadmap.md)
+## [HTML](/Documents/roadmap-docs/html.md)
 
 HTML stands for HyperText Markup Language. It is used on the frontend and gives the structure to the webpage which you can style using CSS and make interactive using JavaScript.
 
-## [CSS](/Documents/roadmap-docs/css-roadmap.md)
+## [CSS](/Documents/roadmap-docs/css.md)
 
 CSS or Cascading Style Sheets is the language used to style the frontend of any website. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
 
@@ -25,14 +25,14 @@ An interpreted programming language used on the client side (front-end) to provi
 - Document Object Model
 - Working with APIs
 
-## [Version Control Systems](/Documents/roadmap-docs/version-control-systems-roadmap.md)
+## [Version Control Systems](/Documents/roadmap-docs/version-control-systems.md)
 
 Version control systems allow you to track changes to your codebase/files over time. They allow you to go back to some previous version of the codebase without any issues. Also, they help in collaborating with people working on the same code.
 
 - Git
 - Repo Hosting Services
 
-## [Package Managers](/Documents/roadmap-docs/package-managers-roadmap.md)
+## [Package Managers](/Documents/roadmap-docs/package-managers.md)
 
 Package managers allow you to manage the dependencies ( external code written by you or someone else ) that your project needs to work correctly.
 
