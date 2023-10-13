@@ -1,6 +1,4 @@
-# Navigate through DOM elements
-
-```js
+"use strict";
 const $cards = document.querySelector(".cards");
 
 // Element Children
@@ -15,4 +13,3 @@ const nextElementSibling = $cards.nextElementSibling;
 
 // Get nearest parent element
 const $parent = $cards.children[1].closest("section");
-```

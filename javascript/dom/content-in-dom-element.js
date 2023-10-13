@@ -17,17 +17,9 @@ const $innerHtmlElement = d.querySelector(".inner-html");
 const $outerHtmlElement = d.querySelector(".outer-html");
 
 // ---- Set content ---- //
-
-$innerTextElement.innerText = text;
-// Respecting the blank spaces
-
-$textContentElement.textContent = text;
-// Does not respect blank spaces
+$innerTextElement.innerText = text; // Respecting the blank spaces
+$textContentElement.textContent = text; // Does not respect blank spaces
 
 // ---- Set HTML ---- //
-
-$innerHtmlElement.innerHTML = text;
-// Inside element
-
-$outerHtmlElement.outerHTML = text;
-// Element replacement
+$innerHtmlElement.innerHTML = text; // Inside element
+$outerHtmlElement.outerHTML = text; // Element replacement

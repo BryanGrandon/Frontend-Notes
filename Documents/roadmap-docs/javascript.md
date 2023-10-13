@@ -75,34 +75,24 @@
 
 ### [Classes](/Documents/javascript/languages/classes.md)
 
-- Getter and Setter
-- Inheritance
-- Additional
+### [Generator](/javascript/language/generator.js)
 
-## [Generator](/javascript/language/generator.js)
-
-- `function*`
-- `yield`
-
-## [Modules](/Documents/javascript/languages/modules.md)
-
-- Export
-- Import
+### [Modules](/Documents/javascript/languages/modules.md)
 
 ## DOM
 
 In Javascript, when we refer to the DOM we refer to this tree structure, through which we can access it and modify the HTML elements from Javascript, adding new tags, modifying or deleting others, changing their HTML attributes, adding classes, changing the text content, etc.
 
-- [The Subject Document](/Documents/javascript/dom/the-subject-document.md)
-- [Select DOM Elements](/Documents/javascript/dom/select-dom-elements.md)
-- [Manage DOM Attributes](/Documents/javascript/dom/manage-dom-attributes.md)
-- [CSS Management](/Documents/javascript/dom/css-management.md)
-- [Content in DOM Elements](/Documents/javascript/dom/content-in-dom-elements.md)
-- [Navigate through DOM elements](/Documents/javascript/dom/navigate-through-dom-elements.md)
-- [Create elements in the DOM](/Documents/javascript/dom/create-elements-in-the-dom.md)
-- [Modifying Elements](/Documents/javascript/dom/modifying-elements.md)
-- [Event Handler](/Documents/javascript/dom/event-handler.md)
-- [Browser Object Model](/Documents/javascript/dom/browser-object-model.md)
+- [The Subject Document](/javascript/dom/subject-document.js)
+- [Select DOM Elements](/javascript/dom/select-dom-elements.js)
+- [Manage DOM Attributes](/javascript/dom/manage-dom-attributes.js)
+- [CSS Management](/javascript/dom/css-management.js)
+- [Content in DOM Elements](/javascript/dom/content-in-dom-element.js)
+- [Navigate through DOM elements](/javascript/dom/navigate-through-dom-element.js)
+- [Create elements in the DOM](/javascript/dom/create-element-in-the-dom.js)
+- [Modifying Elements](/javascript/dom/modifying-elements.js)
+- [Event Handler](/javascript/dom/event-handler.js)
+- [Browser Object Model](/javascript/dom/browser-object-model.js)
 
 ## APIS
 

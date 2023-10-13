@@ -1,22 +1,13 @@
-# Browser Object Model ( BOM )
+/** BOM
+ * alert()
+ * confirm()
+ * prompt()
+ * open()
+ * closed()
+ * print()
+ */
 
-The BOM model includes access to all areas of the browser<
-
-- alert()
-- confirm()
-- prompt()
-- open()
-- closed()
-- print()
-
-## .addEventListener()
-
-- resize
-- scroll
-- load
-- DOMContentLoaded
-
-```js
+// resize, scroll, load, DOMContentLoaded
 const properties = {
   resize: {
     page: {
@@ -41,11 +32,8 @@ const properties = {
     y: window.screenY,
   },
 };
-```
 
-## Browser
-
-```js
+// -------- Browser -------- //
 const locationURL = {
   all: location,
   origin: location.origin,
@@ -58,12 +46,10 @@ const locationURL = {
   search: location.search,
   pathname: location.pathname,
 };
-
 const historyObj = {
   all: history,
   length: history.length,
 };
-
 const navigatorObj = {
   all: navigator,
   connection: navigator.connection,
@@ -75,4 +61,3 @@ const navigatorObj = {
   usb: navigator.usb,
   userAgent: navigator.userAgent,
 };
-```

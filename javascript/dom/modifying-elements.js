@@ -1,5 +1,14 @@
 "use strict";
-
+/**
+ * .insertAdjacentElement( position, element )
+ * .insertAdjacentHTML( position, html )
+ * .insertAdjacentText( position, text )
+ *
+ * - beforebegin //	Previous brother.
+ * - afterend // Next brother.
+ * - afterbegin //	First son.
+ * - beforeend // Last son.
+ */
 const $containerCards = document.querySelector(".container-cards");
 const $newCard = document.createElement("figure");
 
