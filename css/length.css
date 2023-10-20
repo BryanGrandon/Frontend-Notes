@@ -1,22 +1,22 @@
 /* Absolute length units */
 
-.length .inches {
-    size: 10in;
+.length__inches {
+  size: 10in;
 }
-.length .centimeters {
-    size: 10cm;
+.length__centimeters {
+  size: 10cm;
 }
-.length .millimeters{
-    size: 100mm;
+.length__millimeters {
+  size: 100mm;
 }
-.length .points{
-    size: 100pt;
+.length__points {
+  size: 100pt;
 }
-.length .picas{
-    size: 100pc;
+.length__picas {
+  size: 100pc;
 }
-.length .pixels{
-    size: 100px;
+.length__pixels {
+  size: 100px;
 }
 
 /* Relative length units */

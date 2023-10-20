@@ -1,80 +1,59 @@
-/* Hover 
-    Allows you to apply a style when hovering over an element. */
-
+/* Hover -> Allows you to apply a style when hovering over an element. */
 .hover:hover {
   color: #ff00b3;
 }
 
-/* Active 
-    Allows to apply a style when the element is activated. */
-
+/* Active -> Allows to apply a style when the element is activated. */
 .active:active {
   color: #10a4c9;
 }
 
-/* Visited 
-    styles are applied once the link has been visited by the user. */
-
+/* Visited -> styles are applied once the link has been visited by the user. */
 .visited:visited {
   color: red;
 }
 
-/* Link 
-    The styles are applied to the link that has not yet been visited. */
-
+/* Link -> The styles are applied to the link that has not yet been visited. */
 .link:link {
   color: #10a4c9;
 }
 
-/* Focus 
-    Styles are applied to the element that is currently selected and ready to receive actions. */
-
+/* Focus -> Styles are applied to the element that is currently selected and ready to receive actions. */
 .focus:focus {
   color: red;
 }
 
-/* Required 
-    Styles are applied to any element that has the required attribute set. */
-
+/* Required -> Styles are applied to any element that has the required attribute set. */
 .required:required {
   color: blueviolet;
 }
 
-/* Valid 
-    Styles are applied to any element that is validated. */
-
+/* Valid -> Styles are applied to any element that is validated. */
 .valid:valid {
   color: blueviolet;
 }
 
-/* Invalid 
-    Styles are applied to any validated element that does not meet their constraints. */
-
+/* Invalid -> Styles are applied to any validated element that does not meet their constraints. */
 .valid:invalid {
   color: blueviolet;
 }
 
-/* Disabled 
-    Styles are applied to the element when it is disabled. */
-
+/* Disabled -> Styles are applied to the element when it is disabled. */
 .disabled:disabled {
   color: blueviolet;
 }
 
 /* :first-of-type */
-
 .of-type li:first-of-type {
   color: #3ce71e;
 }
 
 /* :last-of-type */
-
 .of-type li:last-of-type {
   color: red;
 }
 
 /* :nth-of-type() */
-
 .of-type li:nth-of-type(3) {
   color: blue;
 }
@@ -93,7 +72,6 @@
       - ( odd ) 1,3,5,7...
       - ( even ) 2,4,6,8...
 */
-
 .of-child li:nth-child(3) {
   color: #3ce71e;
 }

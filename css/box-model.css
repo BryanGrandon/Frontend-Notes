@@ -1,5 +1,4 @@
 /* padding: top right bottom left */
-
 .padding {
   padding-top: 20px;
   padding-right: 20px;
@@ -10,7 +9,6 @@
 }
 
 /* margin: top right bottom left */
-
 .margin {
   margin-top: 20px;
   margin-right: 20px;
@@ -30,40 +28,39 @@
 }
 
 /* Border */
-
-.border .solid {
+.border__solid {
   border: 3px solid mediumaquamarine;
 }
-.border .double {
+.border__double {
   border: 3px double mediumorchid;
 }
-.border .dotted {
+.border__dotted {
   border: 3px dotted mediumpurple;
 }
-.border .dashed {
+.border__dashed {
   border: 3px dashed mediumseagreen;
 }
-.border .groove {
+.border__groove {
   border: 3px groove mediumslateblue;
 }
-.border .ridge {
+.border__ridge {
   border: 3px ridge mediumspringgreen;
 }
-.border .inset {
+.border__inset {
   border: 3px inset mediumturquoise;
 }
-.border .outset {
+.border__outset {
   border: 3px outset mediumvioletred;
 }
 
 /* Box-sizing */
 
-.border-sizing .border-box {
+.border-sizing__border-box {
   box-sizing: border-box;
   border: 5px dashed #777;
   height: 35px;
 }
-.border-sizing .content-box {
+.border-sizing__content-box {
   box-sizing: content-box;
   border: 5px dashed #777;
   height: 35px;

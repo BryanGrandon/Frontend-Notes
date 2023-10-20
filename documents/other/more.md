@@ -26,10 +26,6 @@ Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allo
 
 Open Web Application Security Project is an online community that produces freely-available articles, methodologies, documentation, tools, and technologies in the field of web application security.
 
-## CSS Architecture ( BEM )
-
-The Block, Element, Modifier methodology (commonly referred to as BEM) is a popular naming convention for classes in HTML and CSS.
-
 ## CSS preprocessor ( Sass )
 
 Sass is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets. It lets you write maintainable CSS and provides features like variable, nesting, mixins, extension, functions, loops, conditionals and so on.

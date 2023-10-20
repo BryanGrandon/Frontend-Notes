@@ -1,25 +1,21 @@
 /* ::first-letter */
-
 .first-letter::first-letter {
   color: red;
   border: 2px dashed #000;
 }
 
 /* ::first-line */
-
 .first-line::first-line {
   color: blueviolet;
 }
 
 /* ::selection */
-
 .selection::selection {
   color: blueviolet;
   background: #eee;
 }
 
 /* ::before */
-
 .before::before {
   content: "Before";
   color: red;
@@ -27,7 +23,6 @@
 }
 
 /* ::after */
-
 .after::after {
   content: "After";
   color: red;

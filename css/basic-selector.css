@@ -1,23 +1,19 @@
-/* All element */
-
+/* All elements */
 * {
   color: blueviolet;
 }
 
-/* Element */
-
+/* Elements HTML */
 div {
   color: blueviolet;
 }
 
-/* Class */
-
+/* Attribute Class */
 .class {
   color: blueviolet;
 }
 
-/* Id */
-
+/* Attribute Id */
 #id {
   color: blueviolet;
 }

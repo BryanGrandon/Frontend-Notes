@@ -13,3 +13,27 @@
 - [Display](/css/display.css)
 - [Flex](/css/display-flex.css)
 - [Variables](/css/variables.css)
+
+## BEM ( Block Element Modifier )
+
+The Block, Element, Modifier methodology (commonly referred to as BEM) is a popular naming convention for classes in HTML and CSS.
+
+```html
+<div class="block">
+  <div class="block__element">Elem 1</div>
+  <div class="block__element">Elem 2</div>
+  <div class="block__element block__element--modifier">Elem 3</div>
+</div>
+```
+
+```css
+.block {
+  color: inherit;
+}
+.block__element {
+  color: inherit;
+}
+.block__element--modifier {
+  color: inherit;
+}
+```

@@ -1,8 +1,7 @@
 :root {
-    --variable-color: #f00;
-    --variable: 20px;
-  }
-  
-  .class {
-    color: var(--variable-color);
-  }
+  --variable-color: #f00;
+  --variable: 20px;
+}
+.class {
+  color: var(--variable-color);
+}
