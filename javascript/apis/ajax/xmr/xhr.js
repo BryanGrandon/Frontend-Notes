@@ -1,6 +1,8 @@
-const xhr = new XMLHttpRequest(),
-  $xhr = document.getElementById("xhr"),
-  $fragment = document.createDocumentFragment();
+// XMLHttpRequest (XHR) is a special JavaScript object that allows asynchronous HTTP requests (AJAX) to be made natively from JavaScript.
+
+const xhr = new XMLHttpRequest();
+const $xhr = document.getElementById("xhr");
+const $fragment = document.createDocumentFragment();
 
 xhr.addEventListener("readystatechange", (e) => {
   if (xhr.readyState !== 4) return;
@@ -22,5 +24,4 @@ xhr.addEventListener("readystatechange", (e) => {
 });
 
 xhr.open("GET", "https://jsonplaceholder.typicode.com/users");
-
 xhr.send();
