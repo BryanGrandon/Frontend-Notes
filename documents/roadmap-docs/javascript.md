@@ -33,11 +33,12 @@ In Javascript, when we refer to the DOM we refer to this tree structure, through
 
 ## APIS
 
-- Asynchronous JavaScript And XML (AJAX)
-- API-REST
+Application Programming Interface
 
-### Asynchronous JavaScript And XML (AJAX)
+### [AJAX](/javascript/apis/ajax/script.js)
 
-- [XMLHttpRequest (XMR)](/JavaScript/apis/ajax/xmr/xhr.js)
-- [Fetch](/JavaScript/apis/ajax/fetch/fetch.js)
-- [Axios](/JavaScript/apis/ajax/axios/axios.js)
+- XML
+- Fetch
+- Axios
+
+### API-REST
