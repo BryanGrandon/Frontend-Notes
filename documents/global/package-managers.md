@@ -1,5 +1,7 @@
 # Package Managers
 
+Package managers allow you to manage the dependencies ( external code written by you or someone else ) that your project needs to work correctly.
+
 ## npm
 
 npm is a package manager for the JavaScript programming language maintained by npm, Inc. npm is the default package manager for the JavaScript runtime environment Node.js.

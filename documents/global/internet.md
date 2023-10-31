@@ -1,5 +1,7 @@
 # Internet
 
+The Internet is a global network of computers connected to each other which communicate through a standardized set of protocols.
+
 ## What is HTTP?
 
 HTTP stands for Hypertext Transfer Protocol and it's the foundation of communication over the World Wide Web . It's an application layer protocol that defines how clients and servers communicate with each other.

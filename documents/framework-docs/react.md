@@ -1,5 +1,7 @@
 # React Roadmap
 
+React is an open source JavaScript library for creating user interfaces.
+
 - [Web Application Packager](/documents/framework-docs/react/cli-tools.md)
 - [Components](/framework/react/components.jsx)
 - Rendering

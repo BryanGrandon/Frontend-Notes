@@ -1,5 +1,7 @@
 # CSS Roadmap
 
+CSS or Cascading Style Sheets is the language used to style the frontend of any website. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
+
 - [Basic Selector](/css/basic-selector.css)
 - [Advanced Selector](/css/advanced-selector.css)
 - [Pseudo Classes](/css/pseudo-classes.css)

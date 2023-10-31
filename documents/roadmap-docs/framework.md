@@ -1,15 +1,5 @@
 # Framework
 
-## [React](/Documents/framework-docs/react.md)
+Web frameworks are designed to write web applications. Frameworks are collections of libraries that aid in the development of a software product or website.
 
-React is an open source JavaScript library for creating user interfaces.
-
-## [Angular]
-
-## [Angular]
-
-## [Vue.js]
-
-## [Svelte]
-
-## [SolidJS]
+- [React](/Documents/framework-docs/react.md)

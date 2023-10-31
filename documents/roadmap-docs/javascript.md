@@ -1,5 +1,7 @@
 # JavaScript Roadmap
 
+An interpreted programming language used on the client side (front-end) to provide dynamic and interactive enhancements to web pages.
+
 - [All About Variables](/javascript/language/all-about-variable.js)
 - [Data Type](/javascript/language/data-types.js)
 - [Type Casting](/javascript/language/type-casting.js)
