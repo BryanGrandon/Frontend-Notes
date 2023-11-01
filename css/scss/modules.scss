@@ -1,3 +1,11 @@
+@use "_other";
+
+div {
+  @include customized-box($fund: #ccc);
+}
+
+// _other.scss -------- //
+
 @mixin customized-box($fund: withe) {
   width: 300px;
   height: 100px;
