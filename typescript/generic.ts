@@ -1,3 +1,6 @@
+// Generic types in TypeScript allow you to write objects, functions and classes that work with multiple data types, instead of being limited to a single data type.
+// The type variable "T" can be used whenever a type annotation is needed.
+
 function getArray<T>(items: T[]): T[] {
   return new Array<T>().concat(items);
 }

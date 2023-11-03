@@ -12,18 +12,7 @@
 - [Authentication Strategies]
 - [Web Security Basics]
 - [Web Components]
-- [Type Checkers]
-
-### [TypeScript](/Docs/ts/typescript.md)
-
-TypeScript is an open source language developed by Microsoft.
-
-It is a superset of JavaScript.
-
-TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
-
----
-
+- [Type Checkers](/documents/roadmap-docs/type-checkers.md)
 - [Server Side Rendering ( SSR )]
 - [GraphQL]
 - [Static Site Generators]

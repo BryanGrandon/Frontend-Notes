@@ -1,3 +1,8 @@
+/** Classes allow common object-oriented patterns to be expressed in a standard way, making features such as inheritance more readable and interoperable.
+ *  - They exist at compile time and during runtime.
+ *  - We can initialize properties and implement methods.
+ *  - Create instances of such a class.
+ */
 class Car {
   // Properties
   private _color: string;
@@ -68,3 +73,10 @@ let spark = new ElectricCar("Spark Motors", "silver", 124, 2);
 let eCar = new ElectricCar("Electric Car Co.", "black", 263);
 console.log(eCar.doors); // returns the default, 2
 spark.charge(); // returns "Spark Motors is charging"
+
+/** Access control keywords
+  Public    -> if you do not specify an access modifier, the default is public.
+  Private   -> If you modify the member with the private keyword, it cannot be accessed from outside the containing class.
+  Protected -> It is similar to the private modifier, with the difference that it can access protected elements within derived classes.
+  Readonly  -> Read-only modifier
+ */

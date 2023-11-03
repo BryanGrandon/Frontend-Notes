@@ -1,3 +1,8 @@
+/** They're how you build up layers of abstraction, mimicking classes, information hiding, and modules.
+ * - Set the type of data to be entered to the function.
+ * - Set the type of data to be output by the function.
+ */
+
 // -------- Functions with Name -------- //
 
 function addNumber_1(x: number, y: number): number {
