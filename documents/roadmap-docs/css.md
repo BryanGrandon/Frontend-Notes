@@ -16,24 +16,16 @@ CSS or Cascading Style Sheets is the language used to style the frontend of any 
 - [Flex](/css/code/display-flex.css)
 - [Variables](/css/code/variables.css)
 
-## BEM ( Block Element Modifier )
+---
 
-The Block, Element, Modifier methodology (commonly referred to as BEM) is a popular naming convention for classes in HTML and CSS.
-
-```html
-<div class="block">
-  <div class="block__element">Elem 1</div>
-  <div class="block__element block__element--modifier">Elem 2</div>
-</div>
-```
+## [Writing CSS]
 
 ---
 
-- [Writing CSS]
-- [CSS Architecture]
+## CSS Architecture
 
----
+- [BEM](/documents/css-docs/bem.css)
 
 ## CSS Preprocessor
 
-- [Sass](/documents/css/sass.md)
+- [Sass](/documents/css-docs/sass.md)
