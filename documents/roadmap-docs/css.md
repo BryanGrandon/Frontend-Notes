@@ -16,16 +16,14 @@ CSS or Cascading Style Sheets is the language used to style the frontend of any 
 - [Flex](/css/code/display-flex.css)
 - [Variables](/css/code/variables.css)
 
----
-
-## [Writing CSS]
-
----
-
 ## CSS Architecture
 
-- [BEM](/documents/css-docs/bem.css)
+CSS is notoriously difficult to manage in large, complex, rapidly-interacted systems. There are different ways of writing CSS that allows in writing more maintainable CSS.
+
+- [BEM](/documents/css-docs/bem.md)
 
 ## CSS Preprocessor
+
+CSS preprocessor are scripting languages that extend the default capabilities of CSS. They enable us to use logic in our CSS code, such as variables, nesting, inherence, mixins, functions, and mathematical operations.
 
 - [Sass](/documents/css-docs/sass.md)
