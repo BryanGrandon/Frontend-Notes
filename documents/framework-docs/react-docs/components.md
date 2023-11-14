@@ -10,4 +10,6 @@ In react components are create using functions or classes.
 
 React uses JSX to declare what to render. JSX is a JavaScript extension that allows you to write code that is visually closer to HTML, which improves the readability of the code and makes it easier to understand.
 
-### [Props]()
+### [Props](/framework/react/components/props.jsx)
+
+Props are the properties of a component. They are data that are passed from one component to another.
