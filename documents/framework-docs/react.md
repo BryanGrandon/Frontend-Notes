@@ -8,7 +8,7 @@ React is an open source JavaScript library for creating user interfaces.
 - [Hooks](/documents/framework-docs/react-docs/hooks.md)
 - [Routers](/documents/framework-docs/react-docs/routers.md)
 - [State Management](/documents/framework-docs/react-docs/state-management.md)
-- Styling
+- [Styling](/documents/framework-docs/react-docs/styling.md)
 - API calls
 - Testing
 - Frameworks
