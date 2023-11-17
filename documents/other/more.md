@@ -1,9 +1,5 @@
 # FrontEnd Notes
 
-## Version Control Systems
-
-Version control systems allow you to track changes to your codebase/files over time. They allow you to go back to some previous version of the codebase without any issues. Also, they help in collaborating with people working on the same code.
-
 ## Web Security Knowledge
 
 Web security refers to the protective measures taken by the developers to protect the web applications from threats that could affect the business.
@@ -25,10 +21,6 @@ Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allo
 ### Open Web Application Security
 
 Open Web Application Security Project is an online community that produces freely-available articles, methodologies, documentation, tools, and technologies in the field of web application security.
-
-## CSS preprocessor ( Sass )
-
-Sass is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets. It lets you write maintainable CSS and provides features like variable, nesting, mixins, extension, functions, loops, conditionals and so on.
 
 ## Build Tools
 
