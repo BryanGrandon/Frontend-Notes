@@ -1,18 +1,18 @@
 # Frontend Learning Path
 
-- [Internet](/documents/global/internet.md)
+- [Internet](/documents//global-docs/internet.md)
 
-- [HTML](/documents/roadmap-docs/html.md)
+- [HTML](/documents/main-docs/html.md)
 
-- [CSS](/documents/roadmap-docs/css.md)
+- [CSS](/documents/main-docs/css.md)
 
-- [JavaScript](/documents/roadmap-docs/javascript.md)
+- [JavaScript](/documents/main-docs/javascript.md)
 
-- [Version Control Systems](/documents/global/version-control-systems.md)
+- [Version Control Systems](/documents/global-docs/version-control-systems.md)
 
-- [Package Managers](/documents/global/package-managers.md)
+- [Package Managers](/documents/global-docs/package-managers.md)
 
-- [Framework](/documents/roadmap-docs/framework.md)
+- [Framework](/documents/main-docs/framework.md)
 
 - [Build Tools]
 
@@ -24,7 +24,7 @@
 
 - [Web Components]
 
-- [Type Checkers](/documents/roadmap-docs/type-checkers.md)
+- [Type Checkers](/documents/main-docs/type-checkers.md)
 
 - [Server Side Rendering ( SSR )]
 
