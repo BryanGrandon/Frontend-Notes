@@ -1,41 +1,49 @@
 # Frontend Learning Path
 
-- [Internet](/documents//global-docs/internet.md)
+### [Internet](/documents//global-docs/internet.md)
 
-- [HTML](/documents/main-docs/html.md)
+- What is HTTP
+- Domain Name
+- Hosting
+- DNS
+- Browser
 
-- [CSS](/documents/main-docs/css.md)
+### [HTML](/documents/main-docs/html.md)
 
-- [JavaScript](/documents/main-docs/javascript.md)
+### [CSS](/documents/main-docs/css.md)
 
-- [Version Control Systems](/documents/global-docs/version-control-systems.md)
+### [JavaScript](/documents/main-docs/javascript.md)
 
-- [Package Managers](/documents/global-docs/package-managers.md)
+- DOM
+- API
 
-- [Framework](/documents/main-docs/framework.md)
+### [Version Control Systems](/documents/global-docs/version-control-systems.md)
 
-- [Build Tools]
+- Git
+- Repo Hosting Services
 
-- [Testing your Apps]
+### [Package Managers](/documents/global-docs/package-managers.md)
 
-- [Authentication Strategies]
+- npm
+- pnpm
+- yarn
 
-- [Web Security Basics]
+### [Framework](/documents/main-docs/framework.md)
 
-- [Web Components]
+- React
 
-- [Type Checkers](/documents/main-docs/type-checkers.md)
+<!-- [Build Tools] -->
+<!-- [Testing your Apps] -->
+<!-- [Authentication Strategies] -->
+<!-- [Web Security Basics] -->
+<!-- [Web Components] -->
 
-- [Server Side Rendering ( SSR )]
+### [Type Checkers](/documents/main-docs/type-checkers.md)
 
-- [GraphQL]
-
-- [Static Site Generators]
-
-- [Progressive Web Apps]
-
-- [Mobile Applications]
-
-- [Desktop Applications]
-
-- [Bonus Content]
+<!-- [Server Side Rendering ( SSR )] -->
+<!-- [GraphQL] -->
+<!-- [Static Site Generators] -->
+<!-- [Progressive Web Apps] -->
+<!-- [Mobile Applications] -->
+<!-- [Desktop Applications] -->
+<!-- [Bonus Content] -->
