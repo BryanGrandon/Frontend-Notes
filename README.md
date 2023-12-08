@@ -1,6 +1,6 @@
 # Frontend Learning Path
 
-## Index
+## _Index_
 
 1. _[Introduction](#introduction)_
 2. _[Internet](#internet)_
@@ -12,35 +12,35 @@
 8. _[Framework](#framework)_
 9. _[Type Checkers](#type-checkers--ts)_
 
-## Introduction
+## _Introduction_
 
 This project is where i add what i learn about the technologies used in Frontend. Besides having a sort of record of what i've learned, it's a quick way to find information that I've forgotten.
 
-## Internet
+## _Internet_
 
 The Internet is a global network of computers connected to each other which communicate through a standardized set of protocols.
 
-### **_What is HTTP ?_**
+### What is HTTP ?
 
 HTTP stands for Hypertext Transfer Protocol and it's the foundation of communication over the World Wide Web. It's an application layer protocol that defines how clients and servers communicate with each other.
 
-### **_Domain Name_**
+### Domain Name
 
 A domain name is a unique name that identifies a website on the internet. The domain name system (DNS) translates domain names into IP addresses, which are used by computers to communicate over the internet.
 
-### **_Hosting_**
+### Hosting
 
 Web hosting is a service that allows individuals and businesses to make their websites accessible on the internet. When a website is created, its files need to be stored on a server so that they can be accessed by visitors to the site.
 
-### **_DNS_**
+### DNS
 
 Domain Name System, is a hierarchical and distributed naming system for computers, services, and other resources on the Internet.
 
-### **_Browser_**
+### Browser
 
 A web browser is a software application that enables a user to access and display web pages or other online content through its graphical user interface.
 
-## HTML
+## _HTML_
 
 HTML stands for **HyperText Markup Language**. It is used on the frontend and gives the structure to the webpage which you can style using CSS and make interactive using JavaScript.
 
@@ -54,7 +54,7 @@ HTML stands for **HyperText Markup Language**. It is used on the frontend and gi
 - [Interactive](/html/interactive.html)
 - [Semantic](/html/semaintic.html)
 
-## CSS
+## _CSS_
 
 CSS or **Cascading Style Sheets** is the language used to style the frontend of any website. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
 
@@ -84,7 +84,7 @@ CSS preprocessor are scripting languages that extend the default capabilities of
 
 - **_[Sass](/css/sass.scss)_**
 
-## JavaScript
+## _JavaScript_
 
 An interpreted programming language used on the client side (front-end) to provide dynamic and interactive enhancements to web pages.
 
@@ -104,7 +104,7 @@ An interpreted programming language used on the client side (front-end) to provi
 - [Generator](/javascript/language/generator.js)
 - [Modules](/Documents/javascript/languages/modules.md)
 
-### **_Document Object Model ( DOM )_**
+### Document Object Model ( DOM )
 
 In Javascript, when we refer to the DOM we refer to this tree structure, through which we can access it and modify the HTML elements from Javascript, adding new tags, modifying or deleting others, changing their HTML attributes, adding classes, changing the text content, etc.
 
@@ -119,16 +119,16 @@ In Javascript, when we refer to the DOM we refer to this tree structure, through
 - [Event Handler](/javascript/dom/event-handler.js)
 - [Browser Object Model](/javascript/dom/browser-object-model.js)
 
-### **_Application Programming Interface ( API )_**
+### Application Programming Interface ( API )
 
 - **_[AJAX](/javascript/apis/ajax/script.js)_**
 <!-- ### API-REST -->
 
-## Version Control Systems
+## _Version Control Systems_
 
 Version control systems allow you to track changes to your codebase/files over time. They allow you to go back to some previous version of the codebase without any issues. Also, they help in collaborating with people working on the same code.
 
-### **_Git_**
+### Git
 
 Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 
@@ -158,55 +158,47 @@ Git is a free and open source distributed version control system designed to han
    - `style`: Formatting changes, tabs, spaces or semicolons, etx; do not affect the use.
    - `test`: Add tests or refactor an existing one.
 
-### **_Repo Hosting Services_**
+### Repo Hosting Services
 
 There are different repository hosting services, the most famous being GitHub, GitLab and BitBuck.
 
-## Package Managers
+## _Package Managers_
 
 Package managers allow you to manage the dependencies ( external code written by you or someone else ) that your project needs to work correctly.
 
-### **_npm_**
+### npm
 
 npm is a package manager for the JavaScript programming language maintained by npm, Inc. npm is the default package manager for the JavaScript runtime environment Node.js.
 
-### **_[pnpm](https://pnpm.io/)_**
+### [pnpm](https://pnpm.io/)
 
 PNPM is an alternative package manager for Node.js which stands for "performant NPM". The main purpose of PNPM is to hold all the packages at a global ( centralized ) store and use them if needed by other projects too by creating hard links to it.
 
-### **_[Yarn](https://classic.yarnpkg.com/en/docs/getting-started)_**
+### [Yarn](https://classic.yarnpkg.com/en/docs/getting-started)
 
 Yarn is a software packaging system developed in 2016 by Facebook for Node.js JavaScript runtime environment that provides speed, consistency, stability, and security as an alternative to npm ( package manager )
 
-## Framework
+## _Framework_
 
 Web frameworks are designed to write web applications. Frameworks are collections of libraries that aid in the development of a software product or website.
 
-### **_React_**
+### React
 
 React is an open source JavaScript library for creating user interfaces.
 
-- [Web Application Packager](/documents/framework-docs/react-docs/cli-tools.md)
+- [Web Application Packager](/framework/react/cli-tools.md)
 - [JSX](/framework/react/jsxml.jsx)
 - [Components](/framework/react/components.jsx)
 - [Rendering](/framework/react/rendering.jsx)
 - [Hooks](/framework/react/hooks.jsx)
-- [Routers](/documents/framework-docs/react-docs/routers.md)
-- [State Management](/documents/framework-docs/react-docs/state-management.md)
-- [Styling](/documents/framework-docs/react-docs/styling.md)
-- [API calls](/documents/framework-docs/react-docs/api-calls.md)
-- [Testing](/documents/framework-docs/react-docs/testing.md)
-- [Frameworks](/documents/framework-docs/react-docs/frameworks.md)
-  <!-- Forms -->
-  <!-- Mobile -->
 
-<!-- [Build Tools] -->
-<!-- [Testing your Apps] -->
-<!-- [Authentication Strategies] -->
-<!-- [Web Security Basics] -->
-<!-- [Web Components] -->
+<!-- ### [Build Tools] -->
+<!-- ### [Testing your Apps] -->
+<!-- ### [Authentication Strategies] -->
+<!-- ### [Web Security Basics] -->
+<!-- ### [Web Components] -->
 
-## Type Checkers ( TS )
+## _Type Checkers ( TS )_
 
 TypeScript is an open source language developed by Microsoft. It is a superset of JavaScript. TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
 
@@ -217,44 +209,12 @@ TypeScript is an open source language developed by Microsoft. It is a superset o
 - [Functions](/typescript/functions.ts)
 - [Class](/typescript/class.ts)
 - [Generic](/typescript/generic.ts)
+- [Modules](/typescript/modules/import.ts)
 
-### **_Type assertion_**
-
-| Types    | Description                                                          |
-| -------- | -------------------------------------------------------------------- |
-| As Const | The value must be treated as a read-only value.                      |
-| As Type  | Allows us to specify the data type, regardless of its inferred type. |
-
-### **_Access to external libraries_**
-
-Modules provide a way to organize and classify code, allowing you to group related code
-together.
-
-- tsconfig.json: `"moduleResolution": "node"`
-
-### [Export and import of module components](/typescript/modules/)
-
-```ts
-// export element
-export function greet(user: string): string {
-  return `Hello ${user}`;
-}
-export const PI = 3.14;
-// OR -> export { greet, PI };
-```
-
-```ts
-// import { <component name> } from '<module name>'
-// import { <component name> as <new name> } from '<module name>'
-// import * as <variable name> from '<module name>'
-
-import { greet, PI } from "./export";
-```
-
-<!-- [Server Side Rendering ( SSR )] -->
-<!-- [GraphQL] -->
-<!-- [Static Site Generators] -->
-<!-- [Progressive Web Apps] -->
-<!-- [Mobile Applications] -->
-<!-- [Desktop Applications] -->
-<!-- [Bonus Content] -->
+<!-- ### [Server Side Rendering ( SSR )] -->
+<!-- ### [GraphQL] -->
+<!-- ### [Static Site Generators] -->
+<!-- ### [Progressive Web Apps] -->
+<!-- ### [Mobile Applications] -->
+<!-- ### [Desktop Applications] -->
+<!-- ### [Bonus Content] -->

@@ -1,9 +1,0 @@
-# Testing
-
-A key to building software that meets requirements without defects is testing. Software testing helps developers know they are building the right software. When tests are run as part of the development process (often with continuous integration tools), they build confidence and prevent regressions in the code.
-
-- Jest
-- React Testing Library
-- Vitest
-- Cypress
-- Playwright
