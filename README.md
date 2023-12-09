@@ -72,13 +72,13 @@ CSS or **Cascading Style Sheets** is the language used to style the frontend of 
 - [Flex](/css/code/display-flex.css)
 - [Variables](/css/code/variables.css)
 
-### **_CSS Architecture_**
+### CSS Architecture
 
 A CSS architecture brings reasoning to CSS authoring. Imagine it as a set of guidelines and best practices to help developers write code that's maintainable, flexible to scale and more reusable.
 
 - [**_BEM_**](/css/bem.css)
 
-### **_CSS Preprocessor_**
+### CSS Preprocessor
 
 CSS preprocessor are scripting languages that extend the default capabilities of CSS. They enable us to use logic in our CSS code, such as variables, nesting, inherence, mixins, functions, and mathematical operations.
 
@@ -192,11 +192,11 @@ React is an open source JavaScript library for creating user interfaces.
 - [Rendering](/framework/react/rendering.jsx)
 - [Hooks](/framework/react/hooks.jsx)
 
-<!-- ### [Build Tools] -->
-<!-- ### [Testing your Apps] -->
-<!-- ### [Authentication Strategies] -->
-<!-- ### [Web Security Basics] -->
-<!-- ### [Web Components] -->
+<!-- ## _Build Tools_ -->
+<!-- ## _Testing your Apps_ -->
+<!-- ## _Authentication Strategies_ -->
+<!-- ## _Web Security Basics_ -->
+<!-- ## _Web Components_ -->
 
 ## _Type Checkers ( TS )_
 
@@ -211,10 +211,10 @@ TypeScript is an open source language developed by Microsoft. It is a superset o
 - [Generic](/typescript/generic.ts)
 - [Modules](/typescript/modules/import.ts)
 
-<!-- ### [Server Side Rendering ( SSR )] -->
-<!-- ### [GraphQL] -->
-<!-- ### [Static Site Generators] -->
-<!-- ### [Progressive Web Apps] -->
-<!-- ### [Mobile Applications] -->
-<!-- ### [Desktop Applications] -->
-<!-- ### [Bonus Content] -->
+<!-- ## _Server Side Rendering ( SSR )_ -->
+<!-- ## _GraphQL_ -->
+<!-- ## _Static Site Generators_ -->
+<!-- ## _Progressive Web Apps_ -->
+<!-- ## _Mobile Applications_ -->
+<!-- ## _Desktop Applications_ -->
+<!-- ## _Bonus Content_ -->
