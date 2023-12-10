@@ -121,8 +121,22 @@ In Javascript, when we refer to the DOM we refer to this tree structure, through
 
 ### Application Programming Interface ( API )
 
-- **_[AJAX](/javascript/apis/ajax/script.js)_**
-<!-- ### API-REST -->
+An API is a piece of code that allows different applications to communicate with each other and share information and functionality
+
+- Native APIs
+- External APIs
+
+#### Asynchronous JavaScript And XML ( [AJAX](/javascript/apis/ajax/script.js) )
+
+The appeal of AJAX is its "asynchronous" nature, which means that it can communicate with the server, exchange data and update the page without having to reload the browser.
+
+- XHR
+- Fetch
+- Axios
+
+#### Representational State Transfer ( REST )
+
+A REST service is a set of constraints with which we can create a software architecture style, which we can use to create web applications respecting the HTTP protocol.
 
 ## _Version Control Systems_
 
