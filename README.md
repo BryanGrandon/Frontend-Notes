@@ -134,7 +134,7 @@ The appeal of AJAX is its "asynchronous" nature, which means that it can communi
 - Fetch
 - Axios
 
-#### Representational State Transfer ( REST )
+#### Representational State Transfer ( [REST](/javascript/apis/rest/) )
 
 A REST service is a set of constraints with which we can create a software architecture style, which we can use to create web applications respecting the HTTP protocol.
 
