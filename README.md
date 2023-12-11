@@ -20,25 +20,17 @@ This project is where i add what i learn about the technologies used in Frontend
 
 The Internet is a global network of computers connected to each other which communicate through a standardized set of protocols.
 
-### What is HTTP ?
+- Network **communication** protocol: Basic packet communication protocols such s TCP/IP and **_HTTP_**.
+- Network **security** protocols: Implement security in network communications between server, including HTTPS, SSL and SFTP.
+- Network **management** protocols: provide network maintenance and governance, including Simple Network Management Protocol and ICMP.
 
-HTTP stands for Hypertext Transfer Protocol and it's the foundation of communication over the World Wide Web. It's an application layer protocol that defines how clients and servers communicate with each other.
+**_HyperText Transfer Protocol ( HTTP ):_** It's the foundation of communication over the World Wide Web. It's an application layer protocol that defines how clients ans servers communicate with each other.
 
-### Domain Name
+**_Web Hosting:_** It is a service that allows individuals and businesses to make their websites accessible on the internet. When a website is created, its files need to be stored on a **_server_** so that they can be accessed by visitors to the site.
 
-A domain name is a unique name that identifies a website on the internet. The domain name system (DNS) translates domain names into IP addresses, which are used by computers to communicate over the internet.
+**_Domain Name:_** It is a unique name that identifies a website on the internet. The **_Domain Name System (DNS)_** is a hierarchical naming system that translates domain names into IP addresses, which are used by computers to communicate over the internet.
 
-### Hosting
-
-Web hosting is a service that allows individuals and businesses to make their websites accessible on the internet. When a website is created, its files need to be stored on a server so that they can be accessed by visitors to the site.
-
-### DNS
-
-Domain Name System, is a hierarchical and distributed naming system for computers, services, and other resources on the Internet.
-
-### Browser
-
-A web browser is a software application that enables a user to access and display web pages or other online content through its graphical user interface.
+**_Browser:_** It is a software application that enables a user to access and display web pages or other online content through its graphical user interface.
 
 ## _HTML_
 
