@@ -1,3 +1,27 @@
+/* -------- Basic Selector -------- */
+
+/* All elements */
+* {
+  color: blueviolet;
+}
+
+/* Elements HTML */
+div {
+  color: blueviolet;
+}
+
+/* Attribute Class */
+.class {
+  color: blueviolet;
+}
+
+/* Attribute Id */
+#id {
+  color: blueviolet;
+}
+
+/* -------- Advanced Selector -------- */
+
 /* Descendent */
 .parent .child {
   color: blueviolet;

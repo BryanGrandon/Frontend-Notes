@@ -50,8 +50,7 @@ HTML stands for **HyperText Markup Language**. It is used on the frontend and gi
 
 CSS or **Cascading Style Sheets** is the language used to style the frontend of any website. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
 
-- [Basic Selector](/css/code/basic-selector.css)
-- [Advanced Selector](/css/code/advanced-selector.css)
+- [Selector](/css/code/selector.css)
 - [Pseudo Classes](/css/code/pseudo-classes.css)
 - [Pseudo Element](/css/code/pseudo-element.css)
 - [Fonts](/css/code/fonts.css)
@@ -64,17 +63,13 @@ CSS or **Cascading Style Sheets** is the language used to style the frontend of 
 - [Flex](/css/code/display-flex.css)
 - [Variables](/css/code/variables.css)
 
-### CSS Architecture
+**_CSS Architecture:_** Consists of managing CSS code with a set of rules and patterns to facilitate its readability, maintainability and scalability.
 
-A CSS architecture brings reasoning to CSS authoring. Imagine it as a set of guidelines and best practices to help developers write code that's maintainable, flexible to scale and more reusable.
+- _[BEM](/css/bem.css)_
 
-- [**_BEM_**](/css/bem.css)
+**_CSS Preprocessor:_** These are scripting languages that extend the default capabilities of CSS.
 
-### CSS Preprocessor
-
-CSS preprocessor are scripting languages that extend the default capabilities of CSS. They enable us to use logic in our CSS code, such as variables, nesting, inherence, mixins, functions, and mathematical operations.
-
-- **_[Sass](/css/sass.scss)_**
+- _[Sass](/css/sass.scss)_
 
 ## _JavaScript_
 
