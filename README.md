@@ -36,15 +36,7 @@ The Internet is a global network of computers connected to each other which comm
 
 HTML stands for **HyperText Markup Language**. It is used on the frontend and gives the structure to the webpage which you can style using CSS and make interactive using JavaScript.
 
-- [Structure Basic](/html/document.html)
-- [Metadata](/html/metadata.html)
-- [Group](/html/group.html)
-- [Text](/html/text.html)
-- [Multimedia](/html/multimedia.html)
-- [Table](/html/table.html)
-- [Form](/html/form.html)
-- [Interactive](/html/interactive.html)
-- [Semantic](/html/semaintic.html)
+**_[Code](/code/html-note.html)_**
 
 ## _CSS_
 
@@ -87,13 +79,11 @@ An interpreted programming language used on the client side (front-end) to provi
 - [Strict Mode](/javascript/language/strict-mode.js)
 - [Using (`this`) keyword](/javascript/language/using-this-keyword.js)
 - [Asynchronous JavaScript](/javascript/language/asynchronous.js)
-- [Classes](/Documents/javascript/languages/classes.md)
+- [Classes](/javascript/language/classes.js)
 - [Generator](/javascript/language/generator.js)
-- [Modules](/Documents/javascript/languages/modules.md)
+- [Modules](/javascript/language/modules.js)
 
-### Document Object Model ( DOM )
-
-In Javascript, when we refer to the DOM we refer to this tree structure, through which we can access it and modify the HTML elements from Javascript, adding new tags, modifying or deleting others, changing their HTML attributes, adding classes, changing the text content, etc.
+In Javascript, when we refer to the **_Document Object Model ( DOM )_** we refer to this tree structure, through which we can access it and modify the HTML elements from Javascript.
 
 - [The Subject Document](/javascript/dom/subject-document.js)
 - [Select DOM Elements](/javascript/dom/select-dom-elements.js)
@@ -106,9 +96,7 @@ In Javascript, when we refer to the DOM we refer to this tree structure, through
 - [Event Handler](/javascript/dom/event-handler.js)
 - [Browser Object Model](/javascript/dom/browser-object-model.js)
 
-### Application Programming Interface ( API )
-
-An API is a piece of code that allows different applications to communicate with each other and share information and functionality
+**_Application Programming Interface ( API )_** is a piece of code that allows different applications to communicate with each other and share information and functionality
 
 - Native APIs
 - External APIs
