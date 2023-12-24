@@ -1,6 +1,6 @@
 # Frontend Learning Path
 
-## _Index_
+## _Table of content_
 
 1. _[Introduction](#introduction)_
 2. _[Internet](#internet)_
@@ -42,76 +42,25 @@ HTML stands for **HyperText Markup Language**. It is used on the frontend and gi
 
 CSS or **Cascading Style Sheets** is the language used to style the frontend of any website. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
 
-- [Selector](/css/code/selector.css)
-- [Pseudo Classes](/css/code/pseudo-classes.css)
-- [Pseudo Element](/css/code/pseudo-element.css)
-- [Fonts](/css/code/fonts.css)
-- [Lengths](/css/code/length.css)
-- [Colors](/css/code/colors.css)
-- [Box Model](/css/code/box-model.css)
-- [Position](/css/code/position.css)
-- [Background](/css/code/background.css)
-- [Display](/css/code/display.css)
-- [Flex](/css/code/display-flex.css)
-- [Variables](/css/code/variables.css)
-
 **_CSS Architecture:_** Consists of managing CSS code with a set of rules and patterns to facilitate its readability, maintainability and scalability.
 
-- _[BEM](/css/bem.css)_
+- _[BEM](/code/css/bem.css)_
 
 **_CSS Preprocessor:_** These are scripting languages that extend the default capabilities of CSS.
 
-- _[Sass](/css/sass.scss)_
+- _[Sass](/code/css/sass.scss)_
 
 ## _JavaScript_
 
 An interpreted programming language used on the client side (front-end) to provide dynamic and interactive enhancements to web pages.
 
-- [All About Variables](/javascript/language/all-about-variable.js)
-- [Data Type](/javascript/language/data-types.js)
-- [Type Casting](/javascript/language/type-casting.js)
-- [Data Structure](/javascript/language/data-structure.js)
-- [Equality Comparisons](/javascript/language/equality-comparisons.js)
-- [Loops](/javascript/language/loops.js)
-- [Control Flow](/javascript/language/control-flow.js)
-- [Operators](/javascript/language/operators.js)
-- [Functions](/javascript/language/functions.js)
-- [Strict Mode](/javascript/language/strict-mode.js)
-- [Using (`this`) keyword](/javascript/language/using-this-keyword.js)
-- [Asynchronous JavaScript](/javascript/language/asynchronous.js)
-- [Classes](/javascript/language/classes.js)
-- [Generator](/javascript/language/generator.js)
-- [Modules](/javascript/language/modules.js)
+### DOM
 
 In Javascript, when we refer to the **_Document Object Model ( DOM )_** we refer to this tree structure, through which we can access it and modify the HTML elements from Javascript.
 
-- [The Subject Document](/javascript/dom/subject-document.js)
-- [Select DOM Elements](/javascript/dom/select-dom-elements.js)
-- [Manage DOM Attributes](/javascript/dom/manage-dom-attributes.js)
-- [CSS Management](/javascript/dom/css-management.js)
-- [Content in DOM Elements](/javascript/dom/content-in-dom-element.js)
-- [Navigate through DOM elements](/javascript/dom/navigate-through-dom-element.js)
-- [Create elements in the DOM](/javascript/dom/create-element-in-the-dom.js)
-- [Modifying Elements](/javascript/dom/modifying-elements.js)
-- [Event Handler](/javascript/dom/event-handler.js)
-- [Browser Object Model](/javascript/dom/browser-object-model.js)
+### API
 
 **_Application Programming Interface ( API )_** is a piece of code that allows different applications to communicate with each other and share information and functionality
-
-- Native APIs
-- External APIs
-
-#### Asynchronous JavaScript And XML ( [AJAX](/javascript/apis/ajax/script.js) )
-
-The appeal of AJAX is its "asynchronous" nature, which means that it can communicate with the server, exchange data and update the page without having to reload the browser.
-
-- XHR
-- Fetch
-- Axios
-
-#### Representational State Transfer ( [REST](/javascript/apis/rest/) )
-
-A REST service is a set of constraints with which we can create a software architecture style, which we can use to create web applications respecting the HTTP protocol.
 
 ## _Version Control Systems_
 
