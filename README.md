@@ -20,17 +20,54 @@ This project is where i add what i learn about the technologies used in Frontend
 
 The Internet is a global network of computers connected to each other which communicate through a standardized set of protocols.
 
-- Network **communication** protocol: Basic packet communication protocols such s TCP/IP and **_HTTP_**.
-- Network **security** protocols: Implement security in network communications between server, including HTTPS, SSL and SFTP.
-- Network **management** protocols: provide network maintenance and governance, including Simple Network Management Protocol and ICMP.
+<dl>
+  <dt>Network communication protocol</dt>
+  <dd>
+    Basic packet communication protocols such s TCP/IP and HTTP.
+  </dd>
+</dl>
 
-**_HyperText Transfer Protocol ( HTTP ):_** It's the foundation of communication over the World Wide Web. It's an application layer protocol that defines how clients ans servers communicate with each other.
+<dl>
+  <dt>Network security protocols</dt>
+  <dd>
+    Implement security in network communications between server, including HTTPS, SSL and SFTP.
+  </dd>
+</dl>
 
-**_Web Hosting:_** It is a service that allows individuals and businesses to make their websites accessible on the internet. When a website is created, its files need to be stored on a **_server_** so that they can be accessed by visitors to the site.
+<dl>
+  <dt>Network management protocols</dt>
+  <dd>
+    Provide network maintenance and governance, including Simple Network Management Protocol and ICMP.
+  </dd>
+</dl>
 
-**_Domain Name:_** It is a unique name that identifies a website on the internet. The **_Domain Name System (DNS)_** is a hierarchical naming system that translates domain names into IP addresses, which are used by computers to communicate over the internet.
+<dl>
+  <dt>HyperText Transfer Protocol ( HTTP )</dt>
+  <dd>
+    It's the foundation of communication over the World Wide Web. It's an application layer protocol that defines how clients ans servers communicate with each other.
+  </dd>
+</dl>
 
-**_Browser:_** It is a software application that enables a user to access and display web pages or other online content through its graphical user interface.
+<dl>
+  <dt>Web Hosting</dt>
+  <dd>
+    It is a service that allows individuals and businesses to make their websites accessible on the internet. When a website is created, its files need to be stored on a server so that they can be accessed by visitors to the site.
+  </dd>
+</dl>
+
+<dl>
+  <dt>Domain Name</dt>
+  <dd>
+    It is a unique name that identifies a website on the internet. The Domain Name System (DNS) is a hierarchical naming system that translates domain names into IP addresses, which are used by computers to communicate over the internet.
+  </dd>
+</dl>
+
+<dl>
+  <dt>Browser</dt>
+  <dd>
+    It is a software application that enables a user to access and display web pages or other online content through its graphical user interface.
+  </dd>
+</dl>
 
 ## _HTML_
 
@@ -38,15 +75,33 @@ HTML stands for **HyperText Markup Language**. It is used on the frontend and gi
 
 **_[Code](/code/html-note.html)_**
 
+### Accessibility
+
+Web accessibility means that websites, tools, and technologies are designed and developed in such a way that people with disabilities can use them easily.
+
+### Basic of SEO
+
+SEO or Search Engine Optimization is the technique used to optimize your website for better rankings on search engines such as Google, Bing etc.
+
 ## _CSS_
 
 CSS or **Cascading Style Sheets** is the language used to style the frontend of any website. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
 
-**_CSS Architecture:_** Consists of managing CSS code with a set of rules and patterns to facilitate its readability, maintainability and scalability.
+<dl>
+  <dt>CSS Architecture:</dt>
+  <dd>
+    Consists of managing CSS code with a set of rules and patterns to facilitate its readability, maintainability and scalability.
+  </dd>
+</dl>
 
 - _[BEM](/code/css/bem.css)_
 
-**_CSS Preprocessor:_** These are scripting languages that extend the default capabilities of CSS.
+<dl>
+  <dt>CSS Preprocessor:</dt>
+  <dd>
+    These are scripting languages that extend the default capabilities of CSS.
+  </dd>
+</dl>
 
 - _[Sass](/code/css/sass.scss)_
 
@@ -54,13 +109,13 @@ CSS or **Cascading Style Sheets** is the language used to style the frontend of 
 
 An interpreted programming language used on the client side (front-end) to provide dynamic and interactive enhancements to web pages.
 
-### DOM
+### DOM Manipulation
 
-In Javascript, when we refer to the **_Document Object Model ( DOM )_** we refer to this tree structure, through which we can access it and modify the HTML elements from Javascript.
+The Document Object Model (DOM) is a programming interface built for HTML and XML documents. It represents the page that allows programs and scripts to dynamically update the document structure, content, and style. With DOM, we can easily access and manipulate tags, IDs, classes, attributes, etc.
 
-### API
+### APIs
 
-**_Application Programming Interface ( API )_** is a piece of code that allows different applications to communicate with each other and share information and functionality
+API is a piece of code that allows different applications to communicate with each other and share information and functionality.
 
 ## _Version Control Systems_
 
