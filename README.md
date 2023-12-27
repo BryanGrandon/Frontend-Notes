@@ -10,7 +10,7 @@
 6. _[Version Control System](#version-control-systems)_
 7. _[Package Managers](#package-managers)_
 8. _[Framework](#framework)_
-9. _[Type Checkers](#type-checkers--ts)_
+9. _[Type Checkers](#type-checkers)_
 
 ## _Introduction_
 
@@ -72,8 +72,6 @@ The Internet is a global network of computers connected to each other which comm
 ## _HTML_
 
 HTML stands for **HyperText Markup Language**. It is used on the frontend and gives the structure to the webpage which you can style using CSS and make interactive using JavaScript.
-
-**_[Code](/code/html-note.html)_**
 
 ### Accessibility
 
@@ -175,39 +173,12 @@ Yarn is a software packaging system developed in 2016 by Facebook for Node.js Ja
 
 Web frameworks are designed to write web applications. Frameworks are collections of libraries that aid in the development of a software product or website.
 
-### React
+- React
+- Angular
+- Vue.js
 
-React is an open source JavaScript library for creating user interfaces.
+## _Type Checkers_
 
-- [Web Application Packager](/framework/react/cli-tools.md)
-- [JSX](/framework/react/jsxml.jsx)
-- [Components](/framework/react/components.jsx)
-- [Rendering](/framework/react/rendering.jsx)
-- [Hooks](/framework/react/hooks.jsx)
+Type checker helps developers write code with fewer bugs by adding types to their code, trying to catch type errors within your code, and then removing them during compile time. Flow and TypeScript are two popular static type checkers for JavaScript.
 
-<!-- ## _Build Tools_ -->
-<!-- ## _Testing your Apps_ -->
-<!-- ## _Authentication Strategies_ -->
-<!-- ## _Web Security Basics_ -->
-<!-- ## _Web Components_ -->
-
-## _Type Checkers ( TS )_
-
-TypeScript is an open source language developed by Microsoft. It is a superset of JavaScript. TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
-
-- [Primitive types](/typescript/primitive-types.ts)
-- [Type of Union](/typescript/type-of-union.ts)
-- [Type of Collections](/typescript/collections.ts)
-- [Interfaces and Types](/typescript/interface.ts)
-- [Functions](/typescript/functions.ts)
-- [Class](/typescript/class.ts)
-- [Generic](/typescript/generic.ts)
-- [Modules](/typescript/modules/import.ts)
-
-<!-- ## _Server Side Rendering ( SSR )_ -->
-<!-- ## _GraphQL_ -->
-<!-- ## _Static Site Generators_ -->
-<!-- ## _Progressive Web Apps_ -->
-<!-- ## _Mobile Applications_ -->
-<!-- ## _Desktop Applications_ -->
-<!-- ## _Bonus Content_ -->
+- TypeScript
