@@ -1,5 +1,7 @@
 # Frontend Learning Path
 
+The frontend is used to create the interface of a website, from its structure to the styles, such as the definition of colors, textures, typographies, sections, among others. Its use is crucial for the user to have a good experience within the site or application.
+
 ## _Table of content_
 
 1. _[Introduction](#introduction)_
@@ -20,54 +22,25 @@ This project is where i add what i learn about the technologies used in Frontend
 
 The Internet is a global network of computers connected to each other which communicate through a standardized set of protocols.
 
-<dl>
-  <dt>Network communication protocol</dt>
-  <dd>
-    Basic packet communication protocols such s TCP/IP and HTTP.
-  </dd>
-</dl>
+### What is HTTP?
 
-<dl>
-  <dt>Network security protocols</dt>
-  <dd>
-    Implement security in network communications between server, including HTTPS, SSL and SFTP.
-  </dd>
-</dl>
+HTTP is the TCP/IP based application layed communication protocol which standardizes how the client and server communicate with each other. HTTP follows a classical "Client-Server model" with a client opening a connection request, then waiting until it receives a response. HTTP is a stateless protocol that means that the server does not keep any data (state) between two requests.
 
-<dl>
-  <dt>Network management protocols</dt>
-  <dd>
-    Provide network maintenance and governance, including Simple Network Management Protocol and ICMP.
-  </dd>
-</dl>
+### What is Domain Name?
 
-<dl>
-  <dt>HyperText Transfer Protocol ( HTTP )</dt>
-  <dd>
-    It's the foundation of communication over the World Wide Web. It's an application layer protocol that defines how clients ans servers communicate with each other.
-  </dd>
-</dl>
+A domain name is a unique, easy-to-remember address used to access website, such as 'google.com', and 'facebook.com'. Users can connect to websites using domain names thats to the Domain Name System (DNS).
 
-<dl>
-  <dt>Web Hosting</dt>
-  <dd>
-    It is a service that allows individuals and businesses to make their websites accessible on the internet. When a website is created, its files need to be stored on a server so that they can be accessed by visitors to the site.
-  </dd>
-</dl>
+### What is a hosting?
 
-<dl>
-  <dt>Domain Name</dt>
-  <dd>
-    It is a unique name that identifies a website on the internet. The Domain Name System (DNS) is a hierarchical naming system that translates domain names into IP addresses, which are used by computers to communicate over the internet.
-  </dd>
-</dl>
+It is a service that allows individuals and businesses to make their websites accessible on the internet. When a website is created, its files need to be stored on a server so that they can be accessed by visitors to the site.
 
-<dl>
-  <dt>Browser</dt>
-  <dd>
-    It is a software application that enables a user to access and display web pages or other online content through its graphical user interface.
-  </dd>
-</dl>
+### DNS
+
+The Domain Name System (DNS) is the telephone directory of the internet. Humans access online information through domain names, such as times.com or espn.com. Web browsers interact through IP (Internet Protocol) addresses. The DNS translates domain names into IP addresses so that browsers can load internet resources.
+
+### Browser
+
+It is a software application that enables a user to access and display web pages or other online content through its graphical user interface.
 
 ## _HTML_
 
@@ -85,21 +58,15 @@ SEO or Search Engine Optimization is the technique used to optimize your website
 
 CSS or **Cascading Style Sheets** is the language used to style the frontend of any website. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
 
-<dl>
-  <dt>CSS Architecture:</dt>
-  <dd>
-    Consists of managing CSS code with a set of rules and patterns to facilitate its readability, maintainability and scalability.
-  </dd>
-</dl>
+### CSS Architecture
+
+Consists of managing CSS code with a set of rules and patterns to facilitate its readability, maintainability and scalability.
 
 - _[BEM](/code/css/bem.css)_
 
-<dl>
-  <dt>CSS Preprocessor:</dt>
-  <dd>
-    These are scripting languages that extend the default capabilities of CSS.
-  </dd>
-</dl>
+### CSS Preprocessor
+
+These are scripting languages that extend the default capabilities of CSS.
 
 - _[Sass](/code/css/sass.scss)_
 
