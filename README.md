@@ -1,4 +1,14 @@
-# Frontend Learning Path
+<h1 align="center">Frontend Learning Path</h1>
+
+<!-- color svg: #902CDD -->
+
+<p align="center" >
+  <img 
+    src="./assets/svg/frontend.svg" 
+    alt="Frontend Image" 
+    height="300" 
+  />
+</p>
 
 The frontend is used to create the interface of a website, from its structure to the styles, such as the definition of colors, textures, typographies, sections, among others. Its use is crucial for the user to have a good experience within the site or application.
 
@@ -19,6 +29,14 @@ The frontend is used to create the interface of a website, from its structure to
 This project is where i add what i learn about the technologies used in Frontend. Besides having a sort of record of what i've learned, it's a quick way to find information that I've forgotten.
 
 ## _Internet_
+
+<p align="center">
+  <img 
+    src="./assets/svg/internet.svg" 
+    alt="Internet Image" 
+    height="250" 
+  />
+</p>
 
 The Internet is a global network of computers connected to each other which communicate through a standardized set of protocols.
 
@@ -44,6 +62,14 @@ It is a software application that enables a user to access and display web pages
 
 ## _HTML_
 
+<p align="center">
+  <img 
+    src="./assets/svg/html.svg" 
+    alt="HTML Image" 
+    height="250" 
+  />
+</p>
+
 HTML stands for **HyperText Markup Language**. It is used on the frontend and gives the structure to the webpage which you can style using CSS and make interactive using JavaScript.
 
 ### Accessibility
@@ -55,6 +81,14 @@ Web accessibility means that websites, tools, and technologies are designed and 
 SEO or Search Engine Optimization is the technique used to optimize your website for better rankings on search engines such as Google, Bing etc.
 
 ## _CSS_
+
+<p align="center">
+  <img 
+    src="./assets/svg/css.svg" 
+    alt="CSS Image" 
+    height="250" 
+  />
+</p>
 
 CSS or **Cascading Style Sheets** is the language used to style the frontend of any website. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
 
@@ -72,6 +106,14 @@ These are scripting languages that extend the default capabilities of CSS.
 
 ## _JavaScript_
 
+<p align="center">
+  <img 
+    src="./assets/svg/js.svg" 
+    alt="JS Image" 
+    height="250" 
+  />
+</p>
+
 An interpreted programming language used on the client side (front-end) to provide dynamic and interactive enhancements to web pages.
 
 ### DOM Manipulation
@@ -83,6 +125,14 @@ The Document Object Model (DOM) is a programming interface built for HTML and XM
 API is a piece of code that allows different applications to communicate with each other and share information and functionality.
 
 ## _Version Control Systems_
+
+<p align="center" >
+  <img 
+    src="./assets/svg/version-control-system.svg" 
+    alt="Version-control-system Image" 
+    height="250" 
+  />
+</p>
 
 Version control systems allow you to track changes to your codebase/files over time. They allow you to go back to some previous version of the codebase without any issues. Also, they help in collaborating with people working on the same code.
 
@@ -122,6 +172,14 @@ There are different repository hosting services, the most famous being GitHub, G
 
 ## _Package Managers_
 
+<p align="center" >
+  <img 
+    src="./assets/svg/package-managers.svg" 
+    alt="Package-managers Image" 
+    height="250" 
+  />
+</p>
+
 Package managers allow you to manage the dependencies ( external code written by you or someone else ) that your project needs to work correctly.
 
 ### npm
@@ -137,6 +195,14 @@ PNPM is an alternative package manager for Node.js which stands for "performant 
 Yarn is a software packaging system developed in 2016 by Facebook for Node.js JavaScript runtime environment that provides speed, consistency, stability, and security as an alternative to npm ( package manager )
 
 ## _Framework_
+
+<p align="center" >
+  <img 
+    src="./assets/svg/framework.svg" 
+    alt="Framework Image" 
+    height="250" 
+  />
+</p>
 
 Web frameworks are designed to write web applications. Frameworks are collections of libraries that aid in the development of a software product or website.
 
