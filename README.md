@@ -40,11 +40,11 @@ This project is where i add what i learn about the technologies used in Frontend
 
 The Internet is a global network of computers connected to each other which communicate through a standardized set of protocols.
 
-### What is HTTP?
+### [What is HTTP?](https://developer.mozilla.org/en-US/docs/Web/HTTP)
 
-HTTP is the TCP/IP based application layed communication protocol which standardizes how the client and server communicate with each other. HTTP follows a classical "Client-Server model" with a client opening a connection request, then waiting until it receives a response. HTTP is a stateless protocol that means that the server does not keep any data (state) between two requests.
+HTTP is the TCP/IP based application layed communication protocol which standardizes how the client and server communicate with each other. HTTP follows a classical "Client-Server model" with a client opening a connection request, then waiting until it receives a response.
 
-### What is Domain Name?
+### [What is Domain Name?](https://developer.mozilla.org/en-US/docs/Glossary/Domain_name)
 
 A domain name is a unique, easy-to-remember address used to access website, such as 'google.com', and 'facebook.com'. Users can connect to websites using domain names thats to the Domain Name System (DNS).
 
@@ -52,11 +52,11 @@ A domain name is a unique, easy-to-remember address used to access website, such
 
 It is a service that allows individuals and businesses to make their websites accessible on the internet. When a website is created, its files need to be stored on a server so that they can be accessed by visitors to the site.
 
-### DNS
+### [DNS](https://developer.mozilla.org/en-US/docs/Glossary/DNS)
 
-The Domain Name System (DNS) is the telephone directory of the internet. Humans access online information through domain names, such as times.com or espn.com. Web browsers interact through IP (Internet Protocol) addresses. The DNS translates domain names into IP addresses so that browsers can load internet resources.
+The Domain Name System ( DNS ) translates domain names into IP addresses so that browsers can load internet resources.
 
-### Browser
+### [Browser](https://developer.mozilla.org/en-US/docs/Glossary/Browser)
 
 It is a software application that enables a user to access and display web pages or other online content through its graphical user interface.
 
@@ -96,13 +96,23 @@ CSS or **Cascading Style Sheets** is the language used to style the frontend of 
 
 Consists of managing CSS code with a set of rules and patterns to facilitate its readability, maintainability and scalability.
 
-- _[BEM](/code/css/bem.css)_
+<dl>
+  <dt><a href="https://getbem.com/" >BEM</a></dt>
+  <dd>
+    The Block, Element, Modifier methodology (commonly referred to as BEM) is a popular naming convention for classes in HTML and CSS.
+  </dd>
+</dl>
 
 ### CSS Preprocessor
 
 These are scripting languages that extend the default capabilities of CSS.
 
-- _[Sass](/code/css/sass.scss)_
+<dl>
+  <dt><a href="https://sass-lang.com/documentation/" >SASS</a></dt>
+  <dd>
+    Sass is a stylesheet language that’s compiled to CSS.
+  </dd>
+</dl>
 
 ## _JavaScript_
 
@@ -118,7 +128,7 @@ An interpreted programming language used on the client side (front-end) to provi
 
 ### DOM Manipulation
 
-The Document Object Model (DOM) is a programming interface built for HTML and XML documents. It represents the page that allows programs and scripts to dynamically update the document structure, content, and style. With DOM, we can easily access and manipulate tags, IDs, classes, attributes, etc.
+The Document Object Model (DOM) is a programming interface built for HTML and XML documents. It represents the page that allows programs and scripts to dynamically update the document structure, content, and style.
 
 ### APIs
 
@@ -142,29 +152,40 @@ Git is a free and open source distributed version control system designed to han
 
 **_Best practices for writing commits in Git:_**
 
-1. Use the imperative verb (add, change, fix remove, ...).
-   - `add`: Means that a new file is added.
-   - `change`: Means that an existing file is modified.
-   - `fix`: Means that a bug is fixed.
-   - `remove`: Means that the file is removed.
-2. Do not use periods or ellipses in **your messages**.
+1. Use the imperative verb ( add, change, fix, remove).
+2. Do not use periods or ellipses in your messages.
 3. Use a maximum of 50 characters for your commit message.
 4. Add any necessary context in the body of the commit message.
 5. Use a prefix for your commits to make then more semantic.
-   - `<type-of-commit>[scope]: <description>`
-     ```bash
-       feat(backend): add filter for cars
-       fix(web): remove wrong color
-     ```
-   - `feat`: A new feature for the user.
-   - `fix`: Fixed a bug that affects the user.
-   - `pref`: Changes that improve site performance.
-   - `build`: Changes in the build system, deployment tasks or installation.
-   - `ci`: Changes in continuous integration.
-   - `docs`: Changes in documentation.
-   - `refactor`: Refactoring of code such as variable or function name changes.
-   - `style`: Formatting changes, tabs, spaces or semicolons, etx; do not affect the use.
-   - `test`: Add tests or refactor an existing one.
+   - `<type-of-commit>[scope]:<imperative verb> <description>`
+
+- type-of-commit
+
+  - `feat`: A new feature for the user.
+  - `fix`: Fixed a bug that affects the user.
+  - `pref`: Changes that improve site performance.
+  - `build`: Changes in the build system, deployment tasks or installation.
+  - `ci`: Changes in continuous integration.
+  - `docs`: Changes in documentation.
+  - `refactor`: Refactoring of code such as variable or function name changes.
+  - `style`: Formatting changes, tabs, spaces or semicolons, etx; do not affect the use.
+  - `test`: Add tests or refactor an existing one.
+
+- Scopes
+
+  - `web`
+  - `backend`
+
+- Imperative verb
+  - `add`: Means that a new file is added.
+  - `change`: Means that an existing file is modified.
+  - `fix`: Means that a bug is fixed.
+  - `remove`: Means that the file is removed.
+
+```bash
+  feat(backend): add filter for cars
+  fix(web): remove wrong color
+```
 
 ### Repo Hosting Services
 
@@ -182,13 +203,13 @@ There are different repository hosting services, the most famous being GitHub, G
 
 Package managers allow you to manage the dependencies ( external code written by you or someone else ) that your project needs to work correctly.
 
-### npm
+### [npm](/https://docs.npmjs.com/)
 
 npm is a package manager for the JavaScript programming language maintained by npm, Inc. npm is the default package manager for the JavaScript runtime environment Node.js.
 
 ### [pnpm](https://pnpm.io/)
 
-PNPM is an alternative package manager for Node.js which stands for "performant NPM". The main purpose of PNPM is to hold all the packages at a global ( centralized ) store and use them if needed by other projects too by creating hard links to it.
+The main purpose of PNPM is to hold all the packages at a global ( centralized ) store and use them if needed by other projects too by creating hard links to it.
 
 ### [Yarn](https://classic.yarnpkg.com/en/docs/getting-started)
 
@@ -212,6 +233,6 @@ Web frameworks are designed to write web applications. Frameworks are collection
 
 ## _Type Checkers_
 
-Type checker helps developers write code with fewer bugs by adding types to their code, trying to catch type errors within your code, and then removing them during compile time. Flow and TypeScript are two popular static type checkers for JavaScript.
+Type checker helps developers write code with fewer bugs by adding types to their code, trying to catch type errors within your code, and then removing them during compile time.
 
 - TypeScript
