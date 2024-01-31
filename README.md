@@ -22,7 +22,8 @@ The frontend is used to create the interface of a website, from its structure to
 6. _[Version Control System](#version-control-systems)_
 7. _[Package Managers](#package-managers)_
 8. _[Framework](#framework)_
-9. _[Type Checkers](#type-checkers)_
+9. _[Web Security Basic](#web-security-basics)_
+10. _[Type Checkers](#type-checkers)_
 
 ## _Introduction_
 
@@ -230,6 +231,43 @@ Web frameworks are designed to write web applications. Frameworks are collection
 - React
 - Angular
 - Vue.js
+
+<!-- ## _Testing your apps_ -->
+<!-- ## _Authentication Strategies_ -->
+
+## _Web Security Basics_
+
+<p align="center" >
+  <img 
+    src="./assets/svg/security.svg" 
+    alt="Frontend Image" 
+    height="300" 
+  />
+</p>
+
+Web security refers to the protective measures taken by the developers to protect the web applications from threats that could affect the business.
+
+### HTTPS
+
+HTTPS is a secure way to send data between a web server and a browser.
+
+Hypertext transfer protocol secure (HTTPS) is the secure version of HTTP, which is the primary protocol used to send data between a web browser and a website.
+
+- [HTTP Cat](https://http.cat/)
+
+### [Content Security Policy](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_Security_Policy)
+
+Content Security Policy is a computer security standard introduced to prevent cross-site scripting, click jacking and other code injection attacks resulting from execution of malicious content in the trusted web page context.
+
+### [CORS](/https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
+
+Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources.
+
+### [Open Web Application Security](https://developer.mozilla.org/en-US/docs/Glossary/OWASP)
+
+Open Web Application Security Project is an online community that produces freely-available articles, methodologies, documentation, tools, and technologies in the field of web application security.
+
+<!-- ## _Wew Components_ -->
 
 ## _Type Checkers_
 
