@@ -1,14 +1,14 @@
-<h1 align="center">Frontend Learning Path</h1>
+# Frontend Learning Path
 
 <!-- color svg: #902CDD -->
 
-<p align="center" >
+<center>
   <img 
     src="./assets/svg/frontend.svg" 
     alt="Frontend Image" 
     height="300" 
   />
-</p>
+</center>
 
 The frontend is used to create the interface of a website, from its structure to the styles, such as the definition of colors, textures, typographies, sections, among others. Its use is crucial for the user to have a good experience within the site or application.
 
@@ -61,15 +61,17 @@ The Domain Name System ( DNS ) translates domain names into IP addresses so that
 
 It is a software application that enables a user to access and display web pages or other online content through its graphical user interface.
 
+[⬆️ Back to top ⬆️](#frontend-learning-path)
+
 ## _HTML_
 
-<p align="center">
+<center>
   <img 
     src="./assets/svg/html.svg" 
     alt="HTML Image" 
     height="250" 
   />
-</p>
+</center>
 
 HTML stands for **HyperText Markup Language**. It is used on the frontend and gives the structure to the webpage which you can style using CSS and make interactive using JavaScript.
 
@@ -81,15 +83,17 @@ Web accessibility means that websites, tools, and technologies are designed and 
 
 SEO or Search Engine Optimization is the technique used to optimize your website for better rankings on search engines such as Google, Bing etc.
 
+[⬆️ Back to top ⬆️](#frontend-learning-path)
+
 ## _CSS_
 
-<p align="center">
+<center>
   <img 
     src="./assets/svg/css.svg" 
     alt="CSS Image" 
     height="250" 
   />
-</p>
+</center>
 
 CSS or **Cascading Style Sheets** is the language used to style the frontend of any website. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
 
@@ -115,15 +119,17 @@ These are scripting languages that extend the default capabilities of CSS.
   </dd>
 </dl>
 
+[⬆️ Back to top ⬆️](#frontend-learning-path)
+
 ## _JavaScript_
 
-<p align="center">
+<center>
   <img 
     src="./assets/svg/js.svg" 
     alt="JS Image" 
     height="250" 
   />
-</p>
+</center>
 
 An interpreted programming language used on the client side (front-end) to provide dynamic and interactive enhancements to web pages.
 
@@ -135,15 +141,17 @@ The Document Object Model (DOM) is a programming interface built for HTML and XM
 
 API is a piece of code that allows different applications to communicate with each other and share information and functionality.
 
+[⬆️ Back to top ⬆️](#frontend-learning-path)
+
 ## _Version Control Systems_
 
-<p align="center" >
+<center>
   <img 
     src="./assets/svg/version-control-system.svg" 
     alt="Version-control-system Image" 
     height="250" 
   />
-</p>
+</center>
 
 Version control systems allow you to track changes to your codebase/files over time. They allow you to go back to some previous version of the codebase without any issues. Also, they help in collaborating with people working on the same code.
 
@@ -192,15 +200,17 @@ Git is a free and open source distributed version control system designed to han
 
 There are different repository hosting services, the most famous being GitHub, GitLab and BitBuck.
 
+[⬆️ Back to top ⬆️](#frontend-learning-path)
+
 ## _Package Managers_
 
-<p align="center" >
+<center>
   <img 
     src="./assets/svg/package-managers.svg" 
     alt="Package-managers Image" 
     height="250" 
   />
-</p>
+</center>
 
 Package managers allow you to manage the dependencies ( external code written by you or someone else ) that your project needs to work correctly.
 
@@ -216,15 +226,17 @@ The main purpose of PNPM is to hold all the packages at a global ( centralized )
 
 Yarn is a software packaging system developed in 2016 by Facebook for Node.js JavaScript runtime environment that provides speed, consistency, stability, and security as an alternative to npm ( package manager )
 
+[⬆️ Back to top ⬆️](#frontend-learning-path)
+
 ## _Framework_
 
-<p align="center" >
+<center>
   <img 
     src="./assets/svg/framework.svg" 
     alt="Framework Image" 
     height="250" 
   />
-</p>
+</center>
 
 Web frameworks are designed to write web applications. Frameworks are collections of libraries that aid in the development of a software product or website.
 
@@ -235,15 +247,17 @@ Web frameworks are designed to write web applications. Frameworks are collection
 <!-- ## _Testing your apps_ -->
 <!-- ## _Authentication Strategies_ -->
 
+[⬆️ Back to top ⬆️](#frontend-learning-path)
+
 ## _Web Security Basics_
 
-<p align="center" >
+<center>
   <img 
     src="./assets/svg/security.svg" 
     alt="Frontend Image" 
-    height="300" 
+    height="250" 
   />
-</p>
+</center>
 
 Web security refers to the protective measures taken by the developers to protect the web applications from threats that could affect the business.
 
@@ -269,8 +283,20 @@ Open Web Application Security Project is an online community that produces freel
 
 <!-- ## _Wew Components_ -->
 
+[⬆️ Back to top ⬆️](#frontend-learning-path)
+
 ## _Type Checkers_
+
+<center>
+  <img 
+    src="./assets/svg/checkers.svg" 
+    alt="Frontend Image" 
+    height="250" 
+  />
+</center>
 
 Type checker helps developers write code with fewer bugs by adding types to their code, trying to catch type errors within your code, and then removing them during compile time.
 
 - TypeScript
+
+[⬆️ Back to top ⬆️](#frontend-learning-path)
