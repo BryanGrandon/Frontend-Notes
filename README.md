@@ -5,7 +5,7 @@
 <center>
   <img 
     src="./assets/svg/frontend.svg" 
-    alt="Frontend Image" 
+    alt="Frontend" 
     height="300" 
   />
 </center>
@@ -34,7 +34,7 @@ This project is where i add what i learn about the technologies used in Frontend
 <p align="center">
   <img 
     src="./assets/svg/internet.svg" 
-    alt="Internet Image" 
+    alt="Internet" 
     height="250" 
   />
 </p>
@@ -68,7 +68,7 @@ It is a software application that enables a user to access and display web pages
 <center>
   <img 
     src="./assets/svg/html.svg" 
-    alt="HTML Image" 
+    alt="HTML" 
     height="250" 
   />
 </center>
@@ -90,7 +90,7 @@ SEO or Search Engine Optimization is the technique used to optimize your website
 <center>
   <img 
     src="./assets/svg/css.svg" 
-    alt="CSS Image" 
+    alt="CSS" 
     height="250" 
   />
 </center>
@@ -126,7 +126,7 @@ These are scripting languages that extend the default capabilities of CSS.
 <center>
   <img 
     src="./assets/svg/js.svg" 
-    alt="JS Image" 
+    alt="JavaScript" 
     height="250" 
   />
 </center>
@@ -148,7 +148,7 @@ API is a piece of code that allows different applications to communicate with ea
 <center>
   <img 
     src="./assets/svg/version-control-system.svg" 
-    alt="Version-control-system Image" 
+    alt="Version control system" 
     height="250" 
   />
 </center>
@@ -207,7 +207,7 @@ There are different repository hosting services, the most famous being GitHub, G
 <center>
   <img 
     src="./assets/svg/package-managers.svg" 
-    alt="Package-managers Image" 
+    alt="Package managers" 
     height="250" 
   />
 </center>
@@ -233,7 +233,7 @@ Yarn is a software packaging system developed in 2016 by Facebook for Node.js Ja
 <center>
   <img 
     src="./assets/svg/framework.svg" 
-    alt="Framework Image" 
+    alt="Framework" 
     height="250" 
   />
 </center>
@@ -254,7 +254,7 @@ Web frameworks are designed to write web applications. Frameworks are collection
 <center>
   <img 
     src="./assets/svg/security.svg" 
-    alt="Frontend Image" 
+    alt="Web security basics" 
     height="250" 
   />
 </center>
@@ -290,7 +290,7 @@ Open Web Application Security Project is an online community that produces freel
 <center>
   <img 
     src="./assets/svg/checkers.svg" 
-    alt="Frontend Image" 
+    alt="Checkers" 
     height="250" 
   />
 </center>
