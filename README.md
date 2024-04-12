@@ -2,13 +2,13 @@
 
 <!-- color svg: #902CDD -->
 
-<center>
+<p align="center">
   <img 
     src="./assets/svg/frontend.svg" 
     alt="Frontend" 
     height="300" 
   />
-</center>
+</p>
 
 The frontend is used to create the interface of a website, from its structure to the styles, such as the definition of colors, textures, typographies, sections, among others. Its use is crucial for the user to have a good experience within the site or application.
 
@@ -65,13 +65,13 @@ It is a software application that enables a user to access and display web pages
 
 ## _HTML_
 
-<center>
+<p align="center">
   <img 
     src="./assets/svg/html.svg" 
     alt="HTML" 
     height="250" 
   />
-</center>
+</p>
 
 HTML stands for **HyperText Markup Language**. It is used on the frontend and gives the structure to the webpage which you can style using CSS and make interactive using JavaScript.
 
@@ -87,13 +87,13 @@ SEO or Search Engine Optimization is the technique used to optimize your website
 
 ## _CSS_
 
-<center>
+<p align="center">
   <img 
     src="./assets/svg/css.svg" 
     alt="CSS" 
     height="250" 
   />
-</center>
+</p>
 
 CSS or **Cascading Style Sheets** is the language used to style the frontend of any website. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
 
@@ -123,13 +123,13 @@ These are scripting languages that extend the default capabilities of CSS.
 
 ## _JavaScript_
 
-<center>
+<p align="center">
   <img 
     src="./assets/svg/js.svg" 
     alt="JavaScript" 
     height="250" 
   />
-</center>
+</p>
 
 An interpreted programming language used on the client side (front-end) to provide dynamic and interactive enhancements to web pages.
 
@@ -145,13 +145,13 @@ API is a piece of code that allows different applications to communicate with ea
 
 ## _Version Control Systems_
 
-<center>
+<p align="center">
   <img 
     src="./assets/svg/version-control-system.svg" 
     alt="Version control system" 
     height="250" 
   />
-</center>
+</p>
 
 Version control systems allow you to track changes to your codebase/files over time. They allow you to go back to some previous version of the codebase without any issues. Also, they help in collaborating with people working on the same code.
 
@@ -204,13 +204,13 @@ There are different repository hosting services, the most famous being GitHub, G
 
 ## _Package Managers_
 
-<center>
+<p align="center">
   <img 
     src="./assets/svg/package-managers.svg" 
     alt="Package managers" 
     height="250" 
   />
-</center>
+</p>
 
 Package managers allow you to manage the dependencies ( external code written by you or someone else ) that your project needs to work correctly.
 
@@ -230,13 +230,13 @@ Yarn is a software packaging system developed in 2016 by Facebook for Node.js Ja
 
 ## _Framework_
 
-<center>
+<p align="center">
   <img 
     src="./assets/svg/framework.svg" 
     alt="Framework" 
     height="250" 
   />
-</center>
+</p>
 
 Web frameworks are designed to write web applications. Frameworks are collections of libraries that aid in the development of a software product or website.
 
@@ -251,13 +251,13 @@ Web frameworks are designed to write web applications. Frameworks are collection
 
 ## _Web Security Basics_
 
-<center>
+<p align="center">
   <img 
     src="./assets/svg/security.svg" 
     alt="Web security basics" 
     height="250" 
   />
-</center>
+</p>
 
 Web security refers to the protective measures taken by the developers to protect the web applications from threats that could affect the business.
 
@@ -287,13 +287,13 @@ Open Web Application Security Project is an online community that produces freel
 
 ## _Type Checkers_
 
-<center>
+<p align="center">
   <img 
     src="./assets/svg/checkers.svg" 
     alt="Checkers" 
     height="250" 
   />
-</center>
+</p>
 
 Type checker helps developers write code with fewer bugs by adding types to their code, trying to catch type errors within your code, and then removing them during compile time.
 
