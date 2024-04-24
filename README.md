@@ -12,24 +12,24 @@
 
 The frontend is used to create the interface of a website, from its structure to the styles, such as the definition of colors, textures, typographies, sections, among others. Its use is crucial for the user to have a good experience within the site or application.
 
-## _Table of content_
+## Table of content
 
-1. _[Introduction](#introduction)_
-2. _[Internet](#internet)_
-3. _[HTML](#html)_
-4. _[CSS](#css)_
-5. _[JavaScript](#javascript)_
-6. _[Version Control System](#version-control-systems)_
-7. _[Package Managers](#package-managers)_
-8. _[Framework](#framework)_
-9. _[Web Security Basic](#web-security-basics)_
-10. _[Type Checkers](#type-checkers)_
+1. [Introduction](#introduction)
+2. [Internet](#internet)
+3. [HTML](#html)
+4. [CSS](#css)
+5. [JavaScript](#javascript)
+6. [Version Control System](#version-control-systems)
+7. [Package Managers](#package-managers)
+8. [Framework](#framework)
+9. [Web Security Basic](#web-security-basics)
+10. [Type Checkers](#type-checkers)
 
-## _Introduction_
+## Introduction
 
 This project is where i add what i learn about the technologies used in Frontend. Besides having a sort of record of what i've learned, it's a quick way to find information that I've forgotten.
 
-## _Internet_
+## Internet
 
 <p align="center">
   <img 
@@ -41,29 +41,29 @@ This project is where i add what i learn about the technologies used in Frontend
 
 The Internet is a global network of computers connected to each other which communicate through a standardized set of protocols.
 
-### [What is HTTP?](https://developer.mozilla.org/en-US/docs/Web/HTTP)
+- [What is HTTP?](https://developer.mozilla.org/en-US/docs/Web/HTTP)
 
-HTTP is the TCP/IP based application layed communication protocol which standardizes how the client and server communicate with each other. HTTP follows a classical "Client-Server model" with a client opening a connection request, then waiting until it receives a response.
+  - HTTP is the TCP/IP based application layed communication protocol which standardizes how the client and server communicate with each other. HTTP follows a classical "Client-Server model" with a client opening a connection request, then waiting until it receives a response.
 
-### [What is Domain Name?](https://developer.mozilla.org/en-US/docs/Glossary/Domain_name)
+- [What is Domain Name?](https://developer.mozilla.org/en-US/docs/Glossary/Domain_name)
 
-A domain name is a unique, easy-to-remember address used to access website, such as 'google.com', and 'facebook.com'. Users can connect to websites using domain names thats to the Domain Name System (DNS).
+  - A domain name is a unique, easy-to-remember address used to access website, such as 'google.com', and 'facebook.com'. Users can connect to websites using domain names thats to the Domain Name System (DNS).
 
-### What is a hosting?
+- What is a hosting?
 
-It is a service that allows individuals and businesses to make their websites accessible on the internet. When a website is created, its files need to be stored on a server so that they can be accessed by visitors to the site.
+  - It is a service that allows individuals and businesses to make their websites accessible on the internet. When a website is created, its files need to be stored on a server so that they can be accessed by visitors to the site.
 
-### [DNS](https://developer.mozilla.org/en-US/docs/Glossary/DNS)
+- [DNS](https://developer.mozilla.org/en-US/docs/Glossary/DNS)
 
-The Domain Name System ( DNS ) translates domain names into IP addresses so that browsers can load internet resources.
+  - The Domain Name System ( DNS ) translates domain names into IP addresses so that browsers can load internet resources.
 
-### [Browser](https://developer.mozilla.org/en-US/docs/Glossary/Browser)
+- [Browser](https://developer.mozilla.org/en-US/docs/Glossary/Browser)
 
-It is a software application that enables a user to access and display web pages or other online content through its graphical user interface.
+  - It is a software application that enables a user to access and display web pages or other online content through its graphical user interface.
 
 [⬆️ Back to top ⬆️](#frontend-learning-path)
 
-## _HTML_
+## HTML
 
 <p align="center">
   <img 
@@ -75,17 +75,17 @@ It is a software application that enables a user to access and display web pages
 
 HTML stands for **HyperText Markup Language**. It is used on the frontend and gives the structure to the webpage which you can style using CSS and make interactive using JavaScript.
 
-### Accessibility
+- Accessibility
 
-Web accessibility means that websites, tools, and technologies are designed and developed in such a way that people with disabilities can use them easily.
+  - Web accessibility means that websites, tools, and technologies are designed and developed in such a way that people with disabilities can use them easily.
 
-### Basic of SEO
+- Basic of SEO
 
-SEO or Search Engine Optimization is the technique used to optimize your website for better rankings on search engines such as Google, Bing etc.
+  - SEO or Search Engine Optimization is the technique used to optimize your website for better rankings on search engines such as Google, Bing etc.
 
 [⬆️ Back to top ⬆️](#frontend-learning-path)
 
-## _CSS_
+## CSS
 
 <p align="center">
   <img 
@@ -97,31 +97,17 @@ SEO or Search Engine Optimization is the technique used to optimize your website
 
 CSS or **Cascading Style Sheets** is the language used to style the frontend of any website. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
 
-### CSS Architecture
+- CSS Architecture
 
-Consists of managing CSS code with a set of rules and patterns to facilitate its readability, maintainability and scalability.
+  - Consists of managing CSS code with a set of rules and patterns to facilitate its readability, maintainability and scalability.
 
-<dl>
-  <dt><a href="https://getbem.com/" >BEM</a></dt>
-  <dd>
-    The Block, Element, Modifier methodology (commonly referred to as BEM) is a popular naming convention for classes in HTML and CSS.
-  </dd>
-</dl>
+- CSS Preprocessor
 
-### CSS Preprocessor
-
-These are scripting languages that extend the default capabilities of CSS.
-
-<dl>
-  <dt><a href="https://sass-lang.com/documentation/" >SASS</a></dt>
-  <dd>
-    Sass is a stylesheet language that’s compiled to CSS.
-  </dd>
-</dl>
+  - These are scripting languages that extend the default capabilities of CSS.
 
 [⬆️ Back to top ⬆️](#frontend-learning-path)
 
-## _JavaScript_
+## JavaScript
 
 <p align="center">
   <img 
@@ -133,17 +119,17 @@ These are scripting languages that extend the default capabilities of CSS.
 
 An interpreted programming language used on the client side (front-end) to provide dynamic and interactive enhancements to web pages.
 
-### DOM Manipulation
+- DOM Manipulation
 
-The Document Object Model (DOM) is a programming interface built for HTML and XML documents. It represents the page that allows programs and scripts to dynamically update the document structure, content, and style.
+  - The Document Object Model (DOM) is a programming interface built for HTML and XML documents. It represents the page that allows programs and scripts to dynamically update the document structure, content, and style.
 
-### APIs
+- APIs
 
-API is a piece of code that allows different applications to communicate with each other and share information and functionality.
+  - API is a piece of code that allows different applications to communicate with each other and share information and functionality.
 
 [⬆️ Back to top ⬆️](#frontend-learning-path)
 
-## _Version Control Systems_
+## Version Control Systems
 
 <p align="center">
   <img 
@@ -155,54 +141,19 @@ API is a piece of code that allows different applications to communicate with ea
 
 Version control systems allow you to track changes to your codebase/files over time. They allow you to go back to some previous version of the codebase without any issues. Also, they help in collaborating with people working on the same code.
 
-### Git
+- Git
 
-Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+  - Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 
-**_Best practices for writing commits in Git:_**
+  - [Best practices for writing commits in Git](/docs/git.md)
 
-1. Use the imperative verb ( add, change, fix, remove).
-2. Do not use periods or ellipses in your messages.
-3. Use a maximum of 50 characters for your commit message.
-4. Add any necessary context in the body of the commit message.
-5. Use a prefix for your commits to make then more semantic.
-   - `<type-of-commit>[scope]:<imperative verb> <description>`
+- Repo Hosting Services
 
-- type-of-commit
-
-  - `feat`: A new feature for the user.
-  - `fix`: Fixed a bug that affects the user.
-  - `pref`: Changes that improve site performance.
-  - `build`: Changes in the build system, deployment tasks or installation.
-  - `ci`: Changes in continuous integration.
-  - `docs`: Changes in documentation.
-  - `refactor`: Refactoring of code such as variable or function name changes.
-  - `style`: Formatting changes, tabs, spaces or semicolons, etx; do not affect the use.
-  - `test`: Add tests or refactor an existing one.
-
-- Scopes
-
-  - `web`
-  - `backend`
-
-- Imperative verb
-  - `add`: Means that a new file is added.
-  - `change`: Means that an existing file is modified.
-  - `fix`: Means that a bug is fixed.
-  - `remove`: Means that the file is removed.
-
-```bash
-  feat(backend): add filter for cars
-  fix(web): remove wrong color
-```
-
-### Repo Hosting Services
-
-There are different repository hosting services, the most famous being GitHub, GitLab and BitBuck.
+  - There are different repository hosting services, the most famous being GitHub, GitLab and BitBuck.
 
 [⬆️ Back to top ⬆️](#frontend-learning-path)
 
-## _Package Managers_
+## Package Managers
 
 <p align="center">
   <img 
@@ -214,21 +165,21 @@ There are different repository hosting services, the most famous being GitHub, G
 
 Package managers allow you to manage the dependencies ( external code written by you or someone else ) that your project needs to work correctly.
 
-### [npm](/https://docs.npmjs.com/)
+- [npm](/https://docs.npmjs.com/)
 
-npm is a package manager for the JavaScript programming language maintained by npm, Inc. npm is the default package manager for the JavaScript runtime environment Node.js.
+  - npm is a package manager for the JavaScript programming language maintained by npm, Inc. npm is the default package manager for the JavaScript runtime environment Node.js.
 
-### [pnpm](https://pnpm.io/)
+- [pnpm](https://pnpm.io/)
 
-The main purpose of PNPM is to hold all the packages at a global ( centralized ) store and use them if needed by other projects too by creating hard links to it.
+  - The main purpose of PNPM is to hold all the packages at a global ( centralized ) store and use them if needed by other projects too by creating hard links to it.
 
-### [Yarn](https://classic.yarnpkg.com/en/docs/getting-started)
+- [Yarn](https://classic.yarnpkg.com/en/docs/getting-started)
 
-Yarn is a software packaging system developed in 2016 by Facebook for Node.js JavaScript runtime environment that provides speed, consistency, stability, and security as an alternative to npm ( package manager )
+  - Yarn is a software packaging system developed in 2016 by Facebook for Node.js JavaScript runtime environment that provides speed, consistency, stability, and security as an alternative to npm ( package manager )
 
 [⬆️ Back to top ⬆️](#frontend-learning-path)
 
-## _Framework_
+## Framework
 
 <p align="center">
   <img 
@@ -249,7 +200,7 @@ Web frameworks are designed to write web applications. Frameworks are collection
 
 [⬆️ Back to top ⬆️](#frontend-learning-path)
 
-## _Web Security Basics_
+## Web Security Basics
 
 <p align="center">
   <img 
@@ -261,31 +212,29 @@ Web frameworks are designed to write web applications. Frameworks are collection
 
 Web security refers to the protective measures taken by the developers to protect the web applications from threats that could affect the business.
 
-### HTTPS
+- HTTPS
 
-HTTPS is a secure way to send data between a web server and a browser.
+  - HTTPS is a secure way to send data between a web server and a browser.
+  - Hypertext transfer protocol secure (HTTPS) is the secure version of HTTP, which is the primary protocol used to send data between a web browser and a website.
+  - [HTTP Cat](https://http.cat/)
 
-Hypertext transfer protocol secure (HTTPS) is the secure version of HTTP, which is the primary protocol used to send data between a web browser and a website.
+- [Content Security Policy](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_Security_Policy)
 
-- [HTTP Cat](https://http.cat/)
+  - Content Security Policy is a computer security standard introduced to prevent cross-site scripting, click jacking and other code injection attacks resulting from execution of malicious content in the trusted web page context.
 
-### [Content Security Policy](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_Security_Policy)
+- [CORS](/https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
 
-Content Security Policy is a computer security standard introduced to prevent cross-site scripting, click jacking and other code injection attacks resulting from execution of malicious content in the trusted web page context.
+  - Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources.
 
-### [CORS](/https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
+- [Open Web Application Security](https://developer.mozilla.org/en-US/docs/Glossary/OWASP)
 
-Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources.
-
-### [Open Web Application Security](https://developer.mozilla.org/en-US/docs/Glossary/OWASP)
-
-Open Web Application Security Project is an online community that produces freely-available articles, methodologies, documentation, tools, and technologies in the field of web application security.
+  - Open Web Application Security Project is an online community that produces freely-available articles, methodologies, documentation, tools, and technologies in the field of web application security.
 
 <!-- ## _Wew Components_ -->
 
 [⬆️ Back to top ⬆️](#frontend-learning-path)
 
-## _Type Checkers_
+## Type Checkers
 
 <p align="center">
   <img 
