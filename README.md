@@ -63,7 +63,7 @@ The Internet is a global network of computers connected to each other which comm
 
 [⬆️ Back to top ⬆️](#frontend-learning-path)
 
-## HTML
+## [HTML](https://github.com/BryanGrandon/HTML-Notes)
 
 <p align="center">
   <img 
@@ -85,7 +85,7 @@ HTML stands for **HyperText Markup Language**. It is used on the frontend and gi
 
 [⬆️ Back to top ⬆️](#frontend-learning-path)
 
-## CSS
+## [CSS](https://github.com/BryanGrandon/CSS-Notes)
 
 <p align="center">
   <img 
@@ -107,7 +107,7 @@ CSS or **Cascading Style Sheets** is the language used to style the frontend of 
 
 [⬆️ Back to top ⬆️](#frontend-learning-path)
 
-## JavaScript
+## [JavaScript](https://github.com/BryanGrandon/JavaScript-Notes)
 
 <p align="center">
   <img 
@@ -179,7 +179,7 @@ Package managers allow you to manage the dependencies ( external code written by
 
 [⬆️ Back to top ⬆️](#frontend-learning-path)
 
-## Framework
+## [Framework](https://github.com/BryanGrandon/Frameworks-Notes)
 
 <p align="center">
   <img 
