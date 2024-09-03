@@ -14,16 +14,16 @@ The frontend is used to create the interface of a website, from its structure to
 
 ## Table of content
 
-1. [Introduction](#introduction)
-2. [Internet](#internet)
-3. [HTML](#html)
-4. [CSS](#css)
-5. [JavaScript](#javascript)
-6. [Version Control System](#version-control-systems)
-7. [Package Managers](#package-managers)
-8. [Framework](#framework)
-9. [Web Security Basic](#web-security-basics)
-10. [Type Checkers](#type-checkers)
+- [Introduction](#introduction)
+- [Internet](#internet)
+- [HTML](#html)
+- [CSS](#css)
+- [JavaScript](#javascript)
+- [Version Control System](#version-control-systems)
+- [Package Managers](#package-managers)
+- [Framework](#framework)
+- [Web Security Basic](#web-security-basics)
+- [Type Checkers](#type-checkers)
 
 ## Introduction
 
@@ -43,25 +43,23 @@ The Internet is a global network of computers connected to each other which comm
 
 - [What is HTTP?](https://developer.mozilla.org/en-US/docs/Web/HTTP)
 
-  - HTTP is the TCP/IP based application layed communication protocol which standardizes how the client and server communicate with each other. HTTP follows a classical "Client-Server model" with a client opening a connection request, then waiting until it receives a response.
+  HTTP is the TCP/IP based application layed communication protocol which standardizes how the client and server communicate with each other. HTTP follows a classical "Client-Server model" with a client opening a connection request, then waiting until it receives a response.
 
 - [What is Domain Name?](https://developer.mozilla.org/en-US/docs/Glossary/Domain_name)
 
-  - A domain name is a unique, easy-to-remember address used to access website, such as 'google.com', and 'facebook.com'. Users can connect to websites using domain names thats to the Domain Name System (DNS).
+  A domain name is a unique, easy-to-remember address used to access website, such as 'google.com', and 'facebook.com'. Users can connect to websites using domain names thats to the Domain Name System (DNS).
 
 - What is a hosting?
 
-  - It is a service that allows individuals and businesses to make their websites accessible on the internet. When a website is created, its files need to be stored on a server so that they can be accessed by visitors to the site.
+  It is a service that allows individuals and businesses to make their websites accessible on the internet. When a website is created, its files need to be stored on a server so that they can be accessed by visitors to the site.
 
 - [DNS](https://developer.mozilla.org/en-US/docs/Glossary/DNS)
 
-  - The Domain Name System ( DNS ) translates domain names into IP addresses so that browsers can load internet resources.
+  The Domain Name System ( DNS ) translates domain names into IP addresses so that browsers can load internet resources.
 
 - [Browser](https://developer.mozilla.org/en-US/docs/Glossary/Browser)
 
-  - It is a software application that enables a user to access and display web pages or other online content through its graphical user interface.
-
-[⬆️ Back to top ⬆️](#frontend-learning-path)
+  It is a software application that enables a user to access and display web pages or other online content through its graphical user interface.
 
 ## [HTML](https://github.com/BryanGrandon/HTML-Notes)
 
@@ -77,13 +75,11 @@ HTML stands for **HyperText Markup Language**. It is used on the frontend and gi
 
 - Accessibility
 
-  - Web accessibility means that websites, tools, and technologies are designed and developed in such a way that people with disabilities can use them easily.
+  Web accessibility means that websites, tools, and technologies are designed and developed in such a way that people with disabilities can use them easily.
 
 - Basic of SEO
 
-  - SEO or Search Engine Optimization is the technique used to optimize your website for better rankings on search engines such as Google, Bing etc.
-
-[⬆️ Back to top ⬆️](#frontend-learning-path)
+  SEO or Search Engine Optimization is the technique used to optimize your website for better rankings on search engines such as Google, Bing etc.
 
 ## [CSS](https://github.com/BryanGrandon/CSS-Notes)
 
@@ -99,13 +95,11 @@ CSS or **Cascading Style Sheets** is the language used to style the frontend of 
 
 - CSS Architecture
 
-  - Consists of managing CSS code with a set of rules and patterns to facilitate its readability, maintainability and scalability.
+  Consists of managing CSS code with a set of rules and patterns to facilitate its readability, maintainability and scalability.
 
 - CSS Preprocessor
 
-  - These are scripting languages that extend the default capabilities of CSS.
-
-[⬆️ Back to top ⬆️](#frontend-learning-path)
+  These are scripting languages that extend the default capabilities of CSS.
 
 ## [JavaScript](https://github.com/BryanGrandon/JavaScript-Notes)
 
@@ -121,13 +115,11 @@ An interpreted programming language used on the client side (front-end) to provi
 
 - DOM Manipulation
 
-  - The Document Object Model (DOM) is a programming interface built for HTML and XML documents. It represents the page that allows programs and scripts to dynamically update the document structure, content, and style.
+  The Document Object Model (DOM) is a programming interface built for HTML and XML documents. It represents the page that allows programs and scripts to dynamically update the document structure, content, and style.
 
 - APIs
 
-  - API is a piece of code that allows different applications to communicate with each other and share information and functionality.
-
-[⬆️ Back to top ⬆️](#frontend-learning-path)
+  API is a piece of code that allows different applications to communicate with each other and share information and functionality.
 
 ## Version Control Systems
 
@@ -143,15 +135,13 @@ Version control systems allow you to track changes to your codebase/files over t
 
 - Git
 
-  - Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+  Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 
-  - [Best practices for writing commits in Git](/docs/git.md)
+  [Best practices for writing commits in Git](/docs/git.md)
 
 - Repo Hosting Services
 
-  - There are different repository hosting services, the most famous being GitHub, GitLab and BitBuck.
-
-[⬆️ Back to top ⬆️](#frontend-learning-path)
+  There are different repository hosting services, the most famous being GitHub, GitLab and BitBuck.
 
 ## Package Managers
 
@@ -167,19 +157,17 @@ Package managers allow you to manage the dependencies ( external code written by
 
 - [npm](/https://docs.npmjs.com/)
 
-  - npm is a package manager for the JavaScript programming language maintained by npm, Inc. npm is the default package manager for the JavaScript runtime environment Node.js.
+  npm is a package manager for the JavaScript programming language maintained by npm, Inc. npm is the default package manager for the JavaScript runtime environment Node.js.
 
 - [pnpm](https://pnpm.io/)
 
-  - The main purpose of PNPM is to hold all the packages at a global ( centralized ) store and use them if needed by other projects too by creating hard links to it.
+  The main purpose of PNPM is to hold all the packages at a global ( centralized ) store and use them if needed by other projects too by creating hard links to it.
 
 - [Yarn](https://classic.yarnpkg.com/en/docs/getting-started)
 
-  - Yarn is a software packaging system developed in 2016 by Facebook for Node.js JavaScript runtime environment that provides speed, consistency, stability, and security as an alternative to npm ( package manager )
+  Yarn is a software packaging system developed in 2016 by Facebook for Node.js JavaScript runtime environment that provides speed, consistency, stability, and security as an alternative to npm ( package manager )
 
-[⬆️ Back to top ⬆️](#frontend-learning-path)
-
-## [Framework](https://github.com/BryanGrandon/Frameworks-Notes)
+## Framework
 
 <p align="center">
   <img 
@@ -191,14 +179,12 @@ Package managers allow you to manage the dependencies ( external code written by
 
 Web frameworks are designed to write web applications. Frameworks are collections of libraries that aid in the development of a software product or website.
 
-- React
+- [React](https://github.com/BryanGrandon/React-Notes)
 - Angular
 - Vue.js
 
 <!-- ## _Testing your apps_ -->
 <!-- ## _Authentication Strategies_ -->
-
-[⬆️ Back to top ⬆️](#frontend-learning-path)
 
 ## Web Security Basics
 
@@ -220,19 +206,17 @@ Web security refers to the protective measures taken by the developers to protec
 
 - [Content Security Policy](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_Security_Policy)
 
-  - Content Security Policy is a computer security standard introduced to prevent cross-site scripting, click jacking and other code injection attacks resulting from execution of malicious content in the trusted web page context.
+  Content Security Policy is a computer security standard introduced to prevent cross-site scripting, click jacking and other code injection attacks resulting from execution of malicious content in the trusted web page context.
 
 - [CORS](/https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
 
-  - Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources.
+  Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources.
 
 - [Open Web Application Security](https://developer.mozilla.org/en-US/docs/Glossary/OWASP)
 
-  - Open Web Application Security Project is an online community that produces freely-available articles, methodologies, documentation, tools, and technologies in the field of web application security.
+  Open Web Application Security Project is an online community that produces freely-available articles, methodologies, documentation, tools, and technologies in the field of web application security.
 
 <!-- ## _Wew Components_ -->
-
-[⬆️ Back to top ⬆️](#frontend-learning-path)
 
 ## Type Checkers
 
@@ -247,5 +231,3 @@ Web security refers to the protective measures taken by the developers to protec
 Type checker helps developers write code with fewer bugs by adding types to their code, trying to catch type errors within your code, and then removing them during compile time.
 
 - TypeScript
-
-[⬆️ Back to top ⬆️](#frontend-learning-path)
