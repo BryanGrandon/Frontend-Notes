@@ -137,7 +137,8 @@ Version control systems allow you to track changes to your codebase/files over t
 
   Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 
-  [Best practices for writing commits in Git](/docs/git.md)
+  - [Git configuration](/docs/git-configuration.md)
+  - [Best practices for writing commits in Git](/docs/git.md)
 
 - Repo Hosting Services
 
@@ -155,15 +156,15 @@ Version control systems allow you to track changes to your codebase/files over t
 
 Package managers allow you to manage the dependencies ( external code written by you or someone else ) that your project needs to work correctly.
 
-- [npm](/https://docs.npmjs.com/)
+- npm
 
   npm is a package manager for the JavaScript programming language maintained by npm, Inc. npm is the default package manager for the JavaScript runtime environment Node.js.
 
-- [pnpm](https://pnpm.io/)
+- pnpm
 
   The main purpose of PNPM is to hold all the packages at a global ( centralized ) store and use them if needed by other projects too by creating hard links to it.
 
-- [Yarn](https://classic.yarnpkg.com/en/docs/getting-started)
+- Yarn
 
   Yarn is a software packaging system developed in 2016 by Facebook for Node.js JavaScript runtime environment that provides speed, consistency, stability, and security as an alternative to npm ( package manager )
 
@@ -215,8 +216,6 @@ Web security refers to the protective measures taken by the developers to protec
 - [Open Web Application Security](https://developer.mozilla.org/en-US/docs/Glossary/OWASP)
 
   Open Web Application Security Project is an online community that produces freely-available articles, methodologies, documentation, tools, and technologies in the field of web application security.
-
-<!-- ## _Wew Components_ -->
 
 ## Type Checkers
 
