@@ -1,4 +1,52 @@
-# Best practices for writing commits in Git:
+# Git
+
+## Table of content
+
+- [Git configuration.](#git-configuration)
+- [Best practices for writing commits in Git.](#best-practices-for-writing-commits-in-git)
+
+## Git Configuration.
+
+The `--global` assignment allows the configuration to be applied globally rather than per project.
+
+```bash
+# Assign user.
+git config --global user.name "user name"
+```
+
+```bash
+# Assign Email.
+git config --global user.email user12@gmail.com
+```
+
+```bash
+# Assign Editor
+git config --global core.editor "code --wait"
+```
+
+```bash
+# view configuration
+git config --global -e
+```
+
+### Assign CR LF
+
+Windows uses two special characters: CR (carriage return) and LF (line feed).
+
+Linux/Mac only uses one special character, which is LF.
+
+To avoid problems between different devices, the autocrlf setting allows Windows to add the CR character when downloading code and remove it when uploading code. On Linux and Mac, it only allows
+the special LF character to be downloaded when downloading code.
+
+```bash
+# window
+git config --global core.autocrlf true
+
+# Linux / Mac
+git config --global core.autocrlf input
+```
+
+## Best practices for writing commits in Git.
 
 1. Use the imperative verb ( add, change, fix, remove).
 2. Do not use periods or ellipses in your messages.
