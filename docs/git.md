@@ -3,6 +3,7 @@
 ## Table of content
 
 - [Git configuration.](#git-configuration)
+- [Command](#commands)
 - [Best practices for writing commits in Git.](#best-practices-for-writing-commits-in-git)
 
 ## Git Configuration.
@@ -44,6 +45,60 @@ git config --global core.autocrlf true
 
 # Linux / Mac
 git config --global core.autocrlf input
+```
+
+## Commands
+
+### The right workflow for uploading your project to GitHub
+
+```bash
+# Initialize the repository.
+git init
+
+# Add all files.
+git add .
+
+# Create the commit.
+git commit -m “Initial commit”
+
+# Add the remote repository (only the first time).
+git remote add origin https://github.com/BryanGrandon/Project.git
+
+# Push the changes.
+git push -u origin main
+```
+
+### Update Git Remote URL
+
+```bash
+# Check the currently configured remote repository.
+git remote -v
+
+# Change the URL of the “origin” remote to the correct repository.
+git remote set-url origin https://github.com/BryanGrandon/Project.git
+
+# Verify that the change was applied correctly.
+git remote -v
+```
+
+### Branch management in Git
+
+```bash
+# To create a new branch.
+git branch new-branch
+
+# To switch to the new work branch.
+git checkout new-branch
+# From now on, all local changes will belong to this new branch.
+
+# To return to the main branch (master):
+git checkout master
+
+# Merge changes from a branch into the main branch.
+git merge new-branch
+
+# Delete the branch once it is no longer needed.
+git branch -d new-branch
 ```
 
 ## Best practices for writing commits in Git.
