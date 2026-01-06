@@ -82,7 +82,7 @@ These tools help write cleaner, more reusable, and more maintainable styles.
 
 CSS frameworks provide prebuilt utility classes and components to speed up development and ensure consistent design.
 
-- 📄 [Tailwind]()
+- 📄 [Tailwind](./docs/CSS/tailwind.md)
 
 ---
 

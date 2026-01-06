@@ -17,7 +17,7 @@ This document provides a practical overview of **Git**, covering configuration, 
 Git configuration allows you to define global or project-specific settings.  
 Using the `--global` flag applies the configuration to **all repositories** on your system.
 
-### User Configuration
+### 👤 User Configuration
 
 ```bash
 # Assign username
