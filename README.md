@@ -60,16 +60,29 @@ It defines the **structure and content** of web pages, which can later be styled
 
 ## 🎨 [CSS](https://github.com/BryanGrandon/CSS-Notes)
 
-CSS (**Cascading Style Sheets**) is used to style and layout web pages.  
-It plays a fundamental role in visual design, responsiveness, and user experience.
+**CSS (Cascading Style Sheets)** is the language used to style and visually organize web pages.  
+It plays a fundamental role in layout, responsiveness, accessibility, and overall user experience.
 
-### Topics Covered
+CSS allows developers to transform plain HTML into visually appealing, interactive, and responsive interfaces across different devices and screen sizes.
 
-- **CSS Architecture**  
-  Organizing styles using rules and patterns to improve maintainability and scalability.
+### ⚙️ CSS Preprocessors
 
-- **CSS Preprocessors**  
-  Tools that extend CSS with features like variables, nesting, and mixins.
+CSS preprocessors extend the capabilities of standard CSS by adding features such as:
+
+- Variables
+- Nesting
+- Mixins
+- Modular files
+
+These tools help write cleaner, more reusable, and more maintainable styles.
+
+- 📄 [Sass](./docs/sass.md)
+
+### 🎯 CSS Framework
+
+CSS frameworks provide prebuilt utility classes and components to speed up development and ensure consistent design.
+
+- 📄 [Tailwind]()
 
 ---
 
