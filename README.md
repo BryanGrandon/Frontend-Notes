@@ -1,124 +1,150 @@
-<!-- color svg: #902CDD -->
+# 📘 Frontend Notes
 
-# Frontend Note
+Frontend Notes is a curated collection of essential concepts, tools, and technologies used in modern frontend development.  
+Its goal is to serve as a **learning reference** and **knowledge base** to understand how the web works — from the fundamentals of the internet to frameworks and type systems.
 
-The frontend is used to create the interface of a website, from its structure to the styles, such as the definition of colors, textures, typographies, sections, among others. Its use is crucial for the user to have a good experience within the site or application.
+A solid frontend is crucial for delivering **accessible, performant, and user-friendly experiences** on the web.
 
-## Table of content
+---
 
-- [Internet](#internet)
+## 📑 Table of Contents
+
+- [Internet Basics](#internet-basics)
 - [HTML](#html)
 - [CSS](#css)
 - [JavaScript](#javascript)
-- [Version Control System](#version-control-systems)
+- [Version Control Systems](#version-control-systems)
 - [Package Managers](#package-managers)
-- [Framework](#framework)
-- [Web Security Basic](#web-security-basics)
+- [Frameworks](#frameworks)
 - [Type Checkers](#type-checkers)
 
-## Internet
+---
 
-The Internet is a global network of computers connected to each other which communicate through a standardized set of protocols.
+## 🌐 Internet Basics
 
-- What is HTTP?
+The Internet is a global network of interconnected computers that communicate through standardized protocols, enabling the exchange of data worldwide.
 
-  HTTP is the TCP/IP-based communication protocol that standardizes how the client and server communicate with each other.
+### Key Concepts
 
-- What is Domain Name?
+- **HTTP (HyperText Transfer Protocol)**  
+  A communication protocol based on TCP/IP that defines how clients and servers exchange information.
 
-  A domain name is a unique, easy-to-remember address used to access website, such as 'google.com', and 'facebook.com'. Users can connect to websites using domain names thats to the Domain Name System (DNS).
+- **Domain Name**  
+  A human-readable address (e.g., `google.com`) that maps to an IP address through the Domain Name System (DNS).
 
-- What is a hosting?
+- **Hosting**  
+  A service that stores website files on servers, making them accessible to users via the internet.
 
-  It is a service that allows individuals and businesses to make their websites accessible on the internet. When a website is created, its files need to be stored on a server so that they can be accessed by visitors to the site.
+- **DNS (Domain Name System)**  
+  Translates domain names into IP addresses so browsers can load web resources correctly.
 
-- DNS
+- **Browser**  
+  A software application that allows users to access, render, and interact with web content.
 
-  The Domain Name System ( DNS ) translates domain names into IP addresses so that browsers can load internet resources.
+---
 
-- Browser
+## 🧱 [HTML](https://github.com/BryanGrandon/HTML-Notes)
 
-  It is a software application that enables a user to access and display web pages or other online content through its graphical user interface.
+HTML (**HyperText Markup Language**) is the backbone of the web.  
+It defines the **structure and content** of web pages, which can later be styled with CSS and enhanced with JavaScript.
 
-## [HTML](https://github.com/BryanGrandon/HTML-Notes)
+### Topics Covered
 
-HTML stands for **HyperText Markup Language**. It is used on the frontend and gives the structure to the webpage which you can style using CSS and make interactive using JavaScript.
+- **Accessibility**  
+  Designing and developing websites so that people with disabilities can use them effectively.
 
-- Accessibility
+- **SEO Basics**  
+  Search Engine Optimization techniques to improve visibility and ranking in search engines.
 
-  Web accessibility means that websites, tools, and technologies are designed and developed in such a way that people with disabilities can use them easily.
+---
 
-- Basic of SEO
+## 🎨 [CSS](https://github.com/BryanGrandon/CSS-Notes)
 
-  SEO or Search Engine Optimization is the technique used to optimize your website for better rankings on search engines such as Google, Bing etc.
+CSS (**Cascading Style Sheets**) is used to style and layout web pages.  
+It plays a fundamental role in visual design, responsiveness, and user experience.
 
-## [CSS](https://github.com/BryanGrandon/CSS-Notes)
+### Topics Covered
 
-CSS or **Cascading Style Sheets** is the language used to style the frontend of any website. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
+- **CSS Architecture**  
+  Organizing styles using rules and patterns to improve maintainability and scalability.
 
-- CSS Architecture
+- **CSS Preprocessors**  
+  Tools that extend CSS with features like variables, nesting, and mixins.
 
-  Consists of managing CSS code with a set of rules and patterns to facilitate its readability, maintainability and scalability.
+---
 
-- CSS Preprocessor
+## ⚙️ [JavaScript](https://github.com/BryanGrandon/JavaScript-Notes)
 
-  These are scripting languages that extend the default capabilities of CSS.
+JavaScript is a versatile, interpreted programming language that brings **interactivity and dynamic behavior** to web applications.
 
-## [JavaScript](https://github.com/BryanGrandon/JavaScript-Notes)
+### Topics Covered
 
-An interpreted programming language used on the client side (front-end) to provide dynamic and interactive enhancements to web pages.
+- **DOM Manipulation**  
+  Interacting with and updating the structure, content, and styles of a webpage dynamically.
 
-- DOM Manipulation
+- **APIs**  
+  Interfaces that allow different applications to communicate and share functionality.
 
-  The Document Object Model (DOM) is a programming interface built for HTML and XML documents. It represents the page that allows programs and scripts to dynamically update the document structure, content, and style.
+---
 
-- APIs
+## 🧠 Version Control Systems
 
-  API is a piece of code that allows different applications to communicate with each other and share information and functionality.
+Version control systems track changes in your codebase over time, making collaboration easier and allowing you to revert to previous versions when needed.
 
-## Version Control Systems
+### Tools
 
-Version control systems allow you to track changes to your codebase/files over time. They allow you to go back to some previous version of the codebase without any issues. Also, they help in collaborating with people working on the same code.
+- **[Git](/docs/git.md)**  
+  A distributed version control system designed for speed, efficiency, and collaboration.
 
-- [Git](/docs/git.md)
+- **Repository Hosting Services**  
+  Platforms such as GitHub, GitLab, and Bitbucket that host and manage Git repositories.
 
-  Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+---
 
-- Repo Hosting Services
+## 📦 Package Managers
 
-  There are different repository hosting services, the most famous being GitHub, GitLab and BitBuck.
+Package managers handle project dependencies, ensuring consistency and simplifying development workflows.
 
-## Package Managers
+### Common Tools
 
-Package managers allow you to manage the dependencies ( external code written by you or someone else ) that your project needs to work correctly.
+- **npm**  
+  The default package manager for Node.js, maintained by npm, Inc.
 
-- npm
+- **pnpm**  
+  Uses a global content-addressable store to save disk space and improve performance.
 
-  npm is a package manager for the JavaScript programming language maintained by npm, Inc. npm is the default package manager for the JavaScript runtime environment Node.js.
+- **Yarn**  
+  A fast and secure alternative to npm focused on reliability and consistency.
 
-- pnpm
+---
 
-  The main purpose of PNPM is to hold all the packages at a global ( centralized ) store and use them if needed by other projects too by creating hard links to it.
+## ⚛️ Frameworks
 
-- Yarn
+Frameworks provide structured solutions and reusable components to build scalable web applications efficiently.
 
-  Yarn is a software packaging system developed in 2016 by Facebook for Node.js JavaScript runtime environment that provides speed, consistency, stability, and security as an alternative to npm ( package manager )
-
-## Framework
-
-Web frameworks are designed to write web applications. Frameworks are collections of libraries that aid in the development of a software product or website.
+### Popular Frameworks
 
 - [React](https://github.com/BryanGrandon/React-Notes)
 - Angular
 - Vue.js
 
-<!-- ## _Testing your apps_ -->
-<!-- ## _Authentication Strategies_ -->
+---
 
-<!-- ## Web Security Basics -->
+## 🧪 Type Checkers
 
-## Type Checkers
+Type checkers help reduce bugs by adding static types to code, catching errors early during development.
 
-Type checker helps developers write code with fewer bugs by adding types to their code, trying to catch type errors within your code, and then removing them during compile time.
+### Tools
 
-- [TypeScript](https://github.com/BryanGrandon/Typescript-Notes)
+- **[TypeScript](https://github.com/BryanGrandon/Typescript-Notes)**  
+  A typed superset of JavaScript that compiles to plain JavaScript.
+
+---
+
+## 👤 Author
+
+Created and maintained by **Bryan Grandon**
+
+- GitHub: [@BryanGrandon](https://github.com/BryanGrandon)
+
+---
