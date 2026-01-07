@@ -1,0 +1,23 @@
+/* Hexadecimal with alpha */
+.color-hex-alpha {
+  color: #ff000080;
+}
+
+/* RGBA */
+.color-rgba {
+  color: rgba(255 0 0 0.5);
+}
+/* RGB with alpha percentage */
+.color-rgb-alpha-percentage {
+  color: rgb(255 0 0 / 50%);
+}
+
+/* HSLA */
+.color-hsla {
+  color: hsla(0 100% 50% 0.5);
+}
+
+/* HSL with alpha percentage */
+.color-hsl-alpha-percentage {
+  color: hsl(0 100% 50% / 50%);
+}
