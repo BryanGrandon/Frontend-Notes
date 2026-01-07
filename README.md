@@ -1,163 +1,91 @@
-# 📘 Frontend Notes
+# 📘 Learning Notes
 
-Frontend Notes is a curated collection of essential concepts, tools, and technologies used in modern frontend development.  
-Its goal is to serve as a **learning reference** and **knowledge base** to understand how the web works — from the fundamentals of the internet to frameworks and type systems.
+This repository contains personal notes, code examples, explanations, and resources for everything I learn.
 
-A solid frontend is crucial for delivering **accessible, performant, and user-friendly experiences** on the web.
+The idea is to have my own reference and share knowledge that may be useful to others.
 
 ---
 
 ## 📑 Table of Contents
 
-- [Internet Basics](#internet-basics)
-- [HTML](#html)
-- [CSS](#css)
-- [JavaScript](#javascript)
-- [Version Control Systems](#version-control-systems)
-- [Package Managers](#package-managers)
-- [Frameworks](#frameworks)
-- [Type Checkers](#type-checkers)
+- [What will you find here?](#-what-will-you-find-here)
+- [Technologies & Notes](#️technologies--notes)
+- [How to contribute](#-how-to-contribute)
+- [License](#-license)
 
 ---
 
-## 🌐 Internet Basics
+## 🧠 What will you find here?
 
-The Internet is a global network of interconnected computers that communicate through standardized protocols, enabling the exchange of data worldwide.
+This project is organized by topics/technologies. Each folder or file may contain:
 
-### Key Concepts
-
-- **HTTP (HyperText Transfer Protocol)**  
-  A communication protocol based on TCP/IP that defines how clients and servers exchange information.
-
-- **Domain Name**  
-  A human-readable address (e.g., `google.com`) that maps to an IP address through the Domain Name System (DNS).
-
-- **Hosting**  
-  A service that stores website files on servers, making them accessible to users via the internet.
-
-- **DNS (Domain Name System)**  
-  Translates domain names into IP addresses so browsers can load web resources correctly.
-
-- **Browser**  
-  A software application that allows users to access, render, and interact with web content.
+- Concept summaries.
+- Code snippets.
+- Solved exercises.
+- Links to external resources.
+- Reference sheets or quick guides.
 
 ---
 
-## 🧱 [HTML](https://github.com/BryanGrandon/HTML-Notes)
+## 🗒️Technologies & Notes
 
-HTML (**HyperText Markup Language**) is the backbone of the web.  
-It defines the **structure and content** of web pages, which can later be styled with CSS and enhanced with JavaScript.
+This repository contains notes, references, and learning materials about the technologies and concepts I am studying. The content is organized by category, with direct links to each topic:
 
-### Topics Covered
+### 💻 Frontend
 
-- **Accessibility**  
-  Designing and developing websites so that people with disabilities can use them effectively.
+- HTML
+- CSS
+- Tailwind
+- Sass
+- JavaScript
+- TypeScript
+- Astro
+- React
 
-- **SEO Basics**  
-  Search Engine Optimization techniques to improve visibility and ranking in search engines.
+### 🛠️ Tools & Version Control
 
----
+- Git
+- GitHub
+  <!-- - Git Flow -->
+  <!-- - GitHub Actions -->
+  <!-- - Commit Conventions -->
+  <!-- - Debugging Tools -->
+  <!-- - Testing Basics -->
+  <!-- - CLI Basics -->
+  <!-- - Package Managers (npm, pnpm, yarn) -->
+  <!-- - Build Tools (Vite, Webpack) -->
+  <!-- - Linters & Formatters (ESLint, Prettier) -->
 
-## 🎨 [CSS](https://github.com/BryanGrandon/CSS-Notes)
+### 🗄️ Backend / Integrations
 
-**CSS (Cascading Style Sheets)** is the language used to style and visually organize web pages.  
-It plays a fundamental role in layout, responsiveness, accessibility, and overall user experience.
+- APIs
+  <!-- - Data base (PostgreSQL) -->
+  <!-- Supabase -->
 
-CSS allows developers to transform plain HTML into visually appealing, interactive, and responsive interfaces across different devices and screen sizes.
+### 🗃️ Resources
 
-### ⚙️ CSS Preprocessors
+- General resources
+- Best Practices
+-
 
-CSS preprocessors extend the capabilities of standard CSS by adding features such as:
-
-- Variables
-- Nesting
-- Mixins
-- Modular files
-
-These tools help write cleaner, more reusable, and more maintainable styles.
-
-- 📄 [Sass](./docs/sass.md)
-
-### 🎯 CSS Framework
-
-CSS frameworks provide prebuilt utility classes and components to speed up development and ensure consistent design.
-
-- 📄 [Tailwind](./docs/CSS/tailwind.md)
-
----
-
-## ⚙️ [JavaScript](https://github.com/BryanGrandon/JavaScript-Notes)
-
-JavaScript is a versatile, interpreted programming language that brings **interactivity and dynamic behavior** to web applications.
-
-### Topics Covered
-
-- **DOM Manipulation**  
-  Interacting with and updating the structure, content, and styles of a webpage dynamically.
-
-- **APIs**  
-  Interfaces that allow different applications to communicate and share functionality.
+📌 This list will continue to grow as I progress in my learning.
 
 ---
 
-## 🧠 Version Control Systems
+## 📌 How to contribute?
 
-Version control systems track changes in your codebase over time, making collaboration easier and allowing you to revert to previous versions when needed.
+This repository is primarily intended for my personal notes, but if you would like to:
 
-### Tools
-
-- **[Git](/docs/git.md)**  
-  A distributed version control system designed for speed, efficiency, and collaboration.
-
-- **Repository Hosting Services**  
-  Platforms such as GitHub, GitLab, and Bitbucket that host and manage Git repositories.
+- Fork the project
+- Add your contribution or note
+- Create a pull request
+- Briefly describe your contribution
+- All contributions are welcome 🙌
 
 ---
 
-## 📦 Package Managers
+## 🧾 License
 
-Package managers handle project dependencies, ensuring consistency and simplifying development workflows.
-
-### Common Tools
-
-- **npm**  
-  The default package manager for Node.js, maintained by npm, Inc.
-
-- **pnpm**  
-  Uses a global content-addressable store to save disk space and improve performance.
-
-- **Yarn**  
-  A fast and secure alternative to npm focused on reliability and consistency.
-
----
-
-## ⚛️ Frameworks
-
-Frameworks provide structured solutions and reusable components to build scalable web applications efficiently.
-
-### Popular Frameworks
-
-- [React](https://github.com/BryanGrandon/React-Notes)
-- Angular
-- Vue.js
-
----
-
-## 🧪 Type Checkers
-
-Type checkers help reduce bugs by adding static types to code, catching errors early during development.
-
-### Tools
-
-- **[TypeScript](https://github.com/BryanGrandon/Typescript-Notes)**  
-  A typed superset of JavaScript that compiles to plain JavaScript.
-
----
-
-## 👤 Author
-
-Created and maintained by **Bryan Grandon**
-
-- GitHub: [@BryanGrandon](https://github.com/BryanGrandon)
+This project is licensed under the MIT license — you can use it freely and adapt it to your needs.
 
 ---
