@@ -1,0 +1,50 @@
+/* =========================   
+   Basic border 
+   ========================= */
+
+.border-basic {
+  border: 2px solid #000;
+}
+
+/* =========================
+   Border styles 
+   ========================= */
+
+.border-solid {
+  border: 2px solid #3b82f6;
+}
+
+.border-dashed {
+  border: 2px dashed #22c55e;
+}
+
+.border-dotted {
+  border: 2px dotted #ef4444;
+}
+
+.border-double {
+  border: 4px double #6366f1;
+}
+
+.border-groove {
+  border: 4px groove #94a3b8;
+}
+
+.border-ridge {
+  border: 4px ridge #94a3b8;
+}
+
+.border-inset {
+  border: 4px inset #64748b;
+}
+
+.border-outset {
+  border: 4px outset #64748b;
+}
+
+/* Mixed styles per side */
+.border-mixed {
+  border-style: solid dashed dotted double;
+  border-width: 2px;
+  border-color: #111827;
+}

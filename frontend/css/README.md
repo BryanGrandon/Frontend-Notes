@@ -9,6 +9,8 @@ CSS or **Cascading Style Sheets** is the language used to style the frontend of 
 - [Colors](#-colors)
 - [Background properties](#️-background-properties)
 - [Gradients](#-gradients)
+- [Box model](#-box-model)
+- [Border](#-border)
 
 ---
 
@@ -109,8 +111,8 @@ The background property allows us to set backgrounds to improve the visual appea
 👉 **[View Background Properties examples](./code/background-properties.css)**
 
 > [!TIP]
-> You can combine multiple properties into a single shorthand `background`.
-> Order: 1.color 2.image 3.position/size 4.repeat 5.attachment 6.origin 7.clip.
+> You can combine multiple properties into a single shorthand `background`.\
+> **Order**: color image position/size repeat attachment origin clip.
 
 ---
 
@@ -128,6 +130,128 @@ They are widely used for backgrounds, buttons, overlays, and UI elements.
 | **Conic Gradient**  | Colors rotate around a center point     |
 
 👉 **[View Gradients examples](./code/gradients.css)**
+
+---
+
+## 📦 Box Model
+
+The **CSS Box Model** describes how elements are structured and spaced on a web page. Every HTML element is treated as a rectangular box composed of several layers that define its size and layout.
+
+### 🧩 Box Model Parts
+
+- **Content**: The inner area where text, images, or other elements are displayed.
+- **Padding**: The space between the content and the border.
+- **Border**: The line that wraps the padding and content.
+- **Margin**: The outer space that separates the element from others.
+
+Understanding how these parts interact is essential for controlling layout and spacing in CSS.
+
+---
+
+### 📐 CSS Dimensions
+
+To define the size of an element, CSS provides the `width` and `height` properties. These determine how much horizontal and vertical space an element occupies.
+
+```CSS
+.box {
+  width: 200px;
+  height: 100px;
+}
+```
+
+---
+
+### 🌊 Overflow
+
+The overflow property controls what happens when content exceeds the element’s defined dimensions.
+
+```CSS
+.box {
+  overflow: hidden;
+}
+```
+
+Common values include **hidden**, **scroll**, **auto**, and **visible**.
+
+---
+
+### 📏 box-sizing
+
+Determines how the total size of an element is calculated.
+
+| Value         | Includes Padding | Includes Border | Description      |
+| ------------- | ---------------- | --------------- | ---------------- |
+| `content-box` | ❌               | ❌              | Default behavior |
+| `border-box`  | ✅               | ✅              | Easier layouts   |
+
+> [!TIP]
+> Using border-box helps avoid unexpected layout issues.
+
+---
+
+## 🔲 Border
+
+CSS borders define the **outline of an element**, allowing control over thickness, style, and color. They can be applied globally or to individual sides (`border-top`, `border-bottom`, `border-left`, `border-right`).
+
+The `border` property accepts **width**, **style**, and **color** values.
+
+```css
+.card {
+  border: 2px solid #3b82f6;
+}
+```
+
+> [!NOTE]
+> Individual border properties can be targeted using:
+> `border-width`, `border-style` and `border-color`.
+
+👉 **[View border examples](./code/border.css)**
+
+---
+
+### 🔵 border-radius
+
+The CSS `border-radius` property rounds the corners of an element's outer border. You can set a single radius to create circular corners or two radii to create elliptical corners.
+
+```CSS
+.card {
+  border-radius: 1rem ; /* All corners */
+}
+```
+
+> [!TIP]
+> The syntax for a **single value** is the most commonly used in most modern interfaces.
+
+> [!NOTE]
+> You can specify each corner using **four values** in clockwise order:
+> `top-left`, `top-right`, `bottom-right`, `bottom-left`.
+
+👉 **[View border examples](./code/border.css)**
+
+---
+
+### 🖼️ border-image
+
+CSS also allows you to use images as borders using the 9-slice technique.
+
+| Property              | Description                     |
+| --------------------- | ------------------------------- |
+| `border-image-source` | Image used as the border        |
+| `border-image-width`  | Defines how the image is sliced |
+| `border-image-slice`  | Width of the image border       |
+| `border-image-outset` | Extends the border outward      |
+
+**shorthand**
+
+```CSS
+/* border-image: <source> <slice> <width> <outset> <repeat> */
+.box {
+  border-image: url(border.png) 30 / 10px / 5px stretch;
+}
+```
+
+> [!TIP]
+> The `border-image` works only if `border-style` is defined.
 
 ---
 
