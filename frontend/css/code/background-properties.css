@@ -1,0 +1,79 @@
+/* =========================
+   Background color  
+   ========================= */
+
+.bg-color {
+  background-color: #0ff; /* Cyan */
+}
+
+/* =========================
+   Background image 
+   ========================= */
+
+.bg-image {
+  background-image: url('assets/image.webp'); /* Replace with your image path */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* =========================
+   Background shorthand
+   ========================= */
+
+.bg-shorthand {
+  /* Color, image, repeat, position/size, attachment, origin, clip */
+  background: #0ff url('assets/image.webp') no-repeat center/cover fixed padding-box border-box;
+}
+
+/* =========================
+   Background Attachment
+   ========================= */
+
+.bg-attachment-scroll {
+  background-image: url('assets/image.webp');
+  background-attachment: scroll; /* Background scrolls with content */
+}
+
+.bg-attachment-fixed {
+  background-image: url('assets/image.webp');
+  background-attachment: fixed; /* Background stays fixed */
+}
+
+/* =========================
+   Background Origin
+   ========================= */
+
+.bg-origin-padding {
+  background-image: url('assets/image.webp');
+  background-origin: padding-box; /* Positioned relative to padding */
+}
+
+.bg-origin-border {
+  background-image: url('assets/image.webp');
+  background-origin: border-box; /* Positioned relative to border */
+}
+
+.bg-origin-content {
+  background-image: url('assets/image.webp');
+  background-origin: content-box; /* Positioned relative to content */
+}
+
+/* =========================
+   Background Clip
+   ========================= */
+
+.bg-clip-padding {
+  background-image: url('assets/image.webp');
+  background-clip: padding-box; /* Visible only in padding area */
+}
+
+.bg-clip-border {
+  background-image: url('assets/image.webp');
+  background-clip: border-box; /* Visible up to border area */
+}
+
+.bg-clip-content {
+  background-image: url('assets/image.webp');
+  background-clip: content-box; /* Visible only in content area */
+}

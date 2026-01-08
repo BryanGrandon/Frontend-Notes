@@ -5,8 +5,10 @@ CSS or **Cascading Style Sheets** is the language used to style the frontend of 
 ## 📑 Table of Contents
 
 - [CSS units](#-css-units)
-- [CSS Custom Properties](#-css-custom-properties)
-- [CSS Color](#-color--background)
+- [Custom Properties](#-custom-properties)
+- [Colors](#-colors)
+- [Background properties](#️-background-properties)
+- [Gradients](#-gradients)
 
 ---
 
@@ -37,7 +39,7 @@ CSS length values are defined by a number followed by a unit of measurement.
 
 ---
 
-## 🔧 CSS Custom Properties
+## 🔧 Custom Properties
 
 CSS Custom Properties (commonly known as **CSS variables**) allow you to store reusable values—such as colors, fonts, or spacing—making stylesheets easier to maintain and more consistent.
 
@@ -57,7 +59,7 @@ CSS Custom Properties (commonly known as **CSS variables**) allow you to store r
 
 ---
 
-## 🎨 CSS Colors
+## 🎨 Colors
 
 Color plays a key role in web design. It affects readability, accessibility, branding, and the overall user experience.
 
@@ -86,6 +88,46 @@ The alpha channel controls the transparency of a color.
 
 > [!TIP]
 > Prefer `rgba()` or `hsla()` when working with transparency for better readability and control.
+
+---
+
+## 🖼️ Background Properties
+
+The background property allows us to set backgrounds to improve the visual appearance of HTML elements.
+
+| Property                | Description                                                            |
+| ----------------------- | ---------------------------------------------------------------------- |
+| `background-color`      | Sets a solid color as the element's background.                        |
+| `background-image`      | Sets an image as the element's background.                             |
+| `background-position`   | Sets the starting position of the background.                          |
+| `background-repeat`     | Defines if/how the background image repeats.                           |
+| `background-size`       | Defines the size of the background image.                              |
+| `background-attachment` | Scrolls with page or fixed.                                            |
+| `background-origin`     | Area used for positioning (`padding`, `border`, `content`) box.        |
+| `background-clip`       | Area where background is visible (`padding`, `border`, `content`) box. |
+
+👉 **[View Background Properties examples](./code/background-properties.css)**
+
+> [!TIP]
+> You can combine multiple properties into a single shorthand `background`.
+> Order: 1.color 2.image 3.position/size 4.repeat 5.attachment 6.origin 7.clip.
+
+---
+
+## 🎨 Gradients
+
+Gradients allow you to create smooth transitions between two or more colors.  
+They are widely used for backgrounds, buttons, overlays, and UI elements.
+
+### Types of Gradients
+
+| Type                | Description                             |
+| ------------------- | --------------------------------------- |
+| **Linear Gradient** | Colors transition along a straight line |
+| **Radial Gradient** | Colors radiate from a central point     |
+| **Conic Gradient**  | Colors rotate around a center point     |
+
+👉 **[View Gradients examples](./code/gradients.css)**
 
 ---
 

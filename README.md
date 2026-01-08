@@ -34,7 +34,7 @@ This repository contains notes, references, and learning materials about the tec
 ### 💻 Frontend
 
 - HTML
-- CSS
+- [CSS](/frontend/css/README.md)
 - Tailwind
 - Sass
 - JavaScript
@@ -66,7 +66,6 @@ This repository contains notes, references, and learning materials about the tec
 
 - General resources
 - Best Practices
--
 
 📌 This list will continue to grow as I progress in my learning.
 

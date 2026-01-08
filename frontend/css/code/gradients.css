@@ -1,0 +1,61 @@
+/* =========================
+   Linear Gradients
+   ========================= */
+
+/* Left to Right */
+.bg-linear-right {
+  background: linear-gradient(to right, #ff0000, #0000ff);
+}
+
+/* Top to Bottom */
+.bg-linear-bottom {
+  background: linear-gradient(to bottom, #00ff00, #ff00ff);
+}
+
+/* Diagonal */
+.bg-linear-diagonal {
+  background: linear-gradient(45deg, #f00, #0f0, #00f);
+}
+
+/* Linear with alpha */
+.bg-linear-alpha {
+  background: linear-gradient(to right, rgba(255, 0, 0, 0.5), rgba(0, 0, 255, 0.5));
+}
+
+/* =========================
+   Radial Gradients
+   ========================= */
+
+/* Circle from center */
+.bg-radial-circle {
+  background: radial-gradient(circle, #ff0000, #0000ff);
+}
+
+/* Ellipse with position */
+.bg-radial-ellipse {
+  background: radial-gradient(ellipse at top left, #00ff00, #ff00ff);
+}
+
+/* Radial with alpha */
+.bg-radial-alpha {
+  background: radial-gradient(circle, rgba(255, 0, 0, 0.5), rgba(0, 0, 255, 0.5));
+}
+
+/* =========================
+   Conic Gradients
+   ========================= */
+
+/* Full rotation */
+.bg-conic {
+  background: conic-gradient(#ff0000, #00ff00, #0000ff);
+}
+
+/* Conic with starting angle */
+.bg-conic-angle {
+  background: conic-gradient(from 90deg, #f00, #0f0, #00f);
+}
+
+/* Conic with alpha */
+.bg-conic-alpha {
+  background: conic-gradient(from 45deg, rgba(255, 0, 0, 0.5), rgba(0, 255, 0, 0.5), rgba(0, 0, 255, 0.5));
+}
