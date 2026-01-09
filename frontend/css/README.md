@@ -12,7 +12,14 @@ CSS or **Cascading Style Sheets** is the language used to style the frontend of 
 - [Box model](#-box-model)
 - [Border](#-border)
 - [CSS Selector](#-css-selectors)
-- [Pseudoclasses](#-pseudoclasses)
+- [Pseudo-classes](#-pseudo-classes)
+- [Pseudo-Element](#-pseudo-elements)
+- [Fonts](#️-fonts)
+- [Layouts](#-layouts)
+- [User interface](#-user-interface)
+- [Effects](#-effects)
+- [Responsive](#-responsive)
+- [Transformations and drawings](#-transformations-and-drawings)
 
 ---
 
@@ -322,14 +329,14 @@ CSS combinator define the **relationship between selectors**, allowing you to ta
 
 ---
 
-## 🌀 Pseudoclasses
+## 🌀 Pseudo-Classes
 
 Pseudoclasses in CSS are used to target HTML elements based on **specific behaviors or states** rather than just their type or class.
 
 - ✨ Interaction, User actions (`:hover`, `:active`, `:focus`, `:focus-visible`).
 - 🌐 Links & Location (`:link`, `:visited`, `:target`).
 - 📐 Structural / Children (`:first-child`, `:last-child`, `:nth-child(n)`, `:nth-of-type(n)`).
-- 📝 Forms manage input states (`:checked`, `:disabled`, `:enabled`, `:required`, `:valid` / `:invalid`).
+- 📝 Forms manage input states (`:checked`, `:disabled`, `:enabled`, `:required`, `:valid`, `:invalid`).
 - ⚡ Misc / State (`:empty`, `:fullscreen`).
 
 > [!NOTE]
@@ -339,14 +346,14 @@ Pseudoclasses in CSS are used to target HTML elements based on **specific behavi
 
 ---
 
-## 🖋️ PseudoElements
+## 🧩 Pseudo-Elements
 
 PseudoElements in CSS allow you to style **virtual or non-existent parts of an element**, creating effects or content that doesn't exist in the HTML.
 
-- ✨ Generated Content purely with CSS (`::before`, `::after`)
-- 📄Typography Style text at a finer level (`::first-line`, `::first-letter`)
-- 🎯 Style selected or highlighted text (`::selection`)
-- 🔹 List markers & input placeholders (`::marker`, `::placeholder`)
+- ✨ Generated Content purely with CSS (`::before`, `::after`).
+- 📄Typography Style text at a finer level (`::first-line`, `::first-letter`).
+- 🎯 Style selected or highlighted text (`::selection`).
+- 🔹 List markers & input placeholders (`::marker`, `::placeholder`).
 
 > [!NOTE]  
 > There are many more CSS pseudo-elements available, but the ones listed here are the **most commonly used and practical** for everyday styling.
@@ -355,4 +362,120 @@ PseudoElements in CSS allow you to style **virtual or non-existent parts of an e
 
 ---
 
+## 🖋️ Fonts
+
+Fonts are a key part of web design. Choosing and adjusting them correctly improves readability and user experience.
+
+- Font properties (`font-family`, `font-size`, `font-weight`, `font-style`, `font-variant`).
+- Letter & line spacing (`letter-spacing`, `line-height`).
+
+👉 **[View Fonts examples](./code/fonts.css)**
+
+---
+
+### Load custom fonts
+
+Allows you to use local or downloaded fonts.
+
+```CSS
+@font-face {
+  font-family: "MyFont";
+  src: url("/fonts/my_font.woff2") format("woff2");
+}
+
+body {
+  font-family: "MyFont", sans-serif;
+}
+```
+
+---
+
+## 📐 Layouts
+
+Layouts are one of the most important parts of CSS, allowing you to build advanced user interfaces. Using Flex_box or Grid makes layout creation easier, but a solid understanding of CSS is still required.
+
+- Display (`inline`, `block`, `inline-block`, `flex`, `grid`)
+
+### Flex
+
+### Grid
+
+---
+
+## 🪪 User interface
+
+---
+
+## ✨ Effects
+
+---
+
+## 📱 Responsive
+
+---
+
+## 🎨 Transformations and drawings
+
+---
+
 **[🡨 Back](../../README.md)**
+
+---
+
+## 🧱 Architecture
+
+CSS architecture focuses on organizing styles using clear rules, conventions, and patterns to improve:
+
+- Maintainability
+- Scalability
+- Readability
+- Team collaboration
+
+A solid architecture helps avoid conflicts, duplication, and unmanageable stylesheets as projects grow.
+
+---
+
+## 🧱 CSS Methodologies
+
+CSS methodologies help structure styles in a consistent and predictable way, reducing conflicts and improving scalability.
+
+- **BEM (Block, Element, Modifier)**  
+  A naming convention that makes styles easier to understand and maintain.
+- **ITCSS (Inverted Triangle CSS)**  
+  Organizes styles from generic to specific, improving performance and clarity.
+- **OOCSS (Object-Oriented CSS)**  
+  Encourages reusable and modular CSS components.
+
+### Block Element Modifier (BEM)
+
+BEM is a naming methodology that helps create clear and structured CSS class names.
+
+- Block: Independent, reusable component.
+- Element: A part of a block that depends on it.
+- Modifier: A variation of a block or element.
+
+---
+
+## 📱 Responsive Design
+
+CSS enables responsive layouts that adapt to different screen sizes and devices using:
+
+- Media queries
+- Flexible layouts (Flexbox & Grid)
+- Relative units (`rem`, `%`, `vw`, `vh`)
+
+Responsive design is essential for accessibility and modern web experiences.
+
+---
+
+## 🧪 Modern CSS Features
+
+Modern CSS includes powerful features that reduce the need for JavaScript:
+
+- CSS Grid & Flexbox
+- Custom properties (CSS variables)
+- `:has()` selector
+- Container queries
+- Animations & transitions
+
+---

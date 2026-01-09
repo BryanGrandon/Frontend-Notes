@@ -1,0 +1,66 @@
+/* =========================    
+   Font family
+   ========================= */
+
+/*  Sets the font family for elements.   */
+.font-family {
+  font-family: 'Arial', sans-serif;
+}
+
+/* =========================    
+   Font size
+   ========================= */
+
+/* Defines the font size. */
+.font-size {
+  font-size: 1.2rem;
+}
+
+/* =========================    
+   Font weight
+   ========================= */
+
+/* Determines how bold or thin the text is. */
+.font-weight {
+  font-weight: 700; /* 100–300 → light, 400 → normal, 700 → bold 900 → extra bold  */
+}
+
+/* =========================    
+   Font style
+   ========================= */
+
+.font-style {
+  font-style: italic;
+}
+
+/* =========================    
+   Line height
+   ========================= */
+
+.line-height {
+  line-height: 1.6;
+}
+
+/* =========================    
+   Letter spacing
+   ========================= */
+
+.letter-spacing {
+  letter-spacing: 0.05em;
+}
+
+/* =========================    
+   Font variant
+   ========================= */
+
+.font-variant {
+  font-variant: small-caps;
+}
+
+/* =========================    
+   Font shorthand
+   ========================= */
+
+.font-shorthand {
+  font: italic 600 1rem/1.6 'Arial', sans-serif;
+}
