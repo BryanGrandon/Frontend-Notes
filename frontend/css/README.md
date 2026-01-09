@@ -11,6 +11,8 @@ CSS or **Cascading Style Sheets** is the language used to style the frontend of 
 - [Gradients](#-gradients)
 - [Box model](#-box-model)
 - [Border](#-border)
+- [CSS Selector](#-css-selectors)
+- [Pseudoclasses](#-pseudoclasses)
 
 ---
 
@@ -86,10 +88,10 @@ The alpha channel controls the transparency of a color.
   - `rgba()`
   - `hsla()`
 
-👉 **[View Alpha Channel examples](./code/alpha-channel.css)**
-
 > [!TIP]
 > Prefer `rgba()` or `hsla()` when working with transparency for better readability and control.
+
+👉 **[View Alpha Channel examples](./code/alpha-channel.css)**
 
 ---
 
@@ -108,11 +110,11 @@ The background property allows us to set backgrounds to improve the visual appea
 | `background-origin`     | Area used for positioning (`padding`, `border`, `content`) box.        |
 | `background-clip`       | Area where background is visible (`padding`, `border`, `content`) box. |
 
-👉 **[View Background Properties examples](./code/background-properties.css)**
-
 > [!TIP]
 > You can combine multiple properties into a single shorthand `background`.\
 > **Order**: color image position/size repeat attachment origin clip.
+
+👉 **[View Background Properties examples](./code/background-properties.css)**
 
 ---
 
@@ -252,6 +254,104 @@ CSS also allows you to use images as borders using the 9-slice technique.
 
 > [!TIP]
 > The `border-image` works only if `border-style` is defined.
+
+---
+
+## 🧮 CSS Selectors
+
+CSS selectors define **which elements** a set of CSS rules will apply to. They are a core part of how styles are matched and applied in the browser.
+
+| Selector Type | Example          | Description                                    |
+| ------------- | ---------------- | ---------------------------------------------- |
+| HTML tag      | `div`            | Selects all elements by tag name               |
+| ID            | `#page`          | Selects the element with the given ID          |
+| Class         | `.primary`       | Selects all elements with the given class      |
+| Mix           | `button.primary` | Selects `button` elements with class `primary` |
+
+---
+
+### 🧩 Attribute
+
+CSS **attribute selectors** allow you to target elements based on the presence or value of an attribute. They are written using **square brackets `[ ]`**.
+
+- **Basic Attribute Selectors**
+
+  These selectors target elements by attribute presence or exact value, with optional combinator for precision.
+
+- **Advanced Attribute Selectors**
+
+  These selectors target elements by **matching parts of an attribute value** using pattern-matching operators.
+
+👉 **[View Attributes examples](./code/attributes.css)**
+
+---
+
+### 🔗 CSS Combinator
+
+CSS combinator define the **relationship between selectors**, allowing you to target elements based on their position in the DOM.
+
+| Name                  | Symbol  | Example          | Selects                              |
+| --------------------- | :-----: | ---------------- | ------------------------------------ |
+| Descendant combinator | (space) | `#page div {}`   | Any descendant (any level)           |
+| Child combinator      |   `>`   | `#page > div {}` | Direct child only (first level only) |
+| Adjacent sibling      |   `+`   | `div + div {}`   | Next sibling element                 |
+| General sibling       |   `~`   | `div ~ div {}`   | All following siblings               |
+| Universal combinator  |   `*`   | `#page * {}`     | All descendant elements              |
+
+---
+
+### 🧠 Advanced Selector Logic
+
+- **`:is( ... )`**
+
+  Combines multiple selectors into one for cleaner and more readable CSS. Inherits the highest specificity of its arguments.
+
+- **`:where( ... )`**
+
+  Works like `:is()`, but always has **zero specificity**. Best for base styles, utilities, and resets that should be easy to override.
+
+- **`:not( ... )`**
+
+  Targets elements that **do not match** a selector. Useful for exclusions and edge cases in styling.
+
+- **`:has( … )`**
+
+  Selects elements **based on their children or descendants**. Enables parent-based styling without JavaScript.
+
+👉 **[View Advanced selector logic examples](./code/advanced-selector-logic.css)**
+
+---
+
+## 🌀 Pseudoclasses
+
+Pseudoclasses in CSS are used to target HTML elements based on **specific behaviors or states** rather than just their type or class.
+
+- ✨ Interaction, User actions (`:hover`, `:active`, `:focus`, `:focus-visible`).
+- 🌐 Links & Location (`:link`, `:visited`, `:target`).
+- 📐 Structural / Children (`:first-child`, `:last-child`, `:nth-child(n)`, `:nth-of-type(n)`).
+- 📝 Forms manage input states (`:checked`, `:disabled`, `:enabled`, `:required`, `:valid` / `:invalid`).
+- ⚡ Misc / State (`:empty`, `:fullscreen`).
+
+> [!NOTE]
+> There are many more CSS pseudo-classes available, but the ones listed here are the **most commonly used and practical** for everyday styling.
+
+👉 **[View Pseudoclasses examples](./code/pseudo-classes.css)**
+
+---
+
+## 🖋️ PseudoElements
+
+PseudoElements in CSS allow you to style **virtual or non-existent parts of an element**, creating effects or content that doesn't exist in the HTML.
+
+- ✨ Generated Content purely with CSS (`::before`, `::after`)
+- 📄Typography Style text at a finer level (`::first-line`, `::first-letter`)
+- 🎯 Style selected or highlighted text (`::selection`)
+- 🔹 List markers & input placeholders (`::marker`, `::placeholder`)
+
+> [!NOTE]  
+> There are many more CSS pseudo-elements available, but the ones listed here are the **most commonly used and practical** for everyday styling.
+
+👉 **[View Pseudoclasses examples](./code/pseudo-elemento.css.css)**
 
 ---
 

@@ -1,0 +1,44 @@
+/* =========================   
+   Basic attribute selectors 
+   ========================= */
+
+/* Has href attribute */
+a[href] {
+  color: blue;
+}
+
+/* Exact href value */
+a[href='#top'] {
+  font-weight: bold;
+}
+
+/* Class list contains "main" */
+[class~='main'] {
+  background-color: #f3f4f6;
+}
+
+/* Language starts with "es-" */
+[lang|='es'] {
+  font-style: italic;
+}
+
+/* =========================   
+   Advanced attribute selectors
+   ========================= */
+
+/* href starts with "https://" */
+a[href^="https://"]
+{
+  color: green;
+}
+
+/* href ends with ".pdf" */
+a[href$='.pdf'] {
+  color: red;
+  text-decoration: underline;
+}
+
+/* href contains "developer" */
+a[href*='developer'] {
+  font-weight: 600;
+}

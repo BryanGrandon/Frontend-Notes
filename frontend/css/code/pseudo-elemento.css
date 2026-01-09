@@ -1,0 +1,61 @@
+/* ===============================
+   Generated Content
+   =============================== */
+
+/* Insert content before an element */
+.card::before {
+  content: '🔥';
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+/* Insert content after an element */
+.card::after {
+  content: '✅';
+  display: inline-block;
+  margin-left: 0.5rem;
+}
+
+/* ===============================
+   Typography
+   =============================== */
+
+/* Style the first line of a paragraph */
+p::first-line {
+  font-weight: bold;
+  color: #3b82f6;
+}
+
+/* Style the first letter of a paragraph */
+p::first-letter {
+  font-size: 2rem;
+  color: #f59e0b;
+  float: left;
+  margin-right: 0.25rem;
+}
+
+/* ===============================
+   Highlight / Selection
+   =============================== */
+
+/* Style text selected by the user */
+::selection {
+  background-color: #f87171;
+  color: white;
+}
+
+/* ===============================
+   Other Useful
+   =============================== */
+
+/* Style list markers */
+ul li::marker {
+  color: #10b981;
+  font-size: 1.2rem;
+}
+
+/* Style placeholder text in inputs */
+input::placeholder {
+  color: #6b7280;
+  font-style: italic;
+}

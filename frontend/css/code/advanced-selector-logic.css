@@ -1,0 +1,53 @@
+/* ===============================
+   :is() — Group selectors
+   =============================== */
+
+:is(h1, h2, h3) {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.card:is(.primary, .secondary) {
+  border-radius: 0.5rem;
+}
+
+/* ===============================
+   :where() — Zero specificity
+   =============================== */
+
+:where(ul, ol) {
+  padding-left: 1.5rem;
+}
+
+:where(button, a) {
+  font-family: inherit;
+  color: inherit;
+}
+
+/* ===============================
+   :not() — Exclusions
+   =============================== */
+
+button:not(.disabled) {
+  cursor: pointer;
+}
+
+.card:not(.highlight) {
+  opacity: 0.8;
+}
+
+/* ===============================
+   :has() — Parent selection
+   =============================== */
+
+.card:has(img) {
+  padding: 1.5rem;
+}
+
+.form-group:has(input:focus) {
+  outline: 2px solid #3b82f6;
+}
+
+.nav-item:has(a.active) {
+  background-color: #e0e7ff;
+}

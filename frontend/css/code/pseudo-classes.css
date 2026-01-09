@@ -1,0 +1,96 @@
+/* ===============================
+   Interaction (User actions)
+   =============================== */
+
+button:hover {
+  background-color: #3b82f6; /* changes on hover */
+}
+
+button:active {
+  transform: scale(0.98); /* while clicking */
+}
+
+input:focus {
+  outline: 2px solid #facc15; /* focus style */
+}
+
+input:focus-visible {
+  outline: 2px solid #f87171; /* shows only for keyboard focus */
+}
+
+/* ===============================
+   Links & Location
+   =============================== */
+
+a:link {
+  color: #3b82f6; /* unvisited links */
+}
+
+a:visited {
+  color: #9333ea; /* visited links */
+}
+
+section:target {
+  border: 2px solid #f97316; /* targeted section by URL fragment */
+}
+
+/* ===============================
+   Structural / Children
+   =============================== */
+
+ul li:first-child {
+  font-weight: bold; /* first child in list */
+}
+
+ul li:last-child {
+  font-style: italic; /* last child in list */
+}
+
+ul li:nth-child(2) {
+  color: #f43f5e; /* second child */
+}
+
+ul li:nth-of-type(odd) {
+  background-color: #fef3c7; /* odd items of same type */
+}
+
+/* ===============================
+   Forms
+   =============================== */
+
+input:checked {
+  accent-color: #10b981; /* checked checkbox/radio */
+}
+
+input:disabled {
+  background-color: #e5e7eb; /* disabled input */
+}
+
+input:enabled {
+  background-color: #ffffff; /* enabled input */
+}
+
+input:required {
+  border-left: 3px solid #f87171; /* required input */
+}
+
+input:valid {
+  border-color: #10b981; /* valid input */
+}
+
+input:invalid {
+  border-color: #f43f5e; /* invalid input */
+}
+
+/* ===============================
+   Misc / State
+   =============================== */
+
+div:empty {
+  min-height: 2rem; /* empty element */
+  background-color: #f3f4f6;
+}
+
+div:fullscreen {
+  background-color: #6366f1; /* element in fullscreen mode */
+}
