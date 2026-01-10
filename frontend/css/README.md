@@ -396,17 +396,124 @@ Layouts are one of the most important parts of CSS, allowing you to build advanc
 
 - Display (`inline`, `block`, `inline-block`, `flex`, `grid`)
 
+---
+
 ### Flex
 
+Flex is a flexible layout system designed to build one-dimensional layouts (row or column). It allows elements to adapt, align, and distribute space efficiently within a container.
+
+Flex is especially useful for:
+
+- Creating one-dimensional layouts.
+- Building flexible and responsive structures.
+- Designing complex layouts with simple rules.
+
+**Flex container properties**
+
+- Applied to the **parent element**: (`flex-direction`, `flex-wrap`, `flex-flow`, `justify-content`, `align-items`, `align-content`, `gap`)
+
+**Flex item properties**
+
+- Applied to the **child elements**: (`flex` (shorthand), `align-self`, `order`)
+
+---
+
 ### Grid
+
+Grid is a two-dimensional layout system designed to build layouts with rows and columns. It allows precise control over placement, alignment, and spacing of elements within a container.
+
+Grid is especially useful for:
+
+- Creating two-dimensional layouts (rows and columns).
+- Building complex and structured page layouts.
+- Designing responsive layouts with clear spatial control.
+
+**Grid container properties**
+
+- Applied to the **parent element**:  
+  (`display`, `grid-template-columns`, `grid-template-rows`, `grid-template-areas`, `gap`, `justify-items`, `align-items`, `justify-content`, `align-content`)
+
+**Grid item properties**
+
+- Applied to the **child elements**:  
+  (`grid-column`, `grid-row`, `grid-area`, `justify-self`, `align-self`)
 
 ---
 
 ## 🪪 User interface
 
+User Interface styles allow you to customize native browser elements such as cursors, scrollbars, tables, lists, and counters.
+
+### Cursor
+
+To change the mouse cursor, use the `cursor` property on the desired element.
+
+| Value     | Description                        |
+| --------- | ---------------------------------- |
+| `default` | Default system cursor              |
+| `pointer` | Indicates a clickable element      |
+| `text`    | Text selection cursor              |
+| `move`    | Indicates the element can be moved |
+| `wait`    | Indicates the user should wait     |
+
+### Scroll
+
+Styling scrollbars helps match the browser UI with the site's look and feel, improving visual consistency.
+
+| Property           | Description                                                    |
+| ------------------ | -------------------------------------------------------------- |
+| `scrollbar-width`  | Sets the scrollbar size (`auto`, `thin`, `none`)               |
+| `scrollbar-color`  | Sets the scrollbar and track colors                            |
+| `scrollbar-gutter` | Reserves space to prevent layout shifts when scrollbars appear |
+
+> [!NOTE]
+> The `scroll-behavior` property enables smooth scrolling when applied to the `<html>` element and must be set to `smooth`.
+
 ---
 
 ## ✨ Effects
+
+Visual effects enhance UI design by adding depth and emphasis. Shadows, filters, blend modes, masks, and clipping help create more attractive and readable interfaces.
+
+---
+
+### Shadow
+
+Shadows applied to text (`text-shadow`) or elements (`box-shadow`) help improve readability and make interfaces more visually appealing.
+
+```CSS
+/* Parameters: Horizontal offset, Vertical offset. Blur radius, Spread radius (optional), Color, inset (optional, inner shadow) */
+.card {
+  text-shadow: 2px 2px 4px hsla(0, 0%, 0%, 0.40);
+  box-shadow: 0 4px 12px hsla(0, 0%, 0%, 0.15) inset;
+}
+```
+
+Multiple shadows can be applied by separating the values with commas.
+
+> [!NOTE]
+> The `drop-shadow()` filter is used with the `filter` property and creates shadows similar to `box-shadow` or `text-shadow`, making it ideal for transparent images or non-rectangular elements.
+
+### Filters
+
+CSS filters allow you to apply image-like effects (such as blur, brightness, or contrast) directly in the browser without permanently modifying the original image.
+
+- **Filter properties**: (`filter`, `backdrop-filter`)
+- **Common filter functions**: (`blur()`,`grayScale()`, `brightness()`, `contrast()`, `saturate()`, `opacity()`)
+
+```CSS
+.blur {
+  filter: blur(4px);
+}
+.glass {
+  backdrop-filter: blur(10px) saturate(1.2);
+}
+```
+
+You can combine multiple filter functions into a single filter property to apply multiple visual effects at once.
+
+> [!TIP]
+> Use `filter` to apply visual effects directly to an element, and `backdrop-filter` to apply effects to the background behind an element.
 
 ---
 
