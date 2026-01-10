@@ -18,7 +18,7 @@ CSS or **Cascading Style Sheets** is the language used to style the frontend of 
 - [Layouts](#-layouts)
 - [User interface](#-user-interface)
 - [Effects](#-effects)
-- [Responsive](#-responsive)
+- [Responsive](#-responsive-design)
 - [Transformations and drawings](#-transformations-and-drawings)
 
 ---
@@ -517,11 +517,48 @@ You can combine multiple filter functions into a single filter property to apply
 
 ---
 
-## 📱 Responsive
+## 📱 Responsive Design
+
+Responsive Design in CSS allows interfaces to **adapt smoothly to different screen sizes, orientations, and user preferences**, ensuring a consistent and accessible experience across devices.
+
+CSS provides several tools to achieve responsive layouts:
+
+- **Media Queries** → Apply styles based on screen size or conditions
+- **Media Features** → Target properties like width, height, orientation, or resolution
+- **Flexible Layouts** → Build adaptable structures using **Flex** and **Grid**
+- **Relative Units** → Use scalable units such as `rem`, `%`, `vw`, and `vh`
+- **User Preferences** → Respect accessibility settings like `prefers-reduced-motion` and `prefers-color-scheme`
+
+Responsive design is a core principle of modern web development, improving **usability, accessibility, and performance** on mobile, tablet, and desktop devices.
 
 ---
 
-## 🎨 Transformations and drawings
+## 🔄 2D / 3D Transformations
+
+**CSS transformations** allow you to visually modify an HTML element without affecting the document flow. They are applied using the `transform` property, which accepts one or multiple **transformation functions**, executed in the order they are defined.
+
+---
+
+### 2D Transformations
+
+**2D transformations** modify elements along the **X** and **Y** axes.
+
+- **2D Translation**. (`translate()`, `translateX()`, `translateY()`)
+- **2D Scaling**. (`scale()`, `scaleX()`, `scaleY()`)
+- **2D Rotation**. (`rotate()`)
+- **2D Skewing**. (`skew()`, `skewX()`, `skewY()`)
+
+---
+
+### 3D Transformations
+
+**3D transformations** add depth by using the **Z** axis, enabling more realistic effects.
+
+- **3D Transformations**. ( `translateZ()`, `translate3d()`, `scaleZ()`, `scale3d()`, `rotateX()`, `rotateY()`, `rotateZ()`, `rotate3d()`)
+- **Perspective**. (`perspective()`)
+
+> [TIP]
+> When working with 3D transforms, combine `perspective()` with `transform-style: preserve-3d` for more realistic depth effects.
 
 ---
 
@@ -560,18 +597,6 @@ BEM is a naming methodology that helps create clear and structured CSS class nam
 - Block: Independent, reusable component.
 - Element: A part of a block that depends on it.
 - Modifier: A variation of a block or element.
-
----
-
-## 📱 Responsive Design
-
-CSS enables responsive layouts that adapt to different screen sizes and devices using:
-
-- Media queries
-- Flexible layouts (Flexbox & Grid)
-- Relative units (`rem`, `%`, `vw`, `vh`)
-
-Responsive design is essential for accessibility and modern web experiences.
 
 ---
 
