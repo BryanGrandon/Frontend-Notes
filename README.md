@@ -33,7 +33,7 @@ This repository contains notes, references, and learning materials about the tec
 
 ### 💻 Frontend
 
-- HTML
+- [HTML](/frontend/html/README.md)
 - [CSS](/frontend/css/README.md)
 - Tailwind
 - Sass
