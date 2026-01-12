@@ -10,6 +10,7 @@ To start building solid websites, pages, or web applications, it is essential to
 
 - [HTML Structure](#-html-structure)
 - [Header Labels](#-header-labels)
+- [Textual](#-textual)
 
 ---
 
@@ -36,41 +37,42 @@ The `<head>` tag contains the document’s **metadata** and defines relationship
 
 - The `<link>` tag is used to establish relationships with external documents or resources, such as stylesheets, icons, or fonts.
 
-## Metadata
+---
+
+## 🏷️ Metadata
+
+In general, the `<meta>` tag uses the `name` and `content` attributes. Depending on the value assigned to `name`, a corresponding value must be provided in `content`.
+
+These tags are placed inside the `<head>` element of the HTML document and are used to define important information about the page.
+
+### 📌 Common metadata types
+
+- **Character encoding**
+- **Theme color**
+- **social media**
+- **SEO / Google**
+- **Responsive design**
+- **HTTP simulation**
+
+👉 **[View Metadata type examples](./examples/metadata.html)**
+
+---
 
 <!-- External resource -->
 
-## Categories Tag
+## 📝 Textual
 
-In HTML, you cannot use arbitrary words as tags. There is a defined set of **standard tags**, each with a specific purpose and role within the document.
+Textual tags structure and give meaning to content written in HTML, making it easier for browsers, search engines, and assistive technologies to understand.
 
-These tags are grouped into different **categories** based on the type of content or behavior they represent:
+These tags are responsible for representing **headings**, **paragraphs**, **emphasis**, **quotations**, **code fragments**, and other textual elements. When used correctly, they improve readability, **accessibility**, and **maintainability**, while separating content structure from visual presentation, which is handled by CSS.
 
-- 1️⃣ **Textual**  
-   Elements that represent parts, fragments, or types of text.
+👉 **[View Textual examples](./examples/textual.html)**
 
-- 2️⃣ **Grouping**  
-  Elements used to group related content or information.
+---
 
-- 3️⃣ **Multimedia**  
-  Images, video, audio, and related media elements.
+## Grouping
 
-- 4️⃣ **Tables**  
-  Designed to display structured data in tabular form.
-
-- 5️⃣ **Forms**  
-  Allow users to input, submit, and modify data.
-
-- 6️⃣ **Interactive**  
-  Elements that users can directly interact with.
-
-- 7️⃣ **Semantic**  
-  Tags that add meaning to content and replace generic uses of `<div>`.
-
-- 8️⃣ **Scripting**  
-  Tags related to JavaScript execution or integration.
-
-## Multimedia tag
+## Multimedia
 
 ## Format
 
