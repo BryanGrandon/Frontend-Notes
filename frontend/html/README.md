@@ -12,6 +12,8 @@ To start building solid websites, pages, or web applications, it is essential to
 - [Header Labels](#-header-labels)
 - [Textual](#-textual)
 - [Grouping](#-grouping)
+- [Multimedia](#-multimedia)
+- [Formatting](#-formatting)
 
 ---
 
@@ -85,9 +87,27 @@ Grouping tags are used to **group and associate related content** within an HTML
 
 ---
 
-## Multimedia
+## 🎬 Multimedia
 
-## Format
+HTML multimedia tags allow you to embed visual, audio, and interactive content directly into a web page, enhancing the user experience without relying on external plugins.
+
+The main multimedia tags are `<img>`, `<audio>`, and `<video>`, used to embed images, audio, and video. Additional tags like `<iframe>`, `<source>`, `<track>`, `<canvas>`, and `<picture>` extend multimedia support with external content, multiple formats, subtitles, and graphics.
+
+👉 **[View Textual examples](./examples/multimedia.html)**
+
+---
+
+## 📝 Formatting
+
+Using HTML text tags correctly is essential for making information understandable to both users and machines. Learning how to apply these tags properly improves semantics, accessibility, and the overall structure of HTML markup.
+
+### Grouping Tag:
+
+`<a>`, `<strong>`, `<em>`, `<mark>`, `<b>`, `<i>`, `<u>`, `<s>`, `<span>`
+
+👉 **[View Textual examples](./examples/formatting.html)**
+
+---
 
 ## Link
 
