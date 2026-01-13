@@ -11,6 +11,7 @@ To start building solid websites, pages, or web applications, it is essential to
 - [HTML Structure](#-html-structure)
 - [Header Labels](#-header-labels)
 - [Textual](#-textual)
+- [Grouping](#-grouping)
 
 ---
 
@@ -64,13 +65,25 @@ These tags are placed inside the `<head>` element of the HTML document and are u
 
 Textual tags structure and give meaning to content written in HTML, making it easier for browsers, search engines, and assistive technologies to understand.
 
-These tags are responsible for representing **headings**, **paragraphs**, **emphasis**, **quotations**, **code fragments**, and other textual elements. When used correctly, they improve readability, **accessibility**, and **maintainability**, while separating content structure from visual presentation, which is handled by CSS.
+### Textual Tag:
+
+`<h1> – <h6>`, `<p>`, `<span>`, `<strong>`, `<em>`, `<b>`, `<i>`, `<mark>`, `<small>`, `<sub>`, `<sup>`, `<br>`, `<hr>` `<code>`, `<pre>`, `<blockquote>`, `<q>`, `<abbr>`, `<cite>`, `<time>`.
 
 👉 **[View Textual examples](./examples/textual.html)**
 
 ---
 
-## Grouping
+## 🧩 Grouping
+
+Grouping tags are used to **group and associate related content** within an HTML document. They help organize information logically, improving readability, structure, and accessibility.
+
+### Grouping Tag:
+
+`<div>`, `<p>`, `<main>`, `<hr>`, `<ol>`, `<ul>`, `<li>`, `<pre>`, `<blockquote>`, `<dl>`, `<dt>`,`<dd>`, `<figure>`, `<figcaption>`
+
+👉 **[View Textual examples](./examples/grouping.html)**
+
+---
 
 ## Multimedia
 
