@@ -14,6 +14,8 @@ To start building solid websites, pages, or web applications, it is essential to
 - [Grouping](#-grouping)
 - [Multimedia](#-multimedia)
 - [Formatting](#-formatting)
+- [Link](#-link)
+- [Semantic](#-semantic)
 
 ---
 
@@ -109,13 +111,42 @@ Using HTML text tags correctly is essential for making information understandabl
 
 ---
 
-## Link
+## 🔗 Link
 
-## Semantic
+The `<a>` (anchor) tag is one of the most important HTML elements, as it allows you to connect documents and resources, forming the foundation of web navigation. Through links, users can access other web pages, files, images, videos, or specific sections within the same document.
 
-HTML5 focuses on providing semantic meaning to content rather than visual styling. The structure defines purpose and meaning, while appearance is handled by CSS, following the principle of separating content from presentation.
+To create a link, you must define:
 
-## Text semantic
+- The resource URL using the href attribute.
+- The link content, which can be text, images, or other elements.
+
+Additionally, the `<a>` tag supports several attributes that control link behavior, such as target to open links in a new tab, title to provide additional information, and download to allow resource downloads.
+
+---
+
+## 🧠 Semantic
+
+HTML5 focuses on providing semantic meaning to content rather than visual styling. The document structure defines the purpose and meaning of each part of the content, while its appearance is handled by CSS. This follows the principle of separating content from presentation, improving accessibility, SEO, and maintainability.
+
+Semantic elements clearly describe their role within the page, making the markup easier to understand for both developers and assistive technologies.
+
+| Tags        | Its function                                 |
+| ----------- | -------------------------------------------- |
+| `<h1>`      | Header level 1                               |
+| `<h2>`      | Header level 2                               |
+| `<h3>`      | Header level 3                               |
+| `<h4>`      | Header level 4                               |
+| `<h5>`      | Header level 5                               |
+| `<h6>`      | Header level 6                               |
+| `<header>`  | Header on a wed site or a section            |
+| `<nav>`     | Represents a navigation                      |
+| `<section>` | Represents a section of generic content      |
+| `<article>` | Self explanatory section                     |
+| `<footer>`  | footer of a website or a section             |
+| `<aside>`   | represents supplemental or secondary content |
+| `<address>` | represents a contact information             |
+
+---
 
 ## Tables
 
