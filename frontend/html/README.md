@@ -16,6 +16,9 @@ To start building solid websites, pages, or web applications, it is essential to
 - [Formatting](#-formatting)
 - [Link](#-link)
 - [Semantic](#-semantic)
+- [Tables](#-tables)
+- [Forms](#-forms)
+- [Interactivity](#️-interactivity)
 
 ---
 
@@ -148,11 +151,71 @@ Semantic elements clearly describe their role within the page, making the markup
 
 ---
 
-## Tables
+## 📊 Tables
 
-## Forms
+An HTML table can be simple or complex, depending on its purpose and the number of elements or attributes used. Tables are mainly used to display structured, tabular data in rows and columns.
 
-## Interactivity
+The basic table structure is built using a small set of core tags. The `<table>` element acts as the main container, while `<th>` and `<td>` define header cells and data cells respectively. Each row in the table is created using the `<tr>` tag.
+
+---
+
+## 📝 Forms
+
+To start creating a form, the first step is to define a container `<form>` element, which will wrap all the inputs and data that the form is intended to collect from the user.
+
+Forms allow users to submit information such as text, passwords, selections, and files, and they are commonly used for contact pages, login systems, and data submission.
+
+The `<form>` element is configured using attributes like:
+
+- action – URL where the form data is sent
+- method – HTTP method used to send the data (GET or POST)
+- name / id – Identifies the form
+
+### Common Form Elements
+
+| Tag          | Description             |
+| ------------ | ----------------------- |
+| `<input>`    | Input field             |
+| `<label>`    | Label for an input      |
+| `<textarea>` | Multi-line text input   |
+| `<select>`   | Dropdown list           |
+| `<option>`   | Option inside a select  |
+| `<button>`   | Submit or action button |
+
+---
+
+## ⚙️ Interactivity
+
+Interactive and scripting-related HTML tags allow us to create dynamic behaviors and user-driven interactions without relying entirely on JavaScript frameworks. Whenever possible, avoid reinventing the wheel and take advantage of the native interactive elements already provided by HTML.
+
+### Details
+
+The `<details>` tag allows you to create a collapsible (expandable) element that users can open or close to reveal additional information. It is commonly used for FAQs, extra details, or optional content.
+
+```HTML
+<details>
+  <summary>Dropdown Title</summary>
+  <p>More Info</p>
+  <img src="" alt="" />
+</details>
+```
+
+### Dialog
+
+Starting from HTML5.1, the `<dialog>` tag enables the creation of custom dialog windows such as modals or popups, without external libraries.
+
+```HTML
+<dialog id="dialog-window">
+  <p>Hi, I am a message</p>
+  <img src="" alt="" />
+  <button id="close" onclick="document.getElementById('dialog-window').close()">
+    Close
+  </button>
+</dialog>
+<button id="show" onclick="document.getElementById('dialog-window').show()">
+  Show
+</button>
+```
 
 ---
 
