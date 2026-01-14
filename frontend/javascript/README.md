@@ -11,7 +11,9 @@ JavaScript works alongside HTML (structure) and CSS (presentation), forming the 
 - [Strict mode](#-strict-mode)
 - [Data type](#-data-type)
 - [Data structure](#️-data-structure)
-- []
+- [Loops and Iterations](#-loops-and-iterations)
+- [Control flow](#-control-flow)
+- [Operator](#-operator)
 
 ---
 
@@ -89,6 +91,49 @@ JavaScript provides several built-in data structures that help developers handle
 Loops provide a quick and efficient way to execute a block of code repeatedly as long as a specified condition remains true. They are fundamental for tasks such as iterating over arrays, processing data, and automating repetitive actions.
 
 - For, While, Do While.
+
+---
+
+## 🔀 Control Flow.
+
+By default, JavaScript code is executed sequentially, from the first line of a file to the last. However, this flow can be altered using control flow structures, which allow programs to make decisions, repeat actions, or handle unexpected situations.
+
+The most common control flow mechanisms are **conditionals**, **loops**, and **exception handling**.
+
+### Conditional statements.
+
+Conditional statements are used to control the execution of code based on logical conditions. They allow the program to decide which block of code should run.
+
+- If / Else, Switch.
+
+### Exception Handling.
+
+The code in the `try` block is executed first, and if it throws an exception, the code in the `catch` block will be executed.
+
+- Proxies.
+
+---
+
+> [!TIP]
+> Proper control flow improves application stability, readability, and error handling, especially in complex JavaScript projects.
+
+---
+
+## ➗ Operator
+
+Operators allow you to manipulate values, perform calculations, and compare variables in JavaScript. They are fundamental building blocks used in expressions, conditionals, and logic flow.
+
+JavaScript provides several categories of operators, each designed for specific operations.
+
+- Arithmetic operator.
+- Comparison operator.
+- Logical operator.
+- Ternary operator.
+
+> [!TIP]
+> Understanding how operators work together—especially comparison and logical operators—is essential for writing accurate conditional statements.
+
+👉 **[View Operator examples](./examples/operator.js)**
 
 ---
 
