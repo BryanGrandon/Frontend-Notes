@@ -37,7 +37,7 @@ This repository contains notes, references, and learning materials about the tec
 - [CSS](/frontend/css/README.md)
 - [TailwindCSS](/frontend/tailwindCSS/README.md)
 - Sass
-- JavaScript
+- [JavaScript](/frontend/javascript/README.md)
 - TypeScript
 - Astro
 - React
