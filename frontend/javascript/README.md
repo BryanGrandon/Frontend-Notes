@@ -10,6 +10,8 @@ JavaScript works alongside HTML (structure) and CSS (presentation), forming the 
 
 - [Strict mode](#-strict-mode)
 - [Data type](#-data-type)
+- [Data structure](#️-data-structure)
+- []
 
 ---
 
@@ -63,7 +65,30 @@ JavaScript also provides several built-in objects that extend functionality and 
 
 - Date, Math, Console.
 
-👉 **[View Extra type examples](./examples/extra-type.js)**
+👉 **[View Built-in Objects examples](./examples/built-in-objects.js)**
+
+---
+
+## 🗂️ Data Structure.
+
+In computer science, a data structure is a way to organize, manage, and store data efficiently, enabling fast access, modification, and iteration of information.
+
+JavaScript provides several built-in data structures that help developers handle complex data in a structured and predictable way.
+
+- Array, Keyed Collection, JavaScript Object Notion (JSON)
+
+> [!TIP]
+> Choosing the right data structure can significantly improve performance, readability, and maintainability of your JavaScript code.
+
+👉 **[View Extra type examples](./examples/data-structure.js)**
+
+---
+
+## 🔁 Loops and Iterations
+
+Loops provide a quick and efficient way to execute a block of code repeatedly as long as a specified condition remains true. They are fundamental for tasks such as iterating over arrays, processing data, and automating repetitive actions.
+
+- For, While, Do While.
 
 ---
 
