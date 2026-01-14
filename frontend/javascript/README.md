@@ -137,4 +137,40 @@ JavaScript provides several categories of operators, each designed for specific 
 
 ---
 
+## 🧠 Function.
+
+Functions allow us to reuse code and organize logic into self-contained, reusable blocks. A function is executed every time it is invoked and is typically designed to perform a specific task.
+
+- Function expressions.
+- Arrow Function.
+- Immediately Invoked Function Expression. `(function(){})()`
+
+### Scope and Function Stack.
+
+Scope defines the context in which variables and functions are accessible. The visibility of a variable or function depends on where it is declared within the code.
+
+- The `closures` is when we call a function within another function.
+- The `lexical scope` is when you declare a function inside another function and call it.
+- The `recursion` is when the function is able to call itself.
+
+> [!TIP]
+> Mastering functions and scope is key to writing clean, maintainable, and scalable JavaScript code.
+
+---
+
+## 🔑 Using (this) keyword
+
+In JavaScript, the `this` keyword behaves differently compared to many other programming languages. Instead of always referring to the current object, its value depends on how and where a function is invoked.
+
+The behavior of `this` also varies between strict mode and non-strict mode, which can lead to unexpected results if not well understood.
+
+- In anonymous function
+- In arrow function
+- Explicit binding
+
+> [!TIP]
+> Misunderstanding this is a common source of bugs. Prefer arrow functions for callbacks and use explicit binding when the context must be guaranteed.
+
+---
+
 [🡨 Back](../../README.md)
