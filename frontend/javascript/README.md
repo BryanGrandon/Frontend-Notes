@@ -18,6 +18,8 @@ JavaScript works alongside HTML (structure) and CSS (presentation), forming the 
 - [Using (this) keyword](#-using-this-keyword)
 - [Asynchronous JavaScript](#-asynchronous-javascript)
 - [Classes](#-classes)
+- [Generator](#️-generator)
+- [Modules](#-modules)
 
 ---
 
@@ -223,6 +225,32 @@ Classes are templates for creating objects. They encapsulate data (properties) a
 
 > [!TIP]
 > While classes provide a familiar syntax, understanding prototypes helps you better grasp how JavaScript handles inheritance and object behavior under the hood.
+
+---
+
+## ⚙️ Generator
+
+Generators are special functions in JavaScript that allow you to pause and resume execution, making them ideal for working with iterators and sequences of values.
+
+They implement the iterator protocol, which enables easy iteration using constructs like the for...of loop
+
+- function\*
+- yield
+
+> [!TIP]
+> Generators are useful for handling large data sets, creating custom iterators, and managing complex iteration logic in a clean and efficient way.
+
+---
+
+## 📦 Modules.
+
+Modules allow you to encapsulate code—such as variables, functions, and classes—inside separate files and expose only what is necessary to other parts of an application. This promotes better organization, reusability, and maintainability.
+
+- Export.
+- Import.
+
+> [!TIP]
+> Using modules helps avoid global scope pollution and makes large JavaScript projects easier to scale and maintain.
 
 ---
 
