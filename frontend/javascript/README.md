@@ -14,6 +14,10 @@ JavaScript works alongside HTML (structure) and CSS (presentation), forming the 
 - [Loops and Iterations](#-loops-and-iterations)
 - [Control flow](#-control-flow)
 - [Operator](#-operator)
+- [Function](#-function)
+- [Using (this) keyword](#-using-this-keyword)
+- [Asynchronous JavaScript](#-asynchronous-javascript)
+- [Classes](#-classes)
 
 ---
 
@@ -38,16 +42,18 @@ When enabled, JavaScript performs stricter parsing and error handling during run
 
 JavaScript provides different data types to hold different types of values. There are two types of data types in JavaScript.
 
-> [!NOTE]
-> Understanding the difference between primitive and reference types is essential for mastering concepts like comparison, memory management, and performance in JavaScript.
-
 ---
 
 ### Primitive data types
 
 Primitive data types represent immutable values and are stored directly in memory. Once created, their values cannot be modified—only replaced.
 
-- String, Number, Boolean, Null, Undefined, Symbol.
+- String
+- Number
+- Boolean
+- Null
+- Undefined
+- Symbol
 
 👉 **[View Primitive type examples](./examples/primitive-type.js)**
 
@@ -57,7 +63,10 @@ Primitive data types represent immutable values and are stored directly in memor
 
 Non-primitive data types store a reference to their value in memory. This means the variable points to the location where the data is stored rather than storing the value itself.
 
-- Object, Array, Maps / WeakMaps, Sets / WeakSets.
+- Object
+- Array
+- Maps / WeakMaps
+- Sets / WeakSets
 
 ---
 
@@ -65,9 +74,16 @@ Non-primitive data types store a reference to their value in memory. This means 
 
 JavaScript also provides several built-in objects that extend functionality and simplify common tasks:
 
-- Date, Math, Console.
+- Date
+- Math
+- Console
 
 👉 **[View Built-in Objects examples](./examples/built-in-objects.js)**
+
+---
+
+> [!NOTE]
+> Understanding the difference between primitive and reference types is essential for mastering concepts like comparison, memory management, and performance in JavaScript.
 
 ---
 
@@ -77,7 +93,9 @@ In computer science, a data structure is a way to organize, manage, and store da
 
 JavaScript provides several built-in data structures that help developers handle complex data in a structured and predictable way.
 
-- Array, Keyed Collection, JavaScript Object Notion (JSON)
+- Array
+- Keyed Collection
+- JavaScript Object Notion (JSON)
 
 > [!TIP]
 > Choosing the right data structure can significantly improve performance, readability, and maintainability of your JavaScript code.
@@ -90,7 +108,9 @@ JavaScript provides several built-in data structures that help developers handle
 
 Loops provide a quick and efficient way to execute a block of code repeatedly as long as a specified condition remains true. They are fundamental for tasks such as iterating over arrays, processing data, and automating repetitive actions.
 
-- For, While, Do While.
+- For
+- While
+- Do While
 
 ---
 
@@ -104,7 +124,8 @@ The most common control flow mechanisms are **conditionals**, **loops**, and **e
 
 Conditional statements are used to control the execution of code based on logical conditions. They allow the program to decide which block of code should run.
 
-- If / Else, Switch.
+- If / Else
+- Switch.
 
 ### Exception Handling.
 
@@ -170,6 +191,38 @@ The behavior of `this` also varies between strict mode and non-strict mode, whic
 
 > [!TIP]
 > Misunderstanding this is a common source of bugs. Prefer arrow functions for callbacks and use explicit binding when the context must be guaranteed.
+
+---
+
+## ⏳ Asynchronous JavaScript
+
+Asynchronous programming allows JavaScript to execute long-running tasks without blocking the main thread. This makes applications responsive, enabling them to handle user interactions, timers, and network requests while other operations are still in progress.
+
+- setTimeout
+- setInterval
+
+---
+
+### Event Loops
+
+JavaScript uses a runtime model based on the Event Loop, which coordinates the execution of synchronous code, asynchronous tasks, and events.
+
+- Callback.
+- Promises.
+- Async / Await.
+
+---
+
+## 🧱 Classes
+
+Classes are templates for creating objects. They encapsulate data (properties) and behavior (methods) into a single, reusable structure, making code more organized and easier to maintain.
+
+- Inheritance.
+- Additional.
+- Prototypes.
+
+> [!TIP]
+> While classes provide a familiar syntax, understanding prototypes helps you better grasp how JavaScript handles inheritance and object behavior under the hood.
 
 ---
 
