@@ -219,12 +219,17 @@ JavaScript uses a runtime model based on the Event Loop, which coordinates the e
 
 Classes are templates for creating objects. They encapsulate data (properties) and behavior (methods) into a single, reusable structure, making code more organized and easier to maintain.
 
-- Inheritance.
-- Additional.
-- Prototypes.
+- Inheritance
+- Additional
+- Prototypes
+- Classes
+- Getter / Setter
+- Prototype
 
 > [!TIP]
 > While classes provide a familiar syntax, understanding prototypes helps you better grasp how JavaScript handles inheritance and object behavior under the hood.
+
+👉 **[View Classes examples](./examples/classes.js)**
 
 ---
 
