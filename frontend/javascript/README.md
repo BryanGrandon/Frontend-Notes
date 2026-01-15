@@ -4,6 +4,8 @@ JavaScript is an interpreted programming language primarily used on the client-s
 
 JavaScript works alongside HTML (structure) and CSS (presentation), forming the core technologies of the modern web.
 
+- [The Document Object Model (DOM)](/docs/dom.md) is a programming interface built for HTML and XML documents. It represents the page that allows programs and scripts to dynamically update the document structure, content, and style.
+
 ---
 
 ## 📑 Table of Contents
