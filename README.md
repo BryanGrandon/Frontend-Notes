@@ -40,7 +40,7 @@ This repository contains notes, references, and learning materials about the tec
 - [JavaScript](/frontend/javascript/README.md)
 - [TypeScript](/frontend/typescript/README.md)
 - Astro
-- React
+- [React](/frontend/react/README.md)
 
 ### 🛠️ Tools & Version Control
 
