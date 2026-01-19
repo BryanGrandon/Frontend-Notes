@@ -1,4 +1,4 @@
-# 🧠 Git Notes
+# 🧩 Git
 
 This document provides a practical overview of **Git**, covering configuration, essential commands, common workflows, and best practices for writing clear and meaningful commit messages.
 
@@ -6,18 +6,20 @@ This document provides a practical overview of **Git**, covering configuration, 
 
 ## 📑 Table of Contents
 
-- [Git Configuration](#git-configuration)
-- [Commands](#commands)
-- [Best Practices for Writing Commits in Git](#best-practices-for-writing-commits-in-git)
+- [Git configuration](#️-git-configuration)
+- [Commands](#-commands)
+- [Best practices](#-best-practices-for-writing-commits-in-git)
 
 ---
 
 ## ⚙️ Git Configuration
 
-Git configuration allows you to define global or project-specific settings.  
-Using the `--global` flag applies the configuration to **all repositories** on your system.
+Git configuration defines global or project-specific settings that control Git’s behavior. \
+Using `--global` applies the configuration to all repositories on your system.
 
-### 👤 User Configuration
+---
+
+### User configuration
 
 ```bash
 # Assign username
@@ -33,18 +35,19 @@ git config --global core.editor "code --wait"
 git config --global -e
 ```
 
+---
+
 ### Line Endings (CRLF / LF)
 
 - Windows uses two characters:
-
   - CR (Carriage Return)
   - LF (Line Feed)
 
 - Linux / macOS use only:
-
   - LF (Line Feed)
 
-To avoid issues when working across different operating systems, Git provides the core.autocrlf setting.
+> [!NOTE]
+> To avoid issues when working across different operating systems, Git provides the core.autocrlf setting.
 
 ```bash
 # window
@@ -61,6 +64,8 @@ git config --global core.autocrlf input
 ## 📌 Commands
 
 ### Recommended Workflow to Upload a Project to GitHub
+
+Basic steps to initialize a repository and push it to GitHub:
 
 ```bash
 # Initialize the repository.
@@ -79,7 +84,11 @@ git remote add origin https://github.com/BryanGrandon/Project.git
 git push -u origin main
 ```
 
+---
+
 ### Update Git Remote URL
+
+Useful when the repository URL changes or is incorrect:
 
 ```bash
 # Check current remote repositories.
@@ -92,7 +101,11 @@ git remote set-url origin https://github.com/BryanGrandon/Project.git
 git remote -v
 ```
 
+---
+
 ### Branch management in Git
+
+Common commands to work with branches:
 
 ```bash
 #  Create a new branch.
@@ -116,19 +129,19 @@ git branch -d new-branch
 
 ## ✅ Best Practices for Writing Commits in Git
 
-Following good commit practices improves collaboration and project maintainability.
+Following good commit practices improves collaboration, traceability, and long-term maintainability of a project.
+
+---
 
 ### General Rules
 
 1. Use imperative verbs (add, change, fix, remove).
-
 2. Do not use periods or ellipses.
-
 3. Keep the commit title under 50 characters.
-
 4. Add extra context in the commit body if necessary.
+5. Use a semantic prefix to describe the type of change.
 
-5.Use a semantic prefix to describe the type of change.
+---
 
 ### Commit Massage Structure
 
@@ -136,35 +149,39 @@ Following good commit practices improves collaboration and project maintainabili
 <type-of-commit>(scope): <imperative verb> <description>
 ```
 
-### Type of Commit
+**Type-of-commit**
 
-| Type         | Description                                                                           |
-| ------------ | ------------------------------------------------------------------------------------- |
-| **feat**     | A new feature for the user.                                                           |
-| **fix**      | Fixed a bug that affects the user.                                                    |
-| **perf**     | Changes that improve site performance.                                                |
-| **build**    | Changes in the build system, deployment tasks, or installation.                       |
-| **ci**       | Changes in continuous integration.                                                    |
-| **docs**     | Changes in documentation.                                                             |
-| **refactor** | Code refactoring such as variable or function name changes.                           |
-| **style**    | Formatting changes (tabs, spaces, semicolons, etc.) that do not affect functionality. |
-| **test**     | Add tests or refactor existing ones.                                                  |
+| Type         | Description                                          |
+| ------------ | ---------------------------------------------------- |
+| **feat**     | Adds a new feature for the user.                     |
+| **fix**      | Fixes a bug that affects functionality.              |
+| **perf**     | Improves performance.                                |
+| **build**    | Changes to build tools, dependencies, or deployment. |
+| **ci**       | Changes to CI configuration or scripts.              |
+| **docs**     | Documentation-only changes.                          |
+| **refactor** | Code changes that do not fix bugs or add features.   |
+| **style**    | Formatting changes that do not affect logic.         |
+| **test**     | Adds or updates tests.                               |
 
-### Scopes
+---
 
-| Scope       | Description                                               |
-| ----------- | --------------------------------------------------------- |
-| **web**     | Changes related to the frontend or user interface.        |
-| **backend** | Changes related to server-side logic, APIs, or databases. |
+**Scope**
 
-### Imperative Verbs
+| Scope       | Description                                   |
+| ----------- | --------------------------------------------- |
+| **web**     | Frontend or UI-related changes.               |
+| **backend** | Server-side logic, APIs, or database changes. |
+
+---
+
+**Imperative Verbs**
 
 | Verb       | Description                              |
 | ---------- | ---------------------------------------- |
-| **add**    | A new file or feature is added.          |
-| **change** | An existing file or feature is modified. |
-| **fix**    | A bug is fixed.                          |
-| **remove** | A file or feature is removed.            |
+| **add**    | Introduces a new feature or file.        |
+| **change** | Modifies existing behavior or structure. |
+| **fix**    | Resolves a bug.                          |
+| **remove** | Deletes unused code or features.         |
 
 ```bash
   feat(backend): add filter for cars
@@ -172,3 +189,5 @@ Following good commit practices improves collaboration and project maintainabili
 ```
 
 ---
+
+[🡨 Back](../../README.md)

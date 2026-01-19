@@ -44,7 +44,7 @@ This repository contains notes, references, and learning materials about the tec
 
 ### 🛠️ Tools & Version Control
 
-- Git
+- [Git](/tools/git/README.md)
 - GitHub
   <!-- - Git Flow -->
   <!-- - GitHub Actions -->
