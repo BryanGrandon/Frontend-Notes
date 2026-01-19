@@ -1,4 +1,4 @@
-# ✨ CSS Notes
+# ✨ CSS
 
 CSS or **Cascading Style Sheets** is the language used to style the frontend of any website. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
 
@@ -81,7 +81,7 @@ Color plays a key role in web design. It affects readability, accessibility, bra
 | RGB         | Uses `rgb()` with values from `0` to `255`.                    |
 | HSL         | Uses` hsl()` to define hue (0–360), saturation, and lightness. |
 
-👉 **[View CSS color examples](./code/css-colors.css)**
+👉 **[View CSS color examples](./examples/css-colors.css)**
 
 ---
 
@@ -98,7 +98,7 @@ The alpha channel controls the transparency of a color.
 > [!TIP]
 > Prefer `rgba()` or `hsla()` when working with transparency for better readability and control.
 
-👉 **[View Alpha Channel examples](./code/alpha-channel.css)**
+👉 **[View Alpha Channel examples](./examples/alpha-channel.css)**
 
 ---
 
@@ -121,7 +121,7 @@ The background property allows us to set backgrounds to improve the visual appea
 > You can combine multiple properties into a single shorthand `background`.\
 > **Order**: color image position/size repeat attachment origin clip.
 
-👉 **[View Background Properties examples](./code/background-properties.css)**
+👉 **[View Background Properties examples](./examples/background-properties.css)**
 
 ---
 
@@ -138,7 +138,7 @@ They are widely used for backgrounds, buttons, overlays, and UI elements.
 | **Radial Gradient** | Colors radiate from a central point     |
 | **Conic Gradient**  | Colors rotate around a center point     |
 
-👉 **[View Gradients examples](./code/gradients.css)**
+👉 **[View Gradients examples](./examples/gradients.css)**
 
 ---
 
@@ -214,7 +214,7 @@ The `border` property accepts **width**, **style**, and **color** values.
 > Individual border properties can be targeted using:
 > `border-width`, `border-style` and `border-color`.
 
-👉 **[View border examples](./code/border.css)**
+👉 **[View border examples](./examples/border.css)**
 
 ---
 
@@ -235,7 +235,7 @@ The CSS `border-radius` property rounds the corners of an element's outer border
 > You can specify each corner using **four values** in clockwise order:
 > `top-left`, `top-right`, `bottom-right`, `bottom-left`.
 
-👉 **[View border examples](./code/border.css)**
+👉 **[View border examples](./examples/border.css)**
 
 ---
 
@@ -289,7 +289,7 @@ CSS **attribute selectors** allow you to target elements based on the presence o
 
   These selectors target elements by **matching parts of an attribute value** using pattern-matching operators.
 
-👉 **[View Attributes examples](./code/attributes.css)**
+👉 **[View Attributes examples](./examples/attributes.css)**
 
 ---
 
@@ -325,7 +325,7 @@ CSS combinator define the **relationship between selectors**, allowing you to ta
 
   Selects elements **based on their children or descendants**. Enables parent-based styling without JavaScript.
 
-👉 **[View Advanced selector logic examples](./code/advanced-selector-logic.css)**
+👉 **[View Advanced selector logic examples](./examples/advanced-selector-logic.css)**
 
 ---
 
@@ -342,7 +342,7 @@ Pseudoclasses in CSS are used to target HTML elements based on **specific behavi
 > [!NOTE]
 > There are many more CSS pseudo-classes available, but the ones listed here are the **most commonly used and practical** for everyday styling.
 
-👉 **[View Pseudoclasses examples](./code/pseudo-classes.css)**
+👉 **[View Pseudoclasses examples](./examples/pseudo-classes.css)**
 
 ---
 
@@ -358,7 +358,7 @@ PseudoElements in CSS allow you to style **virtual or non-existent parts of an e
 > [!NOTE]  
 > There are many more CSS pseudo-elements available, but the ones listed here are the **most commonly used and practical** for everyday styling.
 
-👉 **[View Pseudoclasses examples](./code/pseudo-elemento.css.css)**
+👉 **[View Pseudoclasses examples](./examples/pseudo-elemento.css.css)**
 
 ---
 
@@ -369,7 +369,7 @@ Fonts are a key part of web design. Choosing and adjusting them correctly improv
 - Font properties (`font-family`, `font-size`, `font-weight`, `font-style`, `font-variant`).
 - Letter & line spacing (`letter-spacing`, `line-height`).
 
-👉 **[View Fonts examples](./code/fonts.css)**
+👉 **[View Fonts examples](./examples/fonts.css)**
 
 ---
 

@@ -33,18 +33,20 @@ This repository contains notes, references, and learning materials about the tec
 
 ### 💻 Frontend
 
-- [HTML](/frontend/html/README.md)
-- [CSS](/frontend/css/README.md)
-- [TailwindCSS](/frontend/tailwindCSS/README.md)
-- Sass
-- [JavaScript](/frontend/javascript/README.md)
-- [TypeScript](/frontend/typescript/README.md)
-- Astro
-- [React](/frontend/react/README.md)
+- [HTML](/Frontend/HTML/notes.md)
+- [CSS](/Frontend/CSS/notes.md)
+- [JavaScript](/Frontend/JavaScript/notes.md)
+- [TypeScript](/Frontend/TypeScript/notes.md)
+- **Frameworks**
+  - [React](/Frontend/Frameworks/React/notes.md)
+  - [TailwindCSS](/Frontend/Frameworks/TailwindCSS/notes.md)
+  - Astro
+- **Preprocessor**
+  - Sass
 
 ### 🛠️ Tools & Version Control
 
-- [Git](/tools/git/README.md)
+- [Git](/tools/git/basics.md)
 - GitHub
   <!-- - Git Flow -->
   <!-- - GitHub Actions -->
