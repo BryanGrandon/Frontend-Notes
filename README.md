@@ -42,7 +42,7 @@ This repository contains notes, references, and learning materials about the tec
   - [TailwindCSS](/Frontend/Frameworks/TailwindCSS/notes.md)
   - Astro
 - **Preprocessor**
-  - Sass
+  - [Sass](/Frontend/Preprocessor/Sass/notes.md)
 
 ### 🛠️ Tools & Version Control
 

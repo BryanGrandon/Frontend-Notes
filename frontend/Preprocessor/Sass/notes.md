@@ -116,4 +116,4 @@ This approach improves maintainability and avoids global scope pollution.
 
 ---
 
-[🡨 Back](../README.md)
+[🡨 Back](/README.md)
