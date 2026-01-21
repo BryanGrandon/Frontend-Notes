@@ -64,6 +64,10 @@ This repository contains notes, references, and learning materials about the tec
   <!-- - Data base (PostgreSQL) -->
   <!-- Supabase -->
 
+### 🧩 Concepts
+
+- [Programming logic](./Concepts/Programming-logic/notes.md)
+
 ### 🗃️ Resources
 
 - General resources
