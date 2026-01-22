@@ -66,8 +66,8 @@ This repository contains notes, references, and learning materials about the tec
 
 ### 🧩 Concepts
 
-- [Programming logic](./Concepts/Programming-logic/notes.md)
-- [Soft skills](./Concepts/Soft-skills/notes.md)
+- [Programming logic](./Concepts/programming-logic.md)
+- [Soft skills](./Concepts/soft-skills.md)
 - [Design patterns](./Concepts/Desing-patterns/notes.md)
 
 ### 🗃️ Resources
