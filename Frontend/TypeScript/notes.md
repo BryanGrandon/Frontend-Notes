@@ -55,6 +55,10 @@ To describe more complex data structures, TypeScript provides advanced and utili
 
 ---
 
+👉 **[View Data type examples](./examples/basic-types.ts)**
+
+---
+
 ## 🧩 Type
 
 Type aliases do not create new types; instead, they provide an alternative name for an existing type. They are defined using the `type` keyword and can reference any valid TypeScript type, including primitive types, objects, unions, and more.
@@ -67,6 +71,8 @@ type Programmer = {
   technology: string[]
 }
 ```
+
+👉 **[View Type examples](./examples/type.ts)**
 
 ---
 
@@ -82,6 +88,8 @@ interface Client {
   address: string
 }
 ```
+
+👉 **[View Interface examples](./examples/type.ts)**
 
 ---
 
@@ -108,6 +116,10 @@ TypeScript provides access modifiers to control the visibility of class members.
 
 ---
 
+👉 **[View Classes examples](./examples/classes.ts)**
+
+---
+
 ## 🧬 Generics
 
 Generics in TypeScript allow you to write reusable functions, classes, and objects that work with multiple data types instead of being limited to a single one.
@@ -119,6 +131,8 @@ function identity<T>(value: T): T {
   return value
 }
 ```
+
+👉 **[View Generic examples](./examples/generics.ts)**
 
 ---
 
