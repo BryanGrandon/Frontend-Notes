@@ -46,6 +46,8 @@ const Greeting = (props) => {
 }
 ```
 
+👉 **[View Components examples](./examples/components.jsx)**
+
 ---
 
 ### Key Rules
@@ -114,28 +116,29 @@ function Counter() {
 
 ## 🗂️ State Management
 
-State management is a way to organize state and how data flows between your components.
+State management refers to how an application stores, updates, and shares data between components. A well-structured state flow makes applications easier to understand, debug, and scale.
 
-### Context
+---
 
-The React Context API allows you to share data across the component tree without passing props manually at every level. It is commonly used for global state such as themes, user data, or configuration.
+### Context API
 
-A context is created using createContext, wrapped around components with a Provider, and consumed using the useContext hook.
+The React Context API allows you to share data across the component tree without prop drilling (passing props through multiple levels).
 
-```jsx
-import { createContext, useContext } from 'react'
+- It is commonly used for global or shared state, such as:
+- Theme preferences
+- Authenticated user data
+- App configuration
+- Language or localization settings
 
-const AppContext = createContext()
+👉 **[View Context API examples](./examples/components.jsx)**
 
-export function AppProvider({ children }) {
-  return <AppContext.Provider value={{ number: 12, message: 'Hello' }}>{children}</AppContext.Provider>
-}
+---
 
-export function Component() {
-  const { number } = useContext(AppContext)
-  return <h2>{number}</h2>
-}
-```
+### How it works
+
+- Create a context with createContext
+- Wrap your components with a Provider
+- Access the shared state using the useContext hook
 
 ---
 
@@ -145,6 +148,8 @@ In modern React, there are multiple ways to style an application using CSS.
 
 - `Inline CSS` can be applied directly to elements using style attributes.
 - `CSS Modules` provide locally scoped styles, ensuring styles are only applied to the component where they are defined.
+
+👉 **[View Styling examples](./examples/styling.jsx)**
 
 ---
 
