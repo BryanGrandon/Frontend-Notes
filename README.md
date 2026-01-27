@@ -47,7 +47,7 @@ This repository contains notes, references, and learning materials about the tec
 ### 🛠️ Tools & Version Control
 
 - [Git](/tools/git/basics.md)
-- GitHub
+- [GitHub](/Tools/Github/notes.md)
   <!-- - Git Flow -->
   <!-- - GitHub Actions -->
   <!-- - Commit Conventions -->
