@@ -13,6 +13,7 @@ They are not ready-to-use code snippets, but rather guidelines or blueprints tha
 - [Structural Patterns](#-structural-patterns)
 - [Behavioral Patterns](#-behavioral-patterns)
 - [When to Use Design Patterns](#-when-to-use-design-patterns)
+- [Catalog Classification](#-catalog-classification)
 
 ---
 
@@ -94,6 +95,49 @@ Use design patterns when:
 - The system is expected to grow over time
 
 🚫 Avoid patterns when they only add unnecessary complexity.
+
+---
+
+## 📘 Catalog Classification
+
+Design patterns are grouped according to their general purpose within system design:
+
+### Creation Patterns
+
+These patterns focus on object creation mechanisms, increasing flexibility and code reuse.
+
+- Factory Method
+- Abstract Factory
+- Builder
+- Prototype
+- Singleton
+
+### Structural Patterns
+
+These patterns explain how to compose classes and objects into larger, flexible structures.
+
+- Adapter
+- Bridge
+- Composite
+- Decorator
+- Facade
+- Flyweight
+- Proxy
+
+### Behavioral Patterns
+
+These patterns focus on communication and responsibility assignment between objects.
+
+- Chain of Responsibility
+- Command
+- Iterator
+- Mediator
+- Memento
+- Observer
+- State
+- Strategy
+- Template Method
+- Visitor
 
 ---
 
