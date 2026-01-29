@@ -35,6 +35,13 @@ Use the Factory Method when:
 - ✔ You want to avoid multiple `new` statements scattered throughout your codebase
 - ✔ You want to delegate object creation to subclasses
 
+### 📌 Use cases
+
+- Dynamic UI components
+- API services
+- Validators
+- Theme systems
+
 ---
 
 ## 📐 Structure
