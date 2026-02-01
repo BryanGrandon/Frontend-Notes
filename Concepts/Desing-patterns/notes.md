@@ -3,6 +3,8 @@
 Design patterns are reusable solutions to common problems in software design.
 They are not ready-to-use code snippets, but rather guidelines or blueprints that can be adapted to different contexts to improve code quality, maintainability, and scalability.
 
+- [Refactoring Guru](https://refactoring.guru/design-patterns/catalog)
+
 ---
 
 ## 📑 Table of Contents

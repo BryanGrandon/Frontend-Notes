@@ -40,7 +40,7 @@ This repository contains notes, references, and learning materials about the tec
 - **Frameworks**
   - [React](/Frontend/Frameworks/React/notes.md)
   - [TailwindCSS](/Frontend/Frameworks/TailwindCSS/notes.md)
-  - Astro
+  - [Astro](/Frontend/Frameworks/Astro/notes.md)
 - **Preprocessor**
   - [Sass](/Frontend/Preprocessor/Sass/notes.md)
 
