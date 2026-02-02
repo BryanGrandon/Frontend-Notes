@@ -61,6 +61,7 @@ This repository contains notes, references, and learning materials about the tec
 ### 🗄️ Backend / Integrations
 
 - [APIs](/Backend/APIs/notes.md)
+- [SQL](/Backend/SQL/notes.md)
   <!-- - Data base (PostgreSQL) -->
   <!-- Supabase -->
 
