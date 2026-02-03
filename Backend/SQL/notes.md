@@ -11,6 +11,16 @@ A relational database stores information in the form of tables, made up of rows 
 - [Components of an SQL system](#-components-of-an-sql-system)
 - [SQL applications in companies](#-sql-applications-in-companies)
 - [Advantages of using SQL](#-advantages-of-using-sql)
+- [Data querying](#-data-querying)
+- [Modifiers](#️-modifiers)
+- [Data Writing](#️-data-writing)
+- [Database Administration](#️-database-administration)
+- [Table Administration](#-table-administration)
+- [Relationships Between Tables](#-relationships-between-tables)
+- [Creating Related Tables](#️-creating-related-tables)
+- [Storing Related Data](#-storing-related-data)
+- [Querying Related Data](#-querying-related-data)
+- [Advanced Concepts](#-advanced-concepts)
 
 ---
 
@@ -72,6 +82,121 @@ Thanks to its flexibility, SQL can handle everything from small databases to sys
 - Declarative language (you specify what you want, not how)
 - Wide support and strong community
 - Scalable and secure
+
+---
+
+## 📊 Data Querying
+
+This section focuses on retrieving information from a database using SQL queries.
+It introduces basic statements such as SELECT to read data from one or more table columns.
+
+- `SELECT`
+- Selecting specific columns
+- Using `FROM`
+- Simple queries
+
+---
+
+## 🎛️ Modifiers
+
+Modifiers allow you to filter, sort, and limit query results so you only get the data you need.
+
+- `WHERE`
+- `ORDER BY`
+- `LIMIT` and `OFFSET`
+- Logical operators (`AND`, `OR`, `NOT`)
+- Comparisons and pattern matching (`LIKE`, `IN`, `BETWEEN`)
+
+---
+
+## ✍️ Data Writing
+
+This section focuses on inserting, updating, and deleting data within database tables.
+
+- `INSERT INTO`
+- `UPDATE`
+- `DELETE`
+- Safe data manipulation
+- Best practices when modifying records
+
+---
+
+## 🗄️ Database Administration
+
+Here you learn operations used to manage the overall database structure, such as creating or deleting databases.
+
+- Creating databases
+- Dropping databases
+- Understanding the database lifecycle
+- Maintenance considerations
+
+---
+
+## 📋 Table Administration
+
+You will learn how to create, modify, and delete tables, as well as define columns and data types.
+
+- `CREATE TABLE`
+- `ALTER TABLE`
+- `DROP TABLE`
+- Data types
+- Basic constraints
+
+---
+
+## 🔗 Relationships Between Tables
+
+This section explains how to connect multiple tables to avoid data duplication and improve organization.
+
+- Primary keys (`PRIMARY KEY`)
+- Foreign keys (`FOREIGN KEY`)
+- One-to-one and one-to-many relationships
+- Basic normalization
+
+---
+
+## 🏗️ Creating Related Tables
+
+This section dives deeper into defining tables that are connected to each other, establishing relationships from the initial design stage.
+
+- Defining foreign keys
+- Referential integrity
+- Table dependencies
+- Good schema design
+
+---
+
+## 💾 Storing Related Data
+
+This section shows how to insert data while respecting table relationships.
+
+- Inserting data into related tables
+- Correct insertion order
+- Handling dependencies
+- Data consistency
+
+---
+
+## 🔍 Querying Related Data
+
+Here you learn how to retrieve data from multiple tables at the same time using joins.
+
+- `JOIN`
+- `INNER JOIN`, `LEFT JOIN`
+- Multi-table queries
+- Combined result sets
+
+---
+
+## 🚀 Advanced Concepts
+
+This section covers more advanced topics for complex queries and data analysis.
+
+- Aggregate functions (`COUNT`, `SUM`, `AVG`)
+- `GROUP BY`
+- `HAVING`
+- Subqueries
+- Set operations (`UNION`, `INTERSECT`)
 
 ---
 
