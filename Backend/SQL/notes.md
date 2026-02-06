@@ -95,6 +95,16 @@ It introduces basic statements such as SELECT to read data from one or more tabl
 - Using `FROM`
 - Simple queries
 
+```SQL
+SELECT * FROM users;
+
+-- Selecting Specific Columns
+SELECT title, price FROM books;
+```
+
+> [!TIP]
+> Use `SELECT *` while learning or exploring a table, but prefer selecting specific columns in real projects to improve performance and readability.
+
 ---
 
 ## 🎛️ Modifiers
@@ -106,6 +116,15 @@ Modifiers allow you to filter, sort, and limit query results so you only get the
 - `LIMIT` and `OFFSET`
 - Logical operators (`AND`, `OR`, `NOT`)
 - Comparisons and pattern matching (`LIKE`, `IN`, `BETWEEN`)
+
+```SQL
+SELECT name, price FROM products
+WHERE price BETWEEN 20 AND 100
+ORDER BY price ASC
+LIMIT 10;
+```
+
+👉 **[View Modifiers examples](./Examples/modifiers.sql)**
 
 ---
 
