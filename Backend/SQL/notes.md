@@ -8,9 +8,9 @@ A relational database stores information in the form of tables, made up of rows 
 ## 📑 Table of Contents
 
 - [Why is SQL important?](#-why-is-sql-important)
-- [Components of an SQL system](#-components-of-an-sql-system)
-- [SQL applications in companies](#-sql-applications-in-companies)
+- [SQL Ecosystem](#-sql-ecosystem)
 - [Advantages of using SQL](#-advantages-of-using-sql)
+- [SQL in Real-World Applications](#-sql-in-real-world-applications)
 - [Data querying](#-data-querying)
 - [Modifiers](#️-modifiers)
 - [Data Writing](#️-data-writing)
@@ -37,41 +37,25 @@ For these reasons, SQL is a key skill in almost any modern application.
 
 ---
 
-## 🧩 Components of an SQL system
+## 🧩 SQL Ecosystem
 
-An SQL system relies on a Relational Database Management System (RDBMS), which is responsible for storing, organizing, and protecting data.
+An SQL-based system relies on a Relational Database Management System (RDBMS).
 
-Main components:
+Key components:
 
-- Database: a collection of related tables
-- Tables: structures that store data
-- Queries: SQL instructions
-- Indexes: improve query performance
-- Relationships: links between tables using keys
+- Database – A collection of related tables
+- Tables – Data stored in rows and columns
+- Queries – SQL instructions
+- Indexes – Improve query performance
+- Relationships – Links between tables
 
-Popular Relational Database Management Systems examples:
+Popular RDBMS:
 
 - MySQL
 - PostgreSQL
-- Microsoft SQL Server
+- SQL Server
 - Oracle Database
 - SQLite
-- MS Access
-
----
-
-## 🏢 SQL applications in companies
-
-SQL is the most common standard language for managing business data. It is used across many areas, such as:
-
-- 📋 Record management
-- 👥 Customer and user management
-- 📊 Data analysis and reporting
-- 🛒 Sales and billing systems
-- 📦 Inventory control
-- 🔐 Permissions and security management
-
-Thanks to its flexibility, SQL can handle everything from small databases to systems with millions of records.
 
 ---
 
@@ -82,6 +66,19 @@ Thanks to its flexibility, SQL can handle everything from small databases to sys
 - Declarative language (you specify what you want, not how)
 - Wide support and strong community
 - Scalable and secure
+
+---
+
+## 🏢 SQL in Real-World Applications
+
+SQL is the most common standard language for managing business data. It is used across many areas, such as:
+
+- 📋 Business record management
+- 👥 User and customer systems
+- 📊 Reporting and analytics
+- 🛒 E-commerce platforms
+- 📦 Inventory systems
+- 🔐 Security and permissions
 
 ---
 
@@ -96,10 +93,8 @@ It introduces basic statements such as SELECT to read data from one or more tabl
 - Simple queries
 
 ```SQL
-SELECT * FROM users;
-
--- Selecting Specific Columns
-SELECT title, price FROM books;
+SELECT * FROM users; -- All Columns
+SELECT title, price FROM books; -- Selecting Specific Columns
 ```
 
 > [!TIP]
@@ -111,20 +106,91 @@ SELECT title, price FROM books;
 
 Modifiers allow you to filter, sort, and limit query results so you only get the data you need.
 
-- `WHERE`
-- `ORDER BY`
-- `LIMIT` and `OFFSET`
-- Logical operators (`AND`, `OR`, `NOT`)
-- Comparisons and pattern matching (`LIKE`, `IN`, `BETWEEN`)
+---
+
+### `WHERE` & Comparison Operators
+
+The `WHERE` clause is used to filter rows based on one or more conditions.
+Comparison operators allow you to compare column values within those conditions.
+
+Common comparison operators (`=`, `!=`, `<`, `<=`, `>`, `>=`)
 
 ```SQL
 SELECT name, price FROM products
-WHERE price BETWEEN 20 AND 100
-ORDER BY price ASC
-LIMIT 10;
+WHERE price > 50;
 ```
 
-👉 **[View Modifiers examples](./Examples/modifiers.sql)**
+👉 **[View WHERE examples](./Examples/Modifers/where.sql)**
+
+---
+
+### Logical Operators
+
+Logical operators let you combine multiple conditions in a single query.
+
+- `AND` – all conditions must be true
+- `OR` – at least one condition must be true
+- `NOT` – negates a condition
+
+```SQL
+SELECT * FROM products
+WHERE price > 20 AND stock > 0;
+```
+
+👉 **[View Logical Operators examples](./Examples/Modifers/logical_operators.sql)**
+
+---
+
+### Pattern Matching & Sets
+
+`LIKE` Used for pattern matching with wildcards
+
+- **%** → matches any number of characters
+- **\_** → matches a single character
+
+```SQL
+SELECT id, email FROM users
+WHERE email LIKE '%@gmail.com';
+```
+
+`IN` Checks if a value exists in a list.
+
+```SQL
+SELECT name, category FROM products
+WHERE category IN ('Books', 'Electronics');
+```
+
+`BETWEEN` Filters values within a range.
+
+```SQL
+SELECT name, price FROM products
+WHERE price BETWEEN 20 AND 100;
+```
+
+### ORDER BY
+
+The ORDER BY clause is used to sort results.
+
+- `ASC` → ascending (default)
+- `DESC` → descending
+
+```SQL
+SELECT name, price FROM products
+ORDER BY price DESC;
+```
+
+👉 **[View ORDER BY examples](./Examples/Modifers/order_by.sql)**
+
+### LIMIT & OFFSET
+
+These clauses are used to limit the number of rows returned and implement pagination.
+
+```SQL
+SELECT name, price FROM products
+LIMIT 5 OFFSET 10;
+```
+
+👉 **[View LIMIT & OFFSET examples](./Examples/Modifers/limit_offset.sql)**
 
 ---
 
@@ -137,6 +203,11 @@ This section focuses on inserting, updating, and deleting data within database t
 - `DELETE`
 - Safe data manipulation
 - Best practices when modifying records
+
+```SQL
+INSERT INTO users (name, email)
+VALUES ('Alice', 'alice@email.com');
+```
 
 ---
 
