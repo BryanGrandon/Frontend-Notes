@@ -112,13 +112,13 @@ Simulates real user behavior across the entire application.
 
 ## 🧪 Common testing tools
 
-| Tool                | Main use                       |
-| ------------------- | ------------------------------ |
-| **Vitest**          | Unit & Integration testing     |
-| **Jest**            | General JavaScript testing     |
-| **Cypress**         | Frontend E2E testing           |
-| **Playwright**      | Cross-browser E2E testing      |
-| **Testing Library** | User-focused component testing |
+| Tool                            | Main use                       |
+| ------------------------------- | ------------------------------ |
+| **[Vitest](./Vitest/notes.md)** | Unit & Integration testing     |
+| **Jest**                        | General JavaScript testing     |
+| **Cypress**                     | Frontend E2E testing           |
+| **Playwright**                  | Cross-browser E2E testing      |
+| **Testing Library**             | User-focused component testing |
 
 ---
 

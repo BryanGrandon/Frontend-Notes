@@ -52,11 +52,11 @@ This repository contains notes, references, and learning materials about the tec
   <!-- - GitHub Actions -->
   <!-- - Commit Conventions -->
   <!-- - Debugging Tools -->
-  <!-- - Testing Basics -->
-  <!-- - CLI Basics -->
-  <!-- - Package Managers (npm, pnpm, yarn) -->
-  <!-- - Build Tools (Vite, Webpack) -->
-  <!-- - Linters & Formatters (ESLint, Prettier) -->
+  - [Testing](/Tools/Testing/notes.md)
+    <!-- - CLI Basics -->
+    <!-- - Package Managers (npm, pnpm, yarn) -->
+    <!-- - Build Tools (Vite, Webpack) -->
+    <!-- - Linters & Formatters (ESLint, Prettier) -->
 
 ### 🗄️ Backend / Integrations
 
