@@ -167,6 +167,8 @@ SELECT name, price FROM products
 WHERE price BETWEEN 20 AND 100;
 ```
 
+---
+
 ### ORDER BY
 
 The ORDER BY clause is used to sort results.
@@ -180,6 +182,8 @@ ORDER BY price DESC;
 ```
 
 👉 **[View ORDER BY examples](./Examples/Modifers/order_by.sql)**
+
+---
 
 ### LIMIT & OFFSET
 
