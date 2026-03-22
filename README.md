@@ -74,7 +74,7 @@ This repository contains notes, references, and learning materials about the tec
 ### 🗃️ Resources
 
 - General resources
-- Best Practices
+- [Best Practices](./Resources/Best_Practices/notes.md)
 
 📌 This list will continue to grow as I progress in my learning.
 
