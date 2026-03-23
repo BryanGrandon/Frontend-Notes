@@ -42,8 +42,8 @@ For small projects (landing pages, portfolios, simple apps):
 
 For medium-scale projects (dashboards, multi-feature apps):
 
-- 🧩 Feature-based structure
-- ⚛️ Atomic Design (optional, UI-focused)
+- 🧩 [Feature-based structure](./project-structure/scalable-structure/feature-based-structure.md)
+- ⚛️ [Atomic Design](./project-structure/scalable-structure/atomic-design.md)
 
 ---
 
@@ -51,7 +51,7 @@ For medium-scale projects (dashboards, multi-feature apps):
 
 For large projects (complex apps, SaaS, large teams):
 
-- 🧠 Hexagonal Architecture (Ports & Adapters)
+- ⬡ [Hexagonal Architecture (Ports & Adapters)](./project-structure/advanced-architecture/hexagonal-architecture.md)
 
 ---
 
