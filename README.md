@@ -1,99 +1,123 @@
 # 📘 Learning Notes
 
-This repository contains personal notes, code examples, explanations, and resources for everything I learn.
+A personal repository containing notes, code examples, explanations, exercises, and resources on everything I learn.
 
-The idea is to have my own reference and share knowledge that may be useful to others.
+The goal of this project is to create my own reference library and, at the same time, share useful knowledge with others.
 
 ---
 
 ## 📑 Table of Contents
 
-- [What will you find here?](#-what-will-you-find-here)
-- [Technologies & Notes](#️technologies--notes)
-- [How to contribute](#-how-to-contribute)
+- [What Will You Find Here?](#-what-will-you-find-here)
+- [Technologies & Notes](#️-technologies--notes)
+- [How to Contribute](#-how-to-contribute)
 - [License](#-license)
 
 ---
 
-## 🧠 What will you find here?
+## 🧠 What Will You Find Here?
 
-This project is organized by topics/technologies. Each folder or file may contain:
+This repository is organized by topics and technologies. Each folder or file may include:
 
-- Concept summaries.
-- Code snippets.
-- Solved exercises.
-- Links to external resources.
-- Reference sheets or quick guides.
+- 📚 Concept summaries
+- 💻 Code snippets
+- 📝 Solved exercises
+- 🔗 Useful external resources
+- ⚡ Quick references and cheat sheets
 
 ---
 
-## 🗒️Technologies & Notes
+## 🗂️ Technologies & Notes
 
-This repository contains notes, references, and learning materials about the technologies and concepts I am studying. The content is organized by category, with direct links to each topic:
+This repository contains notes, references, and teaching materials organized by category.
 
 ### 💻 Frontend
 
-- [HTML](/Frontend/HTML/notes.md)
-- [CSS](/Frontend/CSS/notes.md)
-- [JavaScript](/Frontend/JavaScript/notes.md)
-- [TypeScript](/Frontend/TypeScript/notes.md)
-- **Frameworks**
-  - [React](/Frontend/Frameworks/React/notes.md)
-  - [TailwindCSS](/Frontend/Frameworks/TailwindCSS/notes.md)
-  - [Astro](/Frontend/Frameworks/Astro/notes.md)
-- **Preprocessor**
-  - [Sass](/Frontend/Preprocessor/Sass/notes.md)
+- [HTML](./Frontend/HTML/notes.md)
+- [CSS](./Frontend/CSS/notes.md)
+- [JavaScript](./Frontend/JavaScript/notes.md)
+- [TypeScript](./Frontend/TypeScript/notes.md)
 
-### 🛠️ Tools & Version Control
+#### ⚛️ Frameworks & Libraries
 
-- [Git](/tools/git/basics.md)
-- [GitHub](/Tools/Github/notes.md)
-  <!-- - Git Flow -->
-  <!-- - GitHub Actions -->
-  <!-- - Commit Conventions -->
-  <!-- - Debugging Tools -->
-  - [Testing](/Tools/Testing/notes.md)
-    <!-- - CLI Basics -->
-    <!-- - Package Managers (npm, pnpm, yarn) -->
-    <!-- - Build Tools (Vite, Webpack) -->
-    <!-- - Linters & Formatters (ESLint, Prettier) -->
+- [React](./Frontend/Frameworks/React/notes.md)
+- [TailwindCSS](./Frontend/Frameworks/TailwindCSS/notes.md)
+- [Astro](./Frontend/Frameworks/Astro/notes.md)
 
-### 🗄️ Backend / Integrations
+#### 🎨 Preprocessors
 
-- [APIs](/Backend/APIs/notes.md)
-- [SQL](/Backend/SQL/notes.md)
-  <!-- - Data base (PostgreSQL) -->
-  <!-- Supabase -->
-
-### 🧩 Concepts
-
-- [Programming logic](./Concepts/programming-logic.md)
-- [Soft skills](./Concepts/soft-skills.md)
-- [Design patterns](./Concepts/Desing-patterns/notes.md)
-
-### 🗃️ Resources
-
-- General resources
-- [Best Practices](./resources/best-practices/notes.md)
-
-📌 This list will continue to grow as I progress in my learning.
+- [Sass](./Frontend/Preprocessor/Sass/notes.md)
 
 ---
 
-## 📌 How to contribute?
+### 🛠️ Tools & Version Control
 
-This repository is primarily intended for my personal notes, but if you would like to:
+- [Git](./Tools/Git/basics.md)
+- [GitHub](./Tools/GitHub/notes.md)
+- [Testing](./Tools/Testing/notes.md)
 
-- Fork the project
-- Add your contribution or note
-- Create a pull request
-- Briefly describe your contribution
-- All contributions are welcome 🙌
+<!-- Future Topics -->
+<!--
+- Git Flow
+- GitHub Actions
+- Commit Conventions
+- CLI Basics
+- Package Managers (npm, pnpm, yarn)
+- Build Tools (Vite, Webpack)
+- ESLint & Prettier
+-->
+
+---
+
+### 🗄️ Backend & Integrations
+
+- [APIs](./Backend/APIs/notes.md)
+- [SQL](./Backend/SQL/notes.md)
+
+<!-- Future Topics -->
+<!--
+- PostgreSQL
+- Supabase
+-->
+
+---
+
+### 🧩 Concepts
+
+- [Programming Logic](./Concepts/programming-logic.md)
+- [Soft Skills](./Concepts/soft-skills.md)
+- [Design Patterns](./Concepts/Design-patterns/notes.md)
+
+---
+
+### 📚 Resources
+
+- [Best Practices](./Resources/best-practices/notes.md)
+- General Resources
+
+📌 This repository will continue growing as I progress in my learning journey.
+
+---
+
+## 🤝 How to Contribute
+
+Although this repository is primarily intended for personal learning notes, contributions are welcome.
+
+You can:
+
+1. Fork the project
+2. Add your contribution or notes
+3. Create a pull request
+4. Briefly describe your changes
+
+Any contribution is appreciated 🙌
 
 ---
 
 ## 🧾 License
 
-This project is licensed under the MIT license — you can use it freely and adapt it to your needs.
+This project is licensed under the MIT License.
+
+Feel free to use, modify, and adapt the content for your own learning purposes.
 
 ---
