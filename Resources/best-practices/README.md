@@ -10,7 +10,7 @@ Good practices help keep your codebase clean, scalable, and easier to maintain o
 - [TypeScript](#-typescript)
 - [CSS / Tailwind](#-css--tailwind)
 - [Git](#️-git)
-<!-- More -->
+<!-- More ? -->
 
 ---
 
@@ -21,22 +21,27 @@ Good practices help keep your codebase clean, scalable, and easier to maintain o
 
 ## 💻 Frontend
 
----
+-
+-
 
 ## ⚛️ React
 
----
+- [Custom Hook](./react/custom-hook/README.md)
+-
 
 ## 🟦 TypeScript
 
----
+-
+-
 
 ## 🎨 CSS / Tailwind
 
----
+-
+-
 
 ## 🛠️ Git
 
----
+-
+-
 
 [🡨 Back](/README.md#️-resources)
