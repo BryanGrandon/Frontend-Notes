@@ -26,7 +26,7 @@ Good practices help keep your codebase clean, scalable, and easier to maintain o
 
 ## ⚛️ React
 
-- [Custom Hook](./react/custom-hook/README.md)
+- [Hooks](./react/hooks/README.md)
 -
 
 ## 🟦 TypeScript
