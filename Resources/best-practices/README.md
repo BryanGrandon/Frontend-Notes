@@ -27,7 +27,7 @@ Good practices help keep your codebase clean, scalable, and easier to maintain o
 ## ⚛️ React
 
 - [Hooks](./react/hooks/README.md)
--
+- [Performance](./react/performance/README.md)
 
 ## 🟦 TypeScript
 
