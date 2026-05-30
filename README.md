@@ -1,21 +1,23 @@
-# 📘 Learning Notes
+# 📘 Developer Learning Notes
 
-A personal repository containing notes, code examples, explanations, exercises, and resources on everything I learn.
+A collection of notes, code examples, exercises, best practices, and learning resources focused on web development and software engineering.
 
-The goal of this project is to create my own reference library and, at the same time, share useful knowledge with others.
+The purpose of this repository is to document my learning process, build a personal knowledge base, and share useful resources with other developers.
 
 ---
 
 ## 📑 Table of Contents
 
-- [What Will You Find Here?](#-what-will-you-find-here)
-- [Technologies & Notes](#️-technologies--notes)
-- [How to Contribute](#-how-to-contribute)
+- [About](#-about)
+- [Repository Structure](#️-repository-structure)
+- [Learning Topics](#-learning-topics)
+- [Future Topics](#-future-topics)
+- [Contributing](#-contributing)
 - [License](#-license)
 
 ---
 
-## 🧠 What Will You Find Here?
+## 🧠 About
 
 This repository is organized by topics and technologies. Each folder or file may include:
 
@@ -24,29 +26,56 @@ This repository is organized by topics and technologies. Each folder or file may
 - 📝 Solved exercises
 - 🔗 Useful external resources
 - ⚡ Quick references and cheat sheets
+- 🏗️ Best practices and conventions
 
 ---
 
-## 🗂️ Technologies & Notes
+## 🗂️ Repository Structure
+
+```text
+Frontend/
+├── HTML/
+├── CSS/
+├── JavaScript/
+├── TypeScript/
+└── Frameworks/
+    ├── React/
+    ├── Astro/
+    └── TailwindCSS/
+
+Backend/
+├── APIs/
+└── SQL/
+
+Tools/
+├── Git/
+├── GitHub/
+└── Testing/
+
+Concepts/
+├── Programming Logic/
+├── Design Patterns/
+└── Soft Skills/
+```
+
+---
+
+## 📚 Learning Topics
 
 This repository contains notes, references, and teaching materials organized by category.
 
 ### 💻 Frontend
 
-- [HTML](./Frontend/HTML/notes.md)
-- [CSS](./Frontend/CSS/notes.md)
-- [JavaScript](./Frontend/JavaScript/notes.md)
-- [TypeScript](./Frontend/TypeScript/notes.md)
-
-#### ⚛️ Frameworks & Libraries
-
-- [React](./Frontend/Frameworks/React/notes.md)
-- [TailwindCSS](./Frontend/Frameworks/TailwindCSS/notes.md)
-- [Astro](./Frontend/Frameworks/Astro/notes.md)
-
-#### 🎨 Preprocessors
-
-- [Sass](./Frontend/Preprocessor/Sass/notes.md)
+- [HTML](./frontend/html/)
+- [CSS](./frontend/css/)
+- [JavaScript](./frontend/javascript/)
+- [TypeScript](./frontend/typescript/)
+- ⚛️ Frameworks & Libraries
+  - [React](./frontend/frameworks/react/)
+  - [TailwindCSS](./frontend/frameworks/tailwindcss/)
+  - [Astro](./frontend/frameworks/astro/)
+- 🎨 Preprocessors
+  - [Sass](./frontend/preprocessor/sass/)
 
 ---
 
@@ -56,29 +85,12 @@ This repository contains notes, references, and teaching materials organized by 
 - [GitHub](./Tools/GitHub/notes.md)
 - [Testing](./Tools/Testing/notes.md)
 
-<!-- Future Topics -->
-<!--
-- Git Flow
-- GitHub Actions
-- Commit Conventions
-- CLI Basics
-- Package Managers (npm, pnpm, yarn)
-- Build Tools (Vite, Webpack)
-- ESLint & Prettier
--->
-
 ---
 
 ### 🗄️ Backend & Integrations
 
 - [APIs](./Backend/APIs/notes.md)
 - [SQL](./Backend/SQL/notes.md)
-
-<!-- Future Topics -->
-<!--
-- PostgreSQL
-- Supabase
--->
 
 ---
 
@@ -90,16 +102,54 @@ This repository contains notes, references, and teaching materials organized by 
 
 ---
 
-### 📚 Resources
+### 🧠 Best Practices
 
-- [Best Practices](./Resources/best-practices/notes.md)
-- General Resources
-
-📌 This repository will continue growing as I progress in my learning journey.
+- [General](./Resources/Best-Practices/)
+- Naming Conventions
+- Project Structure
+- React
+- TypeScript
+- Performance
 
 ---
 
-## 🤝 How to Contribute
+### 📚 Resources
+
+- Documentation
+- Learning Platforms
+- Practice Platforms
+- Design Resources
+- Developer Tools
+
+---
+
+## 🚀 Future Topics
+
+Planned topics and technologies to be added in the future:
+
+### Frontend
+
+- [ ] Next.js
+- [ ] Accessibility
+- [ ] Performance Optimization
+- [ ] Testing Strategies
+
+### Backend
+
+- [ ] Node.js
+- [ ] PostgreSQL
+- [ ] Supabase
+
+### Tools
+
+- [ ] Docker
+- [ ] GitHub Actions
+- [ ] ESLint
+- [ ] Prettier
+
+---
+
+## 🤝 Contributing
 
 Although this repository is primarily intended for personal learning notes, contributions are welcome.
 
