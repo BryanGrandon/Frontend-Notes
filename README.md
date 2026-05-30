@@ -89,8 +89,8 @@ This repository contains notes, references, and teaching materials organized by 
 
 ### 🗄️ Backend & Integrations
 
-- [APIs](./Backend/APIs/notes.md)
-- [SQL](./Backend/SQL/notes.md)
+- [APIs](./backend/apis/README.md)
+- [SQL](./backend/databases/sql/README.md)
 
 ---
 
