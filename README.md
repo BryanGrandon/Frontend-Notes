@@ -64,6 +64,11 @@ Concepts/
 
 This repository contains notes, references, and teaching materials organized by category.
 
+> [!IMPORTANT]
+> The simple rule would be:
+> Best Practices = “how to do it right”
+> Notes/Concepts = “what it is and how it works.”
+
 ### 💻 Frontend
 
 - [HTML](./frontend/html/README.md)
@@ -104,12 +109,12 @@ This repository contains notes, references, and teaching materials organized by 
 
 ### 🧠 Best Practices
 
-- [General](./Resources/Best-Practices/)
-- Naming Conventions
-- Project Structure
-- React
-- TypeScript
-- Performance
+- [General]()
+- [Naming Conventions](./best-practices/naming-conventions/README.md)
+- [Project Structure](./best-practices/project-structure/README.md)
+- Frontend
+  - [React](/best-practices/frontend/react/README.md)
+  - TypeScript
 
 ---
 
