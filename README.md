@@ -66,24 +66,24 @@ This repository contains notes, references, and teaching materials organized by 
 
 ### 💻 Frontend
 
-- [HTML](./frontend/html/)
-- [CSS](./frontend/css/)
-- [JavaScript](./frontend/javascript/)
-- [TypeScript](./frontend/typescript/)
+- [HTML](./frontend/html/README.md)
+- [CSS](./frontend/css/README.md)
+- [JavaScript](./frontend/javascript/README.md)
+- [TypeScript](./frontend/typescript/README.md)
 - ⚛️ Frameworks & Libraries
-  - [React](./frontend/frameworks/react/)
-  - [TailwindCSS](./frontend/frameworks/tailwindcss/)
-  - [Astro](./frontend/frameworks/astro/)
+  - [React](./frontend/frameworks/react/README.md)
+  - [TailwindCSS](./frontend/frameworks/tailwindcss/README.md)
+  - [Astro](./frontend/frameworks/astro/README.md)
 - 🎨 Preprocessors
-  - [Sass](./frontend/preprocessor/sass/)
+  - [Sass](./frontend/preprocessor/sass/README.md)
 
 ---
 
 ### 🛠️ Tools & Version Control
 
-- [Git](./Tools/Git/basics.md)
-- [GitHub](./Tools/GitHub/notes.md)
-- [Testing](./Tools/Testing/notes.md)
+- [Git](./tools/git/README.md)
+- [GitHub](./tools/github/README.md)
+- [Testing](./tools/testing/README.md)
 
 ---
 
