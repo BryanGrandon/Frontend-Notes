@@ -108,7 +108,7 @@ Design patterns are grouped according to their general purpose within system des
 
 These patterns focus on object creation mechanisms, increasing flexibility and code reuse.
 
-- [Factory Method](./Factory-method/notes.md)
+- [Factory Method](./factory-method/README.md)
 - Abstract Factory
 - Builder
 - Prototype
@@ -124,7 +124,7 @@ These patterns explain how to compose classes and objects into larger, flexible 
 - Decorator
 - Facade
 - Flyweight
-- [Proxy](./Proxy/notes.md)
+- [Proxy](./proxy/)
 
 ### Behavioral Patterns
 
@@ -135,7 +135,7 @@ These patterns focus on communication and responsibility assignment between obje
 - Iterator
 - Mediator
 - Memento
-- [Observer](./Observer/notes.md)
+- [Observer](./observer/README.md)
 - State
 - Strategy
 - Template Method

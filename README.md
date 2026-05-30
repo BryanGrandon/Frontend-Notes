@@ -96,9 +96,9 @@ This repository contains notes, references, and teaching materials organized by 
 
 ### 🧩 Concepts
 
-- [Programming Logic](./Concepts/programming-logic.md)
-- [Soft Skills](./Concepts/soft-skills.md)
-- [Design Patterns](./Concepts/Design-patterns/notes.md)
+- [Programming Logic](./concepts/programming-logic/README.md)
+- [Soft Skills](./concepts/soft-skills/README.md)
+- [Design Patterns](./concepts/desing-patterns/README.md)
 
 ---
 
