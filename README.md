@@ -45,7 +45,7 @@ Frontend/
 
 Backend/
 ├── APIs/
-└── SQL/
+└── Database/
 
 Tools/
 ├── Git/
@@ -112,7 +112,7 @@ This repository contains notes, references, and teaching materials organized by 
 - [General]()
 - [Naming Conventions](./best-practices/naming-conventions/README.md)
 - [Project Structure](./best-practices/project-structure/README.md)
-- Frontend
+- 💻 Frontend
   - [React](/best-practices/frontend/react/README.md)
   - TypeScript
 
