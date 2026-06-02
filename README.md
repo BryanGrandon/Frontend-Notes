@@ -12,6 +12,7 @@ The purpose of this repository is to document my learning process, build a perso
 - [Repository Structure](#️-repository-structure)
 - [Learning Topics](#-learning-topics)
 - [Future Topics](#-future-topics)
+- [Building Projects](#-building-projects)
 - [Contributing](#-contributing)
 - [License](#-license)
 
@@ -151,6 +152,14 @@ Planned topics and technologies to be added in the future:
 - [ ] GitHub Actions
 - [ ] ESLint
 - [ ] Prettier
+
+---
+
+## 🚧 Building Projects
+
+Real-world projects being built while documenting ideas, planning, architecture, and development decisions.
+
+- [English Learning](./building-projects/english-learning/README.md)
 
 ---
 
