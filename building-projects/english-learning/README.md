@@ -82,11 +82,12 @@ The project is divided into three main layers:
 ### 📖 Lessons (MDX)
 
 - [Grammar](./content/grammar.md)
-- Phrasal Verbs
+- [Phrasal Verbs](./content/phrasal-verbs.md)
+- [Common Expression](./content/common-expressions.md)
 
 ### 🧠 Vocabulary Topics
 
-- Grouped by category
+- [Grouped by category](./content/vocabulary.md)
 - Each topic includes definitions + usage examples
 
 ### 🎮 Practice Content
